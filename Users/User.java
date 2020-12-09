@@ -35,9 +35,9 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
         Random random = new Random();
         StringBuilder password = new StringBuilder();
         for(int i = 0; i < 8; i++) {
-          int index = random.nextInt(vocabulary.length());
-          char randomChar = vocabulary.charAt(index);
-          password.append(randomChar);
+        	int index = random.nextInt(vocabulary.length());
+        	char randomChar = vocabulary.charAt(index);
+        	password.append(randomChar);
         }
         
         return password.toString();

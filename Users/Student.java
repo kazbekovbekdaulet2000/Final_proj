@@ -1,10 +1,13 @@
 package Users;
 
+import java.util.Calendar;
 import java.util.HashMap;
+import java.util.Random;
 //import java.util.NoSuchElementException;
 import java.util.Vector;
 
 import project.Course;
+import project.DataBase;
 import project.Mark;
 
 public class Student extends User {
@@ -18,7 +21,7 @@ public class Student extends User {
     private HashMap<Course,Mark> grades;
     
     {
-        gpa = 0F;
+        gpa = 0;
         totalECTS = 0;
         totalCredits = 0;
         courses = new Vector<Course>();
@@ -26,12 +29,23 @@ public class Student extends User {
     }
     
     public Student() {}
-    public Student(String mail, String firstname, String lastname, String phoneNum, int year, String ID) {
+    public Student(String mail, String firstname, String lastname, String phoneNum, int year) {
     	super(mail,firstname,lastname,phoneNum);
     	this.year = year;
-    	this.setID(ID);
+    	this.ID = generateID(year);
     }
-    //                          Operations                                  
+    private String generateID(int year2) {
+        Random random = new Random();
+        StringBuilder subID = new StringBuilder();
+        for(int i = 0; i < 6; i++) {
+        	int index = random.nextInt(10);
+        	subID.append(index);
+        }
+        
+        return (Calendar.getInstance().get(Calendar.YEAR)-year-2000)+ "B" + subID.toString();    // Maybe update by month????
+	}
+    
+	//                          Operations                                  
     public Integer getYear() {
 		return year;
 	}
@@ -73,6 +87,7 @@ public class Student extends User {
 	
 	
 	public void registerForCourse() {
+		viewAvailableCourses();
         
     }
 	
@@ -92,6 +107,11 @@ public class Student extends User {
     }
     
     public void viewAvailableCourses() {
+    	try {
+    		DataBase db;
+    	}catch(Exception e) {
+    		System.err.println("Error found");
+    	}
     	
     }
     

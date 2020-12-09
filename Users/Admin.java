@@ -9,8 +9,6 @@ import project.DataBase;
 
 public class Admin extends Employee {
 	
-	private final DataBase db = DataBase.getInstance();
-	
     public Admin() {}
     public Admin(String mail,String firstname,String lastname,String phoneNum,int salary) {
     	super(mail,firstname,lastname,phoneNum, salary);
