@@ -6,13 +6,15 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.Random;
 
+import project.DataBase;
+
 public abstract class User implements Serializable, Comparable<Object>, Cloneable {
     private String name;
     private String surname;
     private String phoneNum;
     private String mail;
     private String password;
-    private Boolean isLogedIn;
+//    private Boolean isLogedIn;
     
 //    {
 //    	password = generatePass();                 //automatic generation of Password
@@ -94,7 +96,7 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 	
     @Override
 	public String toString() {
-		return "User name: " + name + ", surname: " + surname + ", phone number: " + phoneNum + ", mail: "
+		return "Name: " + name + ", Surname: " + surname + ", Phone Number: " + phoneNum + ", mail: "
 				+ mail + " ";
 	}
 
@@ -118,15 +120,18 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     }
     
     public void viewNewsTab() throws IOException {  //idea to read the news from common txt file // i think so(
-    	FileReader fr = new FileReader("news.txt");
-		BufferedReader br = new BufferedReader(fr);
-		String str = br.readLine();
-		
-		while(str != null) {
-			str = br.readLine();
-			System.out.println(str);
-		}
-		br.close();
+//    	FileReader fr = new FileReader("news.txt");
+//		BufferedReader br = new BufferedReader(fr);
+//		String str = br.readLine();
+//		
+//		while(str != null) {
+//			str = br.readLine();
+//			System.out.println(str);
+//		}
+//		br.close();
+    	for(int i=0; i<DataBase.news.size(); ++i) {                        // кажется так легче
+    		System.out.println(DataBase.news.get(i).toString());
+    	}
     }
 
 	@Override

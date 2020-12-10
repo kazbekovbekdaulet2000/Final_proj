@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.nio.file.Path;
 import java.sql.Date;
 
-public class Course_File implements Serializable {
+public class Course_File implements Serializable {    // no Ideas
     private String fileName;
     private Path path;
     private double size;

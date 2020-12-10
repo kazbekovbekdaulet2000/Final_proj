@@ -1,8 +1,11 @@
 package Users;
 
 import java.io.IOException;
+import java.io.Serializable;
 
-public class Employee extends User {
+import project.DataBase;
+
+public class Employee extends User implements Serializable {
     
     private Integer Salary;
 
@@ -49,7 +52,7 @@ public class Employee extends User {
 	}
 
 	public void viewNewsTab() throws IOException {
-        //TODO
-    }
+		super.viewNewsTab();
+	}
     
 }

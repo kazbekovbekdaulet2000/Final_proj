@@ -1,7 +1,7 @@
 package project;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 public class News implements Serializable {
     private Integer newsID;
@@ -10,8 +10,8 @@ public class News implements Serializable {
     private Date date;
     
     public News() {}
-    public News(int id, String title,String text, Date date) {
-    	this.newsID = id;
+    public News(String title,String text, Date date) {
+//    	this.newsID = id;
     	this.title = title;
     	this.date = date;
     	this.text = text;

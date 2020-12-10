@@ -1,12 +1,15 @@
 package Users;
 
+import java.io.IOException;
+import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Vector;
 
+import project.DataBase;
 import project.Order;
 
-public class TechSupportGuy extends Employee {
+public class TechSupportGuy extends Employee implements Serializable {
     
     private Vector<Order> acceptedList;
     private Queue<Order> waitingList;
@@ -58,17 +61,25 @@ public class TechSupportGuy extends Employee {
         //TODO
     }
     
-    public boolean equals(Object a) {
-    	return false;
-        //TODO
+    public boolean equals(Object o) {
+    	if(o == null) return false;
+    	if(o.getClass()!=getClass()) return false;
+    	TechSupportGuy tsg = (TechSupportGuy)o;
+    	return o.getClass() == getClass() && tsg.getName() == getName() && 
+    			tsg.getSurname() == getSurname() && tsg.getMail() == getMail() && tsg.getPhoneNum() == getPhoneNum() &&
+    			tsg.getSalary() == getSalary();
+    
     }
     
     public void viewAcceptedList() {
-        //TODO
+        for(int i=0; i<acceptedList.size();++i){
+        	System.out.println(acceptedList.get(i).toString());
+        }
     }
     
-    public void viewNewsTab() {
-        //TODO
+    public void viewNewsTab() throws IOException {
+    	super.viewNewsTab();
+    	//TODO
     }
     
 }

@@ -1,5 +1,7 @@
 package Users;
 
+import java.io.IOException;
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Random;
@@ -10,7 +12,7 @@ import project.Course;
 import project.DataBase;
 import project.Mark;
 
-public class Student extends User {
+public class Student extends User implements Serializable {
     
     private Integer year;
     private Integer totalECTS;
@@ -107,10 +109,8 @@ public class Student extends User {
     }
     
     public void viewAvailableCourses() {
-    	try {
-    		DataBase db;
-    	}catch(Exception e) {
-    		System.err.println("Error found");
+    	for(int i=0; i<DataBase.courses.size(); ++i) {
+    		System.out.println(DataBase.courses.get(i).toString());
     	}
     	
     }
@@ -120,18 +120,22 @@ public class Student extends User {
     }
     
     public String toString() {
-    	return super.toString() + " ";
+    	return super.toString() + ", Year of education " + year + ", Student ID: "+ getID();
         //TODO
     }
    
     public int hashCode() {
-    	return super.hashCode();
+    	return super.hashCode();   // I don't know what to do with this
         //TODO
     }
     
-    public boolean equals(Object a) {
-    	return false;
-        //TODO
+    public boolean equals(Object o) {
+    	if(o == null) return false;
+    	if(o.getClass()!=getClass()) return false;
+    	Student s = (Student) o;
+    	return o.getClass() == getClass() && s.getName() == getName() && 
+    			s.getSurname() == getSurname() && s.getMail() == getMail() && s.getPhoneNum() == getPhoneNum() &&
+    			s.getYear() == getYear() && s.getID() == getID();
     }
     
     public int compareTo(Object a) {
@@ -139,8 +143,8 @@ public class Student extends User {
         //TODO
     }
     
-    public void viewNewsTab() {
-        //TODO
+    public void viewNewsTab() throws IOException {
+    	super.viewNewsTab();
     }
 	public String getID() {
 		return ID;

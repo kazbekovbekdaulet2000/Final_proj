@@ -1,17 +1,20 @@
 package Users;
 
+import java.io.IOException;
+import java.io.Serializable;
 import java.util.Vector;
 
 import enums.Teacher_pos;
 import project.Course;
 import project.Course_File;
+import project.DataBase;
 import project.Mark;
 import project.Order;
 
 /**
 * @generated
 */
-public class Teacher extends Employee {
+public class Teacher extends Employee implements Serializable {
     
     private Teacher_pos pos;
     private Vector<String> messages;
@@ -79,13 +82,18 @@ public class Teacher extends Employee {
     }
     
     public int hashCode() {
-		return super.hashCode();
+		return super.hashCode();       // IDK
         //TODO
     }
     
-    public boolean equals(Object a) {
-		return false;
-        //TODO
+    public boolean equals(Object o) {
+    	if(o == null) return false;
+    	if(o.getClass()!=getClass()) return false;
+    	Teacher t = (Teacher) o;
+    	return o.getClass() == getClass() && t.getName() == getName() && 
+    			t.getSurname() == getSurname() && t.getMail() == getMail() && t.getPhoneNum() == getPhoneNum() &&
+    			t.getSalary() == getSalary() && t.getPos() == getPos();
+    
     }
     
     public void sendOrder(Order o) {
@@ -99,8 +107,8 @@ public class Teacher extends Employee {
         }
     }
     
-    public void viewNewsTab() {
-        //TODO
+    public void viewNewsTab() throws IOException {
+    	super.viewNewsTab();
     }
     
     public int compareTo(Teacher a) {
