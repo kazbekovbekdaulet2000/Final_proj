@@ -1,6 +1,7 @@
 package project;
 
 
+import java.io.File;
 import java.io.Serializable;
 import java.nio.file.Path;
 import java.sql.Date;
@@ -11,8 +12,10 @@ public class Course_File implements Serializable {    // no Ideas
     private double size;
     private Date date;
     
-    public Course_File(String fileName, Path path, double size, Date date) {
-    	this.fileName = fileName;
+    private static final String PATH = "course_files/";
+    
+    public Course_File(String fileName, Path path, double size, Date date) {    // i think there is no need for constructors if we 
+    	this.fileName = fileName;                                                // want to create files and directories ??? 
     	this.path = path;
     	this.size = size;
     	this.date = date;
@@ -50,6 +53,10 @@ public class Course_File implements Serializable {    // no Ideas
         return this.date = date;
     }
     //                          Operations                                  
+    
+//    public static void CreateDirectory(String st) {
+//    	File newdirectory = new File(PATH+st);
+//    }
     
     public int compareTo(Object a) {
 		return 0;

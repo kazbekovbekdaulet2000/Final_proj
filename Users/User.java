@@ -16,16 +16,16 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     private String password;
 //    private Boolean isLogedIn;
     
-//    {
-//    	password = generatePass();                 //automatic generation of Password
+    {
+    	password = generatePass();                 //automatic generation of Password
 //    	isLogedIn = true;
-//    }
+    }
     
     public User() {
 	}
     
 	public User(String mail,String firstname,String lastname,String phoneNum){ 
-		this.password = generatePass(); 
+//		this.password = generatePass(); 
 		this.mail=mail;
 		this.name=firstname;
 		this.surname=lastname;

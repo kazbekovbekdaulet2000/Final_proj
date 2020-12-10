@@ -16,23 +16,39 @@ public class Manager extends Employee implements Serializable {
     }
 	
     public void addCourse(Course c) {
-        //TODO
+        if(!DataBase.courses.contains(c)) {
+        	DataBase.courses.add(c);
+        }
     }
 
     public void deleteCourse(Course c) {
-        //TODO
+    	if(DataBase.courses.contains(c)) {
+        	DataBase.courses.remove((Course)c);
+        }
     }
     
     public void sendMessage(String message, Teacher t) {
-        t.addMessage(message);
+        if(DataBase.users.contains(t)) {
+        	t.addMessage(message);
+        }else {
+        	System.out.println("No such Teacher founded");
+        }
     }
     
     public void viewTeacherInfo(Teacher t) {
-        //TODO
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(t.getClass() == DataBase.users.get(i).getClass()) {
+        		System.out.println(t.toString());
+        	}
+        }
     }
     
     public void viewStudentInfo(Student s) {
-        //TODO
+    	for(int i=0;i<DataBase.users.size();++i) {
+        	if(s.getClass() == DataBase.users.get(i).getClass()) {
+        		System.out.println(s.toString());
+        	}
+        }
     }
     
     public String toString() {
@@ -64,11 +80,15 @@ public class Manager extends Employee implements Serializable {
     	if(!DataBase.news.contains(news)) {
     		DataBase.news.add(news);
     	}
-        //TODO
     }
    
-    public void updateNewsTab(News n) {
-        //TODO
+    public void updateNewsTab(News n, String new_title, String new_text) {
+    	if(DataBase.news.contains(n)) {
+    		Date date = Calendar.getInstance().getTime();               // update time;
+    		DataBase.news.get(DataBase.news.indexOf((News)n)).setTitle(new_title);
+        	DataBase.news.get(DataBase.news.indexOf((News)n)).setText(new_text);
+        	DataBase.news.get(DataBase.news.indexOf((News)n)).setDate(date);
+    	}
     }
     
     public void viewNewsTab() throws IOException {

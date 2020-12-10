@@ -49,7 +49,9 @@ public class Teacher extends Employee implements Serializable {
     }
     
     public void viewCourse(Course c) {
-        //TODO
+        if(DataBase.courses.contains(c)) {
+        	System.out.println(c.toString());
+        }
     }
     
 	public void addCourseFile(Course c, Course_File cf) {
@@ -66,7 +68,17 @@ public class Teacher extends Employee implements Serializable {
     	s.getGrades().put(c, m);
     }
     
-    public void putFirstAtt(Course c, Student s, double m) {
+    public void putFirstAtt(Course c, Student s, double first) {
+//    	if()
+    	//TODO
+    }
+    
+    public void putSecondAtt(Course c, Student s, double second) {
+//    	if()
+    	//TODO
+    }
+    
+    public void putFinalAtt(Course c, Student s, double last) {
 //    	if()
     	//TODO
     }
@@ -96,7 +108,11 @@ public class Teacher extends Employee implements Serializable {
     
     }
     
-    public void sendOrder(Order o) {
+    public void sendOrder(Order o, TechSupportGuy tsg) {
+        //TODO
+    }
+    
+    public void sendOrder(String title, String text, TechSupportGuy tsg) {
         //TODO
     }
     

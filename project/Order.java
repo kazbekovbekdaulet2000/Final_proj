@@ -3,21 +3,19 @@ package project;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.util.Calendar;
 
 public class Order implements Serializable {
 	private String title;
     private String subtitle;
     private Date date;
-//    private TechSupportGuy techSupportGuy;
-//    private DataBase dataBase;
-    
     
     public Order() {};
     
-    public Order(String title, String subtitle, Date data) {
+    public Order(String title, String subtitle) {
     	this.title = title;
     	this.subtitle = subtitle;
-    	this.date = date; 
+    	this.date = (Date)Calendar.getInstance().getTime();
     };
     //                          Operations                                  
    
