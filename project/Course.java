@@ -3,12 +3,13 @@ package project;
 import java.io.Serializable;
 import java.util.Vector;
 
+import Users.Student;
 import Users.Teacher;
 import enums.Faculty;
 
 public class Course implements Serializable {
     
-	private String coureID;
+	private String courseID;
     private String courseName;
     private Integer credits;
     private Integer creditsECTS;
@@ -23,7 +24,7 @@ public class Course implements Serializable {
     
     public Course() {}
     public Course(String id, String name, int credits, int ECTS, Faculty faculty, int studY, Teacher teacher) {
-    	this.coureID = id;
+    	this.courseID = id;
     	this.courseName = name;
     	this.credits = credits;
     	this.creditsECTS = ECTS;
@@ -31,11 +32,11 @@ public class Course implements Serializable {
     	this.teacher = teacher;
     }                          
     
-    public String getCoureID() {
-		return coureID;
+    public String getCourseID() {
+		return courseID;
 	}
-	public void setCoureID(String coureID) {
-		this.coureID = coureID;
+	public void setCourseID(String courseID) {
+		this.courseID = courseID;
 	}
 	public String getCourseName() {
 		return courseName;
@@ -82,23 +83,42 @@ public class Course implements Serializable {
 	
 	//  Operations        
 	
-    public int compareTo(Object a) {
-		return 0;
-        //TODO
+    public int compareTo(Object o) {
+    	if(getCourseName().compareTo(((Course)o).getCourseName()) == 0) {
+    		return getCredits().compareTo(((Course)o).getCredits());
+    	}
+    	return getCourseName().compareTo(((Course)o).getCourseName());
     }
     
-    public boolean equals(Object a) {
-		return false;
-        //TODO
+    @Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((courseID == null) ? 0 : courseID.hashCode());
+		result = prime * result + ((courseName == null) ? 0 : courseName.hashCode());
+		result = prime * result + ((credits == null) ? 0 : credits.hashCode());
+		result = prime * result + ((creditsECTS == null) ? 0 : creditsECTS.hashCode());
+		result = prime * result + ((faculty == null) ? 0 : faculty.hashCode());
+		result = prime * result + ((files == null) ? 0 : files.hashCode());
+		result = prime * result + ((forStudYears == null) ? 0 : forStudYears.hashCode());
+		result = prime * result + ((teacher == null) ? 0 : teacher.hashCode());
+		return result;
+	}
+    
+    public boolean equals(Object o) {
+    	if(o == null) return false;
+    	if(o.getClass()!=getClass()) return false;
+    	Course cs = (Course) o;
+    	return cs.getCourseName() == getCourseName() && 
+    			cs.getCourseID() == getCourseID() && cs.getCredits() == getCredits() && cs.getCreditsECTS() == getCreditsECTS() &&
+    			cs.getFaculty() == getFaculty() && cs.getFiles() == getFiles() && cs.getForStudYears() == getForStudYears() && 
+    			cs.getTeacher() == getTeacher();
     }
-   
-    public int hashCode() {
-		return 0;
-        //TODO
-    }
+    
 	@Override
 	public String toString() {
-		return "";
+		return "Course: "+ getCourseName()+"("+getCourseID()+") /n" + "Credits/ECTS credits: " + getCredits() +"/" + getCreditsECTS()
+		+"/nFaculty: " + getFaculty().toString() + "/n Teacher: "+ getTeacher().getName() + " "+ getTeacher().getSurname();
 	}
     
     
