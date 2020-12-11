@@ -1,3 +1,3 @@
 # Final_proj
-University Intranet
+University Intranet (OOP)
 Group mem: Bekdaulet, Erasyl and Zhuldyzai
