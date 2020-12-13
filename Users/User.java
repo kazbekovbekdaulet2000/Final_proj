@@ -18,7 +18,6 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     
     {
     	password = generatePass();                 //automatic generation of Password
-//    	isLogedIn = true;
     }
     
     public User() {
@@ -96,7 +95,7 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 	
     @Override
 	public String toString() {
-		return "Name: " + name + ", Surname: " + surname + ", Phone Number: " + phoneNum + ", mail: "
+		return "Name: " + name + ", Surname: " + surname + "\nPhone Number: " + phoneNum + "\nMail: "
 				+ mail + " ";
 	}
 

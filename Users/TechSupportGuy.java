@@ -43,16 +43,18 @@ public class TechSupportGuy extends Employee implements Serializable {
 
     //                          Operations                                  
     public void operateOrder() {
-        //TODO
+        Order o = waitingList.peek();
+        // do smth
+        acceptedList.add(o);
     }
     
     public void addToWaitingList(Order o) {
-        //TODO
+        waitingList.add(o);
     }
     
     
     public String toString() {
-    	return super.toString() + " TechSupp";
+    	return super.toString() + "\nPosition: Tech Support";
         //TODO
     }
     

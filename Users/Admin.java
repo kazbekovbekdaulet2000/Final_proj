@@ -10,7 +10,6 @@ import enums.Teacher_pos;
 import project.DataBase;
 
 public class Admin extends Employee implements Serializable {
-	
     public Admin() {}
     public Admin(String mail,String firstname,String lastname,String phoneNum,int salary) {
     	super(mail,firstname,lastname,phoneNum, salary);
@@ -29,51 +28,55 @@ public class Admin extends Employee implements Serializable {
     }
     
     public void addUser(String mail,String firstname,String lastname,String phoneNum, int salaryORyear, String userType){
-    	if(userType=="Manager") {
+    	if(userType=="Manager") {         //manager
     		Manager manager = new Manager(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(manager)) {
     			DataBase.users.add(manager);
     		}else {
-    			System.out.println(manager.getName()+" "+manager.getSurname() + "already exist in the database" );
+    			System.out.println(manager.getName()+" "+manager.getSurname() + " already exist in the database" );
     		}
-    	}else if(userType == "Tech Support") {
+    	}else if(userType == "Tech Support") {    //TechSupp
     		TechSupportGuy tsg = new TechSupportGuy(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(tsg)) {
     			DataBase.users.add(tsg);
     		}else {
-    			System.out.println(tsg.getName() +" "+tsg.getSurname()+ "already exist in the database");
+    			System.out.println(tsg.getName() +" "+tsg.getSurname()+ " already exist in the database");
     		}
-    	}else if(userType == "Admin") {
+    	}else if(userType == "Admin") {    //Admin
     		Admin admin = new Admin(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(admin)) {
     			DataBase.users.add(admin);
     		}else {
-    			System.out.println(admin.getName() + " " + admin.getSurname() + "already exist in the database");
+    			System.out.println(admin.getName() + " " + admin.getSurname() + " already exist in the database");
     		}
     		DataBase.users.add(new Admin(mail, firstname, lastname, phoneNum,salaryORyear));
-    	}else if(userType == "Student"){
+    	}else if(userType == "Student"){      //Student
     		Student st = new Student(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(st)) {
     			DataBase.users.add(st);
     		}else {
-    			System.out.println(st.getName()+" "+st.getSurname() + "already exist in the database" );
-    		}
-    		DataBase.users.add(new Student(mail, firstname, lastname, phoneNum,salaryORyear)); // in this case we will have year or student
+    			System.out.println(st.getName()+" "+st.getSurname() + " already exist in the database" );
+    		}	
     	}else {
     		System.out.println("No user added");
     	}
     }
     
-    public void addUser(String mail,String firstname,String lastname,String phoneNum, int salary,Teacher_pos pos, String userType){
-    	if(userType=="Teacher") {                  // needs contains check!!!!!!!!
-    		DataBase.users.add(new Teacher(mail, firstname, lastname, phoneNum, salary, pos));
+    public void addUser(String mail,String firstname,String lastname,String phoneNum, int salary, Teacher_pos pos, String userType){
+    	if(userType=="Teacher") {             
+    		Teacher teacher = new Teacher(mail, firstname, lastname, phoneNum, salary, pos);
+    		if(!DataBase.users.contains(teacher)) {
+    			DataBase.users.add(teacher);
+    		}else {
+    			System.out.println(teacher.getName() + " " + teacher.getSurname() + " already exist in the database");
+    		}
     	}else{
     		System.out.println("No user added");
     	}
     }
     
     public void deleteUser(User u) {
-        if(!DataBase.users.contains(u)) {
+        if(DataBase.users.contains(u)) {
         	DataBase.users.remove(DataBase.users.indexOf(u));
         }else {
         	System.out.println("User not found");
@@ -89,11 +92,11 @@ public class Admin extends Employee implements Serializable {
     }
     
     public String toString() {
-        return super.toString() + ", Possition: Admin";
+        return super.toString() + "\nPosition: Admin";
     }
     
     public int hashCode() {
-    	return 0; 
+    	return super.hashCode(); 
         //TODO
     }
     

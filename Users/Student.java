@@ -28,13 +28,15 @@ public class Student extends User implements Serializable {
         totalCredits = 0;
         courses = new Vector<Course>();
         grades = new HashMap<Course, Mark>(); 
+//        ID = generateID(1);
     }
     
     public Student() {}
     public Student(String mail, String firstname, String lastname, String phoneNum, int year) {
     	super(mail,firstname,lastname,phoneNum);
     	this.year = year;
-    	this.ID = generateID(year);
+    	this.ID = "ADDAS";
+//    	this.ID = generateID(year);
     }
     private String generateID(int year2) {
         Random random = new Random();
@@ -120,7 +122,7 @@ public class Student extends User implements Serializable {
     }
     
     public String toString() {
-    	return super.toString() + ", Year of education " + year + ", Student ID: "+ getID();
+    	return super.toString() + "\nYear of education " + year + "\nStudent ID: "+ getID();
         //TODO
     }
    

@@ -65,23 +65,33 @@ public class Teacher extends Employee implements Serializable {
     }
     
     public void putMark(Course c, Student s, Mark m) {
-    	s.getGrades().put(c, m);
+    	if(DataBase.courses.contains(c)) {
+    		int t = DataBase.courses.indexOf(c);
+    		if(DataBase.courses.elementAt(t).getTeacher().equals(this)) {
+    	    	s.getGrades().put(c, m);
+    	    	DataBase.marks.add(m);
+    		}
+    	}else {
+    		System.out.println("Error occupied");
+    	}
     }
     
-    public void putFirstAtt(Course c, Student s, double first) {
-//    	if()
-    	//TODO
-    }
-    
-    public void putSecondAtt(Course c, Student s, double second) {
-//    	if()
-    	//TODO
-    }
-    
-    public void putFinalAtt(Course c, Student s, double last) {
-//    	if()
-    	//TODO
-    }
+//    public void putFirstAtt(Course c, Student s, double first) {
+//    	if(DataBase.courses.contains(c)) {
+//    		int t = DataBase.courses.indexOf(c);
+//    		if(DataBase.courses.elementAt(t).getTeacher().equals(this)) {
+////    	    	s.getGrades().values().
+//    		}
+//    	}
+//    }
+//    
+//    public void putSecondAtt(Course c, Student s, double second) {
+//    	//TODO
+//    }
+//    
+//    public void putFinalAtt(Course c, Student s, double last) {
+//    	//TODO
+//    }
     
     
     public void addMessage(String s) {
@@ -89,7 +99,7 @@ public class Teacher extends Employee implements Serializable {
     }
     
     public String toString() {
-    	return super.toString()+"Position: "+pos;
+    	return super.toString()+"\nPosition: "+pos;
         //TODO
     }
     
@@ -102,7 +112,7 @@ public class Teacher extends Employee implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Teacher t = (Teacher) o;
-    	return o.getClass() == getClass() && t.getName() == getName() && 
+    	return t.getName() == getName() && 
     			t.getSurname() == getSurname() && t.getMail() == getMail() && t.getPhoneNum() == getPhoneNum() &&
     			t.getSalary() == getSalary() && t.getPos() == getPos();
     

@@ -52,11 +52,11 @@ public class Manager extends Employee implements Serializable {
     }
     
     public String toString() {
-        return super.toString();
+        return super.toString() + "\nPosition: Manager";
     }
     
     public int hashCode() {
-    	return 0;
+    	return super.hashCode();
     	//TODO
     }
     

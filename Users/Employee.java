@@ -48,7 +48,7 @@ public class Employee extends User implements Serializable {
     
     @Override
 	public String toString() {
-		return super.toString() + "Employee salary=" + Salary; //TODO
+		return super.toString() + "\nEmployee salary = " + Salary; //TODO
 	}
 
 	public void viewNewsTab() throws IOException {

@@ -11,16 +11,17 @@ import java.io.ObjectOutputStream;
 import java.util.Vector;
 
 import Users.User;
+import utils.Serializer;
 
 
 public class DataBase {
     private static DataBase instance;
-    public static Vector<Course> courses;
-    public static Vector<User> users;
-    public static Vector<Course_File> files;
-    public static Vector<Mark> marks;
-    public static Vector<Order> orders;
-    public static Vector<News> news;
+    public static Vector<Course> courses = new Vector<Course>();
+    public static Vector<User> users = new Vector<User>();
+    public static Vector<Course_File> files  = new Vector<Course_File>();
+    public static Vector<Mark> marks = new Vector<Mark>();
+    public static Vector<Order> orders = new Vector<Order>();
+    public static Vector<News> news = new Vector<News>();
    
     public static DataBase getInstance() {
     	if(instance == null)
@@ -35,216 +36,26 @@ public class DataBase {
 	
 
     //                          Operations         
-    public void serializeAll() {
-        serializeUsers();
-        serializeCourses();
-        serializeFiles();
-        serializeMarks();
-        serializeOrders();
-        serializeNews();
-    }
-    
-    private void serializeNews() {
-    	try {
-            ObjectInputStream out = new ObjectInputStream(new FileInputStream("news.ser"));
-            news = (Vector<News>) out.readObject();//    ???
-            out.close();
-        }
-        catch (ClassNotFoundException e) {
-            System.out.println("Class not found");
-        }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("IO exception");
-        }
-	}
-
-	private void serializeOrders() {
-		try {
-            ObjectInputStream out = new ObjectInputStream(new FileInputStream("orders.ser"));
-            orders = (Vector<Order>) out.readObject();//    ???
-            out.close();
-        }
-        catch (ClassNotFoundException e) {
-            System.out.println("Class not found");
-        }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("IO exception");
-        }
-	}
-
-	private void serializeFiles() {
-		try {
-	        ObjectInputStream out = new ObjectInputStream(new FileInputStream("course_files.ser"));
-	        files = (Vector<Course_File>) out.readObject();//    ???
-	        out.close();
-	    }
-	    catch (ClassNotFoundException e) {
-	        System.out.println("Class not found");
-	    }
-	    catch (FileNotFoundException e) {
-	        System.out.println("File not found");
-	    }
-	    catch (IOException e) {
-	        System.out.println("IO exception");
-	    }
-	}
-
-	private void serializeMarks() {
-		try {
-            ObjectInputStream out = new ObjectInputStream(new FileInputStream("marks.ser"));
-            marks = (Vector<Mark>) out.readObject();//    ???
-            out.close();
-        }
-        catch (ClassNotFoundException e) {
-            System.out.println("Class not found");
-        }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("IO exception");
-        }
-	}
-
-	private void serializeCourses() {
-		try {
-            ObjectInputStream out = new ObjectInputStream(new FileInputStream("courses.ser"));
-            courses = (Vector<Course>) out.readObject();//    ???
-            out.close();
-        }
-        catch (ClassNotFoundException e) {
-            System.out.println("Class not found");
-        }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("IO exception");
-        }
-	}
-
-	private void serializeUsers() {
-    	try {
-            ObjectInputStream out = new ObjectInputStream(new FileInputStream("users.ser"));
-            users = (Vector<User>) out.readObject();//    ???
-            out.close();
-        }
-        catch (ClassNotFoundException e) {
-            System.out.println("Class not found");
-        }
-        catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-        catch (IOException e) {
-            System.out.println("IO exception");
-        }
-	}
-
-	public void deserializeAll() {
-		deserializeUsers();
-        deserializeCourses();
-        deserializeFiles();
-        deserializeMarks();
-        deserializeOrders();
-        deserializeNews();
-    }
-    
-	private void deserializeUsers() {
-		try {
-            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("users.ser"));
-            out.writeObject(users);
-            out.flush();
-            out.close();
-        }
-        catch (FileNotFoundException e) {
-        	System.out.println("Class not found");
-        }
-        catch (IOException e) {
-        	System.out.println("IO Exception");
-        }
-	}
-	
-	private void deserializeCourses() {
-		try {
-            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("courses.ser"));
-            out.writeObject(courses);
-            out.flush();
-            out.close();
-        }
-        catch (FileNotFoundException e) {
-        	System.out.println("Class not found");
-        }
-        catch (IOException e) {
-        	System.out.println("IO Exception");
-        }
-	}
-	
-	private void deserializeFiles() {
-		try {
-            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("course_files.ser"));
-            out.writeObject(files);
-            out.flush();
-            out.close();
-        }
-        catch (FileNotFoundException e) {
-        	System.out.println("Class not found");
-        }
-        catch (IOException e) {
-        	System.out.println("IO Exception");
-        }
-	}
-	
-	private void deserializeMarks() {
-		try {
-            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("marks.ser"));
-            out.writeObject(marks);
-            out.flush();
-            out.close();
-        }
-        catch (FileNotFoundException e) {
-        	System.out.println("Class not found");
-        }
-        catch (IOException e) {
-        	System.out.println("IO Exception");
-        }
-	}
-	
-	private void deserializeOrders() {
-		try {
-            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("orders.ser"));
-            out.writeObject(orders);
-            out.flush();
-            out.close();
-        }
-        catch (FileNotFoundException e) {
-        	System.out.println("Class not found");
-        }
-        catch (IOException e) {
-        	System.out.println("IO Exception");
-        }
-		
-	}
-	
-	private void deserializeNews() {
-		try {
-            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("news.ser"));
-            out.writeObject(news);
-            out.flush();
-            out.close();
-        }
-        catch (FileNotFoundException e) {
-        	System.out.println("Class not found");
-        }
-        catch (IOException e) {
-        	System.out.println("IO Exception");
-        }
-	}
+   public void load() {
+	   this.users = load("Users.txt", User.class);
+	   this.courses = load("Courses.txt", Course.class);
+   }
+   
+   public boolean save() {
+	   return save("Users.txt",users) && save("Courses.txt",courses);
+   }
+   
+   private boolean save(String fileName, Object obj) {
+	   return Serializer.serialize(fileName, obj);
+   }
+   
+   private <T> Vector<T> load(String fileName, Class<T> usr){
+	   Vector<T> vec = Serializer.deserializeVector(fileName, usr);
+	   if(vec!=null) {
+		   return vec;
+	   }
+	   return null;
+   }
 
 
     public void readDataBase(Course c) { //just an idea
@@ -261,6 +72,10 @@ public class DataBase {
 //		} catch (IOException e) {
 //			System.out.println("No such file founded");
 //		}
+    }
+    
+    public void addUser(User u) {
+    	users.add(u);
     }
 
     

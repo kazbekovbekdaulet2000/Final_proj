@@ -2,6 +2,8 @@ package Comporators;
 
 import java.util.Vector;
 
+import Users.User;
+
 public class Sort<E> {
 	static <E> void swap(Vector<E> vec , int i, int j) {  
 		E temp = vec.get(i);
