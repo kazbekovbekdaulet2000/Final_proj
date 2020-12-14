@@ -1,7 +1,6 @@
 package Sessions;
 
 import java.util.Scanner;
-
 import Users.Admin;
 import project.DataBase;
 
@@ -11,11 +10,12 @@ public class AdminSession {
 	public static void start(Admin admin) {
 		System.out.println("You entered as Admin");
 		String request = null;
-		while(request!="4") {
+		while(request!="5") {
 			System.out.println("1.Manage Users");
 			System.out.println("2.See log files");
 			System.out.println("3.Change Password");
-			System.out.println("4.exit");
+			System.out.println("4.View all accounts with class");
+			System.out.println("5.exit");
 			System.out.println("Print num to get access");
 			request = scan.nextLine();
 			if(request.equals("1")) {
@@ -25,6 +25,12 @@ public class AdminSession {
 			}else if(request.equals("3")) {
 				
 			}else if(request.equals("4")) {
+				for(int i=0; i<db.users.size(); ++i) {
+					System.out.println(db.users.elementAt(i).getMail()+" "
+							+ db.users.elementAt(i).getPassword()+ " " 
+							+ db.users.elementAt(i).getClass().getSimpleName());
+				}
+			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
 			}
 			db.save();

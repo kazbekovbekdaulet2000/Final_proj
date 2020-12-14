@@ -10,8 +10,8 @@ public class StudentSession {
 	static Scanner scan = new Scanner(System.in);
 	static DataBase db = DataBase.getInstance();
 	public static void start(Student student){
-		System.out.println("Hello "+ student.getName() +" "+student.getSurname()+"! \nYou entered as a Student");
-//		System.out.println("You entered as Admin")s;
+		System.out.println("Hello "+ student.getName() +" "+student.getSurname()
+							+"! \nYou entered as a Student");
 		String request = null;
 		while(request!="5") {
 			System.out.println("1.Register for a Courses");
@@ -24,11 +24,11 @@ public class StudentSession {
 			if(request.equals("1")) {
 				Register(student);
 			}else if(request.equals("2")) {
-				
+				//TODO
 			}else if(request.equals("3")) {
-//				changePass(student);
+				//TODO
 			}else if(request.equals("4")) {
-				changePass(student);//q
+				changePass(student);
 			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
 			}
