@@ -2,6 +2,7 @@ package Sessions;
 
 import java.util.Scanner;
 import Users.Admin;
+import Users.User;
 import project.DataBase;
 
 public class AdminSession {
@@ -21,7 +22,7 @@ public class AdminSession {
 			if(request.equals("1")) {
 				manageUsers(admin);
 			}else if(request.equals("2")) {
-				
+				removeUser(admin);
 			}else if(request.equals("3")) {
 				
 			}else if(request.equals("4")) {
@@ -93,8 +94,11 @@ public class AdminSession {
 	}
 
 	private static void removeUser(Admin admin) {
-		// TODO Auto-generated method stub
-		
+		System.out.println("User mail: ");
+		String mail = scan.nextLine();
+		User user = db.findUser(mail);
+		db.users.remove(user);
+		System.out.println(user.getName() + " " + user.getSurname() + " have been deleted");
 	}
 
 	private static void changePass(Admin admin) {
