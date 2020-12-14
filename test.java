@@ -19,23 +19,34 @@ public class test {
 		db.load();//
 		System.out.println("Users account count: " + db.users.size());
 		Scanner scan = new Scanner(System.in);
-		String mail = scan.nextLine();                 //mail: qwerty <-student     mail: admin   <-admin
-		String password = scan.nextLine();             //password: q  <-student     password: 2bOISeqI  <-admin
-		User user = db.findUser(mail);
-		if(user!=null) {
-	        if(decoder(password) == user.hashCode()) {
-	        	if(user instanceof Admin) {
-		        	AdminSession.start();	
-	        	}else if(user instanceof Student) {
-	        		StudentSession.start((Student)user);
-	        	}
-	        }else{
-	        	System.out.println("Wrong Password");	
-	        }
-		}else {
-			System.out.println("Wrong Mail");
+		for(int i=0;i<3;++i) {
+			System.out.println("You have "+ (3-i)+" tries");
+			String mail = scan.nextLine();                 //mail: qwerty <-student     mail: admin   <-admin
+			String password = scan.nextLine();             //password: q  <-student     password: 2bOISeqI  <-admin
+			User user = db.findUser(mail);
+			if(user!=null) {
+		        if(decoder(password) == user.hashCode()) {
+		        	if(user instanceof Admin) {
+			        	AdminSession.start();	
+		        	}else if(user instanceof Student) {
+		        		StudentSession.start((Student)user);
+		        	}
+		        }else{
+		        	System.out.println("Wrong Password");	
+		        	if(i == 2) {
+						System.out.println("You haven't no more tries to enter the intranet");
+					}
+		        }
+			}else {
+				System.out.println("Wrong Mail");
+				if(i == 2) {
+					System.out.println("You haven't no more tries to enter the intranet");
+				}
+			}
+			
+//			db.save();
 		}
-		db.save();
+		
 	}
 	
 	public static int decoder(String pass) {
