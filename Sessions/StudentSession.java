@@ -31,6 +31,7 @@ public class StudentSession {
 				changePass(student);
 			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
+				return;
 			}
 			db.save();
 		}

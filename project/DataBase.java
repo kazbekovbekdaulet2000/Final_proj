@@ -29,12 +29,6 @@ public class DataBase {
     	return instance; 
     }
 	
-	public String toString() {
-		return " " + courses;
-		//TODO
-	}
-	
-
     //                          Operations         
    public void load() {
 	   this.users = load("Users.out", User.class);

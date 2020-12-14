@@ -10,13 +10,13 @@ import Users.TechSupportGuy;
 import Users.User;
 import project.Auth;
 import project.DataBase;
+import enums.Faculty;
 
 public class test {
 
 	public static void main(String[] args) {   
 		Auth auth = Auth.getInstance();
 		auth.authorize();
-		
 	}
 
 }

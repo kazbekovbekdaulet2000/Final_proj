@@ -3,6 +3,7 @@ package Sessions;
 import java.util.Scanner;
 import Users.Admin;
 import Users.User;
+import enums.Teacher_pos;
 import project.DataBase;
 
 public class AdminSession {
@@ -22,17 +23,18 @@ public class AdminSession {
 			if(request.equals("1")) {
 				manageUsers(admin);
 			}else if(request.equals("2")) {
-				removeUser(admin);
+				//TODO
 			}else if(request.equals("3")) {
-				
+				changePass(admin);
 			}else if(request.equals("4")) {
 				for(int i=0; i<db.users.size(); ++i) {
-					System.out.println(db.users.elementAt(i).getMail()+" "
-							+ db.users.elementAt(i).getPassword()+ " " 
-							+ db.users.elementAt(i).getClass().getSimpleName());
+					System.out.println("Mail: "+db.users.elementAt(i).getMail()+" "
+							+ " Password: "+db.users.elementAt(i).getPassword()+ " " 
+							+ " User type: "+db.users.elementAt(i).getClass().getSimpleName());
 				}
 			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
+				return;
 			}
 			db.save();
 		}
@@ -102,11 +104,11 @@ public class AdminSession {
 	}
 
 	private static void changePass(Admin admin) {
-		System.out.println("Old Pass: ");
-		String old_pass = scan.nextLine();
+		System.out.print("Old Pass: ");
+		String old_pass = scan.next();
 		if(old_pass.equals(admin.getPassword())) {
-			System.out.println("New Pass: ");
-			String new_Pass = scan.nextLine();
+			System.out.print("New Pass: ");
+			String new_Pass = scan.next();
 			admin.setPassword(new_Pass);
 		}else {
 			System.out.println("Wrong old password");
@@ -124,9 +126,12 @@ public class AdminSession {
 		String phoneNum = scan.nextLine();
 		System.out.println("Salary: ");
 		int salary = scan.nextInt();
-		
-		admin.addUser(mail, name, surname, phoneNum, salary, userType);
-		addUser(admin);
+		if(userType == "Teacher") {
+			admin.addUser(mail, name, surname, phoneNum, salary,Teacher_pos.Professor, userType);   
+			//needs to change!!!	
+		}else {
+			admin.addUser(mail, name, surname, phoneNum, salary, userType);	
+		}
 	}
 		
 
