@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.Random;
 
+import project.Auth;
 import project.DataBase;
 
 public abstract class User implements Serializable, Comparable<Object>, Cloneable {
@@ -24,7 +25,6 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 	}
     
 	public User(String mail,String firstname,String lastname,String phoneNum){ 
-//		this.password = generatePass(); 
 		this.mail=mail;
 		this.name=firstname;
 		this.surname=lastname;
@@ -138,5 +138,13 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+//	public boolean changePassword(String old_pass,String new_pass) {
+//		if(Auth.encode(old_pass)== password.hashCode()){
+//			setPassword(new_pass);
+//			return true;
+//		}
+//		return false;
+//	}
     
 }

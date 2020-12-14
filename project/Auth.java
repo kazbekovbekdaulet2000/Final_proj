@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.Vector;
 
 import Sessions.AdminSession;
+import Sessions.ManagerSession;
 import Sessions.StudentSession;
 import Users.Admin;
 import Users.Manager;
@@ -14,7 +15,7 @@ import Users.User;
 
 public class Auth {
     private static Auth instance;
-   
+    DataBase db = DataBase.getInstance();
     public static Auth getInstance() {
     	if(instance == null)
     		instance = new Auth();
@@ -22,25 +23,45 @@ public class Auth {
     }
 	
     public void authorize() {
-        DataBase db = DataBase.getInstance();
     	db.load();
-    	Scanner scan = new Scanner(System.in);
-    	for(int i=0;i<3;++i) {
-			String mail = scan.nextLine();
-			String password = scan.nextLine();
+		System.out.println("Users account count: " + db.users.size());
+		Scanner scan = new Scanner(System.in);
+		for(int i=0;i<3;++i) {
+			System.out.println("You have "+ (3-i)+" tries");
+			String mail = scan.nextLine();                 
+			//mail: qwerty <-student     mail: admin   <-admin
+			//password: q  <-student     password: admin  <-admin
+			String password = scan.nextLine();             
 			User user = db.findUser(mail);
 			if(user!=null) {
-		        if(decoder(password) == user.hashCode()) {
-		        	System.out.println("Done");
+		        if(encode(password) == user.hashCode()) {
+		        	if(user instanceof Admin) {
+			        	AdminSession.start((Admin)user);	
+		        	}else if(user instanceof Student) {
+		        		StudentSession.start((Student)user);
+		        	}else if(user instanceof Manager) {
+		        		ManagerSession.start((Manager)user);
+		        	}
 		        	break;
 		        }else{
-		        	System.out.println("failed");	
+		        	System.out.println("Wrong Password");
+		        	System.out.println(user.getPassword());
+		        	if(i == 2){
+						System.out.println("You haven't no more tries to enter the intranet");
+					}
 		        }
-			}	
-    	}
+			}else {
+				System.out.println("Wrong Mail");
+				if(i == 2) {
+					System.out.println("You haven't no more tries to enter the intranet");
+				}
+			}
+			
+//			db.save();
+		}
     }
     
-    public static int decoder(String pass) {
+    public static int encode(String pass) {
 		int res = 17;
 		res+=res*31 + 17*pass.hashCode();
 		return res;
