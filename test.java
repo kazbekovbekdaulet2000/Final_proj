@@ -17,7 +17,7 @@ public class test {
 		DataBase db = DataBase.getInstance();
 		Auth auth = Auth.getInstance();
 		db.load();
-		System.out.println(db.users.size());
+		System.out.println("Users account count: " + db.users.size());
 		Scanner scan = new Scanner(System.in);
 		String mail = scan.nextLine();                 //mail: qwerty
 		String password = scan.nextLine();             //password: WcHKRnEw
