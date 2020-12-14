@@ -12,7 +12,7 @@ public class Course_File implements Serializable {    // no Ideas
     private double size;
     private Date date;
     
-    private static final String PATH = "course_files/";
+    private static final String PATH = "Files/";
     
     public Course_File(String fileName, Path path, double size, Date date) {    // i think there is no need for constructors if we 
     	this.fileName = fileName;                                                // want to create files and directories ??? 

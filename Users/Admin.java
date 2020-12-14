@@ -14,6 +14,7 @@ public class Admin extends Employee implements Serializable {
     public Admin(String mail,String firstname,String lastname,String phoneNum,int salary) {
     	super(mail,firstname,lastname,phoneNum, salary);
     }
+    
     public void addUser(User u) {   // Need contains check!!!!!!!!!
     	if(u == null) {
     		System.out.println("No user added there are only null data");

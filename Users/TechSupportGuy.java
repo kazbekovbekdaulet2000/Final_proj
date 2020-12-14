@@ -42,9 +42,13 @@ public class TechSupportGuy extends Employee implements Serializable {
     }
 
     //                          Operations                                  
-    public void operateOrder() {
+    public void operateOrder() {                 // Need more update
         Order o = waitingList.peek();
-        // do smth
+        try {
+			o.wait(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
         acceptedList.add(o);
     }
     
@@ -55,12 +59,10 @@ public class TechSupportGuy extends Employee implements Serializable {
     
     public String toString() {
     	return super.toString() + "\nPosition: Tech Support";
-        //TODO
     }
     
     public int hashCode() {
     	return super.hashCode();
-        //TODO
     }
     
     public boolean equals(Object o) {
@@ -81,7 +83,6 @@ public class TechSupportGuy extends Employee implements Serializable {
     
     public void viewNewsTab() throws IOException {
     	super.viewNewsTab();
-    	//TODO
     }
     
 }

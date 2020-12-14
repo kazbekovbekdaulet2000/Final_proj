@@ -28,22 +28,22 @@ public class Employee extends User implements Serializable {
     
     public Object clone() {
     	return super.clone();
-        //TODO
     }
     
     public int compareTo(Object a) {
     	return 0;
-        //TODO
     }
     
     public int hashCode() {
     	return super.hashCode();
-        //TODO
     }
     
-    public boolean equals(Object a) {
-    	return false;
-        //TODO
+    public boolean equals(Object o) {
+    	if(o == null) return false;
+    	if(o.getClass()!=getClass()) return false;
+    	Employee e = (Employee) o;
+    	return o.getClass() == getClass() && e.getName() == getName() && 
+    			e.getSurname() == getSurname() && e.getMail() == getMail() && e .getPhoneNum() == getPhoneNum();
     }
     
     @Override

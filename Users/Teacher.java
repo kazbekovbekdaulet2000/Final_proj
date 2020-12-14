@@ -2,6 +2,8 @@ package Users;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.Vector;
 
 import enums.Teacher_pos;
@@ -66,33 +68,62 @@ public class Teacher extends Employee implements Serializable {
     
     public void putMark(Course c, Student s, Mark m) {
     	if(DataBase.courses.contains(c)) {
-    		int t = DataBase.courses.indexOf(c);
-    		if(DataBase.courses.elementAt(t).getTeacher().equals(this)) {
+    		int course = DataBase.courses.indexOf(c);
+    		if(DataBase.courses.elementAt(course).getTeacher().equals(this) && s.getCourses().contains(c)) {
     	    	s.getGrades().put(c, m);
     	    	DataBase.marks.add(m);
+    		}else {
+    			System.out.println("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("Error occupied");
+    		System.out.println("No such Course");
+    	}
+    }
+   
+    public void putFirstAtt(Course c, Student s, double first) {
+    	if(DataBase.courses.contains(c)) {
+    		int course = DataBase.courses.indexOf(c);
+    		if(DataBase.courses.elementAt(course).getTeacher().equals(this) && s.getCourses().contains(c)) {
+    			Mark new_m = s.getGrades().get(c);
+    			new_m.setFirstAtt(first);
+    			s.getGrades().replace(c,new_m);
+    		}else {
+    			System.out.println("Student is not registered for this course");
+    		}
+    	}else {
+    		System.out.println("No such Course");
     	}
     }
     
-//    public void putFirstAtt(Course c, Student s, double first) {
-//    	if(DataBase.courses.contains(c)) {
-//    		int t = DataBase.courses.indexOf(c);
-//    		if(DataBase.courses.elementAt(t).getTeacher().equals(this)) {
-////    	    	s.getGrades().values().
-//    		}
-//    	}
-//    }
-//    
-//    public void putSecondAtt(Course c, Student s, double second) {
-//    	//TODO
-//    }
-//    
-//    public void putFinalAtt(Course c, Student s, double last) {
-//    	//TODO
-//    }
+    public void putSecondAtt(Course c, Student s, double second) {
+    	if(DataBase.courses.contains(c)) {
+    		int course = DataBase.courses.indexOf(c);
+    		if(DataBase.courses.elementAt(course).getTeacher().equals(this) && s.getCourses().contains(c)) {
+    			Mark new_m = s.getGrades().get(c);
+    			new_m.setSecondAtt(second);
+    			s.getGrades().replace(c,new_m);
+    		}else {
+    			System.out.println("Student is not registered for this course");
+    		}
+    	}else {
+    		System.out.println("No such Course");
+    	}
+    }
     
+    public void putFinalAtt(Course c, Student s, double last) {
+    	if(DataBase.courses.contains(c)) {
+    		int course = DataBase.courses.indexOf(c);
+    		if(DataBase.courses.elementAt(course).getTeacher().equals(this) && s.getCourses().contains(c)) {
+    			Mark new_m = s.getGrades().get(c);
+    			new_m.setFinalgrade(last);
+    			s.getGrades().replace(c,new_m);
+    		}else {
+    			System.out.println("Student is not registered for this course");
+    		}
+    	}else {
+    		System.out.println("No such Course");
+    	}
+    }
     
     public void addMessage(String s) {
     	getMessages().add(s);
@@ -100,12 +131,10 @@ public class Teacher extends Employee implements Serializable {
     
     public String toString() {
     	return super.toString()+"\nPosition: "+pos;
-        //TODO
     }
     
     public int hashCode() {
-		return super.hashCode();       // IDK
-        //TODO
+		return super.hashCode();
     }
     
     public boolean equals(Object o) {
@@ -119,11 +148,19 @@ public class Teacher extends Employee implements Serializable {
     }
     
     public void sendOrder(Order o, TechSupportGuy tsg) {
-        //TODO
+    	if(DataBase.users.contains(tsg)) {
+    		tsg.addToWaitingList(o);
+    	}else {
+			System.out.println("No User founded");
+    	}
     }
     
     public void sendOrder(String title, String text, TechSupportGuy tsg) {
-        //TODO
+    	if(DataBase.users.contains(tsg)) {
+    		tsg.addToWaitingList(new Order(title, text));
+    	}else {
+			System.out.println("No User founded");
+    	}
     }
     
     public void viewMessages() {
@@ -138,13 +175,6 @@ public class Teacher extends Employee implements Serializable {
     }
     
     public int compareTo(Teacher a) {
-//		if(getName().equals(a.getName())) {
-//			return 0;
-//		}else if(getName()>a.getName()) {
-//			return 1;
-//		}else {
-//			return -1;
-//		}
     	return getName().compareTo(a.getName());
     	
     }

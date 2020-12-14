@@ -37,12 +37,12 @@ public class DataBase {
 
     //                          Operations         
    public void load() {
-	   this.users = load("Users.txt", User.class);
-	   this.courses = load("Courses.txt", Course.class);
+	   this.users = load("Users.out", User.class);
+	   this.courses = load("Courses.out", Course.class);
    }
    
    public boolean save() {
-	   return save("Users.txt",users) && save("Courses.txt",courses);
+	   return save("Users.out",users) && save("Courses.out",courses);
    }
    
    private boolean save(String fileName, Object obj) {
@@ -56,27 +56,15 @@ public class DataBase {
 	   }
 	   return null;
    }
-
-
-    public void readDataBase(Course c) { //just an idea
-//    	try {
-//    		FileReader fr = new FileReader("allData.txt");
-//			BufferedReader br = new BufferedReader(fr);
-//			String str = br.readLine();
-//			
-//			while(str != null) {
-//				str = br.readLine();
-//				System.out.println(str);
-//			}
-//			br.close();
-//		} catch (IOException e) {
-//			System.out.println("No such file founded");
-//		}
-    }
-    
-    public void addUser(User u) {
-    	users.add(u);
-    }
+   
+   public User findUser(String mail) {          
+	   for(int i=0;i<users.size();++i) {
+		   if(users.elementAt(i).getMail().equals(mail)) {
+			   return users.elementAt(i);
+		   }
+	   }
+	   return null;
+	}
 
     
 }

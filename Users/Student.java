@@ -35,18 +35,15 @@ public class Student extends User implements Serializable {
     public Student(String mail, String firstname, String lastname, String phoneNum, int year) {
     	super(mail,firstname,lastname,phoneNum);
     	this.year = year;
-    	this.ID = "ADDAS";
-//    	this.ID = generateID(year);
+    	this.ID = generateID(year, mail, firstname, lastname, phoneNum);
     }
-    private String generateID(int year2) {
-        Random random = new Random();
-        StringBuilder subID = new StringBuilder();
-        for(int i = 0; i < 6; i++) {
-        	int index = random.nextInt(10);
-        	subID.append(index);
+    
+    private String generateID(int year,String mail, String firstname,String lastname, String pn) {
+    	int code = (firstname.hashCode()+lastname.hashCode()+mail.hashCode()+pn.hashCode())%100000+100000;
+        if(Calendar.getInstance().get(Calendar.MONTH)>5) {
+        	return (Calendar.getInstance().get(Calendar.YEAR)-year-1999)+ "B" + code;
         }
-        
-        return (Calendar.getInstance().get(Calendar.YEAR)-year-2000)+ "B" + subID.toString();    // Maybe update by month????
+    	return (Calendar.getInstance().get(Calendar.YEAR)-year-2000)+ "B" + code;
 	}
     
 	//                          Operations                                  
@@ -87,14 +84,21 @@ public class Student extends User implements Serializable {
 		this.grades = grades;
 	}
 	
+	public String getID() {
+		return ID;
+	}
+	public void setID(String iD) {
+		ID = iD;
+	}
 	
-	
-	
-	public void registerForCourse() {
-		viewAvailableCourses();
-        
+	public void registerForCourse(Course c) {
+		viewAvailableCourses(); 
+		if(DataBase.courses.contains(c)) {
+			courses.add(c);
+		}else {
+			System.out.println("No "+c.getCourseName()+ " Course founded try again"); 
+		}
     }
-	
 	
 	public void viewCourseTeacher(Course c) {
         c.getTeacher().toString();
@@ -105,8 +109,8 @@ public class Student extends User implements Serializable {
 	        for(int i=0; i<c.getFiles().size();++i) {
 	        	System.out.println(c.getFiles().get(i).toString());
 	        }
-        }catch (Exception ex) {
-        	System.out.println("Error");
+        }catch (NullPointerException ex) {
+        	System.out.println("No Files");
         }
     }
     
@@ -123,12 +127,10 @@ public class Student extends User implements Serializable {
     
     public String toString() {
     	return super.toString() + "\nYear of education " + year + "\nStudent ID: "+ getID();
-        //TODO
     }
    
     public int hashCode() {
-    	return super.hashCode();   // I don't know what to do with this
-        //TODO
+    	return super.hashCode();
     }
     
     public boolean equals(Object o) {
@@ -140,19 +142,11 @@ public class Student extends User implements Serializable {
     			s.getYear() == getYear() && s.getID() == getID();
     }
     
-    public int compareTo(Object a) {
-    	return 0;
-        //TODO
+    public int compareTo(Student stud) {
+    	return getName().compareTo(stud.getName());
     }
     
     public void viewNewsTab() throws IOException {
     	super.viewNewsTab();
     }
-	public String getID() {
-		return ID;
-	}
-	public void setID(String iD) {
-		ID = iD;
-	}
-    
 }
