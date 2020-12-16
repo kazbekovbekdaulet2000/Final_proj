@@ -6,6 +6,8 @@ import java.util.Vector;
 import Sessions.AdminSession;
 import Sessions.ManagerSession;
 import Sessions.StudentSession;
+import Sessions.TeacherSession;
+import Sessions.TechSupportSession;
 import Users.Admin;
 import Users.Manager;
 import Users.Student;
@@ -41,6 +43,10 @@ public class Auth {
 		        		StudentSession.start((Student)user);
 		        	}else if(user instanceof Manager) {
 		        		ManagerSession.start((Manager)user);
+		        	}else if(user instanceof Teacher) {
+		        		TeacherSession.start((Teacher)user);
+		        	}else if(user instanceof TechSupportGuy) {
+		        		TechSupportSession.start((TechSupportGuy)user);
 		        	}
 		        	break;
 		        }else{
