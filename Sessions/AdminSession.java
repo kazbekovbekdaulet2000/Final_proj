@@ -32,6 +32,8 @@ public class AdminSession {
 							+ " Password: "+db.users.elementAt(i).getPassword()+ " " 
 							+ " User type: "+db.users.elementAt(i).getClass().getSimpleName());
 				}
+				
+				//TODO
 			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
 				return;
@@ -56,7 +58,7 @@ public class AdminSession {
 			}else if(manageRequest.equals("2")) {
 				removeUser(admin);
 			}else if(manageRequest.equals("3")) {
-				//TODOь
+				//TODO
 			}else if(manageRequest.equals("4")) {
 				break;
 			}
@@ -95,13 +97,12 @@ public class AdminSession {
 	}
 
 	private static void removeUser(Admin admin) {
-		System.out.println("User mail: ");
+		System.out.print("User mail: ");
 		String mail = scan.nextLine();
 		User user = db.findUser(mail);
-		db.users.remove(user);
-		System.out.println(user.getName() + " " + user.getSurname() + " have been deleted");
+		admin.deleteUser(user);
 	}
-
+	
 	private static void changePass(Admin admin) {
 		System.out.print("Old Pass: ");
 		String old_pass = scan.nextLine();

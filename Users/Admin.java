@@ -18,32 +18,37 @@ public class Admin extends Employee implements Serializable {
     public void addUser(User u) {   // Need contains check!!!!!!!!!
     	if(u == null) {
     		System.out.println("No user added there are only null data");
-    	}else if(u instanceof Student) {    DataBase.users.add((Student)u);
-    	}else if(u instanceof Teacher) {	DataBase.users.add((Teacher)u);
-    	}else if(u instanceof Manager) { 	DataBase.users.add((Manager)u);
-    	}else if(u instanceof TechSupportGuy) {   DataBase.users.add((TechSupportGuy)u);
-    	}else if(u instanceof Admin) {    		DataBase.users.add((Admin)u);
+    	}else if(u instanceof Student) {    
+    		DataBase.users.add((Student)u);
+    	}else if(u instanceof Teacher) {	
+    		DataBase.users.add((Teacher)u);
+    	}else if(u instanceof Manager) { 	
+    		DataBase.users.add((Manager)u);
+    	}else if(u instanceof TechSupportGuy) {   
+    		DataBase.users.add((TechSupportGuy)u);
+    	}else if(u instanceof Admin) {    		
+    		DataBase.users.add((Admin)u);
     	}else {
     		System.out.println("No user added");
     	}
-    }
+    }//maybe just delete? 
     
     public void addUser(String mail,String firstname,String lastname,String phoneNum, int salaryORyear, String userType){
-    	if(userType=="Manager") {         //manager
+    	if(userType=="Manager") {
     		Manager manager = new Manager(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(manager)) {
     			DataBase.users.add(manager);
     		}else {
     			System.out.println(manager.getName()+" "+manager.getSurname() + " already exist in the database" );
     		}
-    	}else if(userType == "Tech Support") {    //TechSupp
+    	}else if(userType == "Tech Support") {
     		TechSupportGuy tsg = new TechSupportGuy(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(tsg)) {
     			DataBase.users.add(tsg);
     		}else {
     			System.out.println(tsg.getName() +" "+tsg.getSurname()+ " already exist in the database");
     		}
-    	}else if(userType == "Admin") {    //Admin
+    	}else if(userType == "Admin") {
     		Admin admin = new Admin(mail, firstname, lastname, phoneNum,salaryORyear);
     		if(!DataBase.users.contains(admin)) {
     			DataBase.users.add(admin);
@@ -79,6 +84,7 @@ public class Admin extends Employee implements Serializable {
     public void deleteUser(User u) {
         if(DataBase.users.contains(u)) {
         	DataBase.users.remove(DataBase.users.indexOf(u));
+        	System.out.println(u.getName() + " " + u.getSurname() + " have been deleted");
         }else {
         	System.out.println("User not found");
         }
@@ -98,7 +104,6 @@ public class Admin extends Employee implements Serializable {
     
     public int hashCode() {
     	return super.hashCode(); 
-        //TODO
     }
     
     public boolean equals(Object o) {
@@ -121,7 +126,6 @@ public class Admin extends Employee implements Serializable {
 //			System.out.println(str);
 //		}
 //		br.close();
-    	
     	super.viewNewsTab();
     }
     
