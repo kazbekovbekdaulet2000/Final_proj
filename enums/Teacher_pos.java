@@ -15,4 +15,13 @@ public enum Teacher_pos {
 	public String toString() {
 		return name;
 	}
+
+	public static Teacher_pos fromString(String text) {
+		for (Teacher_pos pos : Teacher_pos.values()) {
+            if (pos.name.equalsIgnoreCase(text)) {
+                return pos;
+            }
+        }
+		return null;
+	}
 }

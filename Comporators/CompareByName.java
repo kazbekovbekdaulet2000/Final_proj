@@ -11,7 +11,6 @@ public class CompareByName implements Comparator<User> {
 		if (p1.getSurname().compareTo(p2.getSurname())!=0)
 		   return p1.getSurname().compareTo(p2.getSurname());
 		else return p1.getName().compareTo(p2.getName());
-//		return o1.getName().compareTo(o2.getName());
 	}
         
 }

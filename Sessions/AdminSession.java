@@ -56,7 +56,7 @@ public class AdminSession {
 			}else if(manageRequest.equals("2")) {
 				removeUser(admin);
 			}else if(manageRequest.equals("3")) {
-				return;
+				//TODO
 			}else if(manageRequest.equals("4")) {
 				break;
 			}
@@ -78,7 +78,7 @@ public class AdminSession {
 			
 			creator = scan.nextLine();
 			if(creator.equals("1")) {
-				addStudent(admin);
+				addEmployee(admin, "Student");
 			}else if(creator.equals("2")) {
 				addEmployee(admin, "Teacher");
 			}else if(creator.equals("3")) {
@@ -123,30 +123,21 @@ public class AdminSession {
 		String surname = scan.nextLine();
 		System.out.println("Phone Number: ");
 		String phoneNum = scan.nextLine();
-		System.out.println("Salary: ");
-		int salary = scan.nextInt();
-		if(userType == "Teacher") {
-			admin.addUser(mail, name, surname, phoneNum, salary,Teacher_pos.Professor, userType);   
-			//needs to change!!!	
+		if(userType == "Student") {
+			System.out.println("Year of education: ");
+			int year = Integer.parseInt(scan.nextLine());
+			admin.addUser(mail, name, surname, phoneNum, year, "Student");
 		}else {
-			admin.addUser(mail, name, surname, phoneNum, salary, userType);	
+			System.out.println("Salary: ");
+			int salary = Integer.parseInt(scan.nextLine());
+			if(userType == "Teacher") {
+				System.out.println("Teacher position: ");
+				Teacher_pos pos = Teacher_pos.fromString(scan.nextLine());
+				admin.addUser(mail, name, surname, phoneNum, salary, pos, userType);
+			}else {
+				admin.addUser(mail, name, surname, phoneNum, salary, userType);	
+			}
 		}
-	}
 		
-
-	private static void addStudent(Admin admin) {
-		System.out.println("Mail: ");
-		String mail = scan.nextLine();
-		System.out.println("Name: ");
-		String name = scan.nextLine();
-		System.out.println("Surname: ");
-		String surname = scan.nextLine();
-		System.out.println("Phone Number: ");
-		String phoneNum = scan.nextLine();
-		System.out.println("Year of education: ");
-		int year = scan.nextInt();
-		
-		admin.addUser(mail, name, surname, phoneNum, year, "Student");
-		addUser(admin);
 	}
 }

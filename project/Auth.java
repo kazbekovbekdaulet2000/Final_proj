@@ -29,8 +29,8 @@ public class Auth {
 		for(int i=0;i<3;++i) {
 			System.out.println("You have "+ (3-i)+" tries");
 			String mail = scan.nextLine();                 
-			//mail: qwerty <-student     mail: admin   <-admin
-			//password: q  <-student     password: admin  <-admin
+			//mail: admin   <-admin
+			//password: admin  <-admin
 			String password = scan.nextLine();             
 			User user = db.findUser(mail);
 			if(user!=null) {
@@ -45,7 +45,6 @@ public class Auth {
 		        	break;
 		        }else{
 		        	System.out.println("Wrong Password");
-		        	System.out.println(user.getPassword());
 		        	if(i == 2){
 						System.out.println("You haven't no more tries to enter the intranet");
 					}

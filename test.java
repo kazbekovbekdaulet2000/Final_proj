@@ -17,6 +17,12 @@ public class test {
 	public static void main(String[] args) {   
 		Auth auth = Auth.getInstance();
 		auth.authorize();
+//		Scanner scan = new Scanner(System.in);
+//		String f = scan.nextLine();
+//		Faculty faculty = Faculty.valueOf(f);
+//		System.out.println(faculty.decryption);
+		
+		
 	}
 
 }

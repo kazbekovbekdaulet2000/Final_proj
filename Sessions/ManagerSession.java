@@ -44,42 +44,33 @@ public class ManagerSession {
 	}
 	
 	private static void addCourse(Manager manager) {
-		System.out.println("Course ID: ");
-		String ID = scan.next();
-		System.out.println("Course name: ");
-		String name = scan.next();
-		System.out.println("Course credit number: ");
-		int credits = scan.nextInt();
-		System.out.println("Course ECTS credit number: ");
-		int ECTS = scan.nextInt();
-		System.out.println("Course Faculty: ");
-		String f = scan.next();
-		Faculty faculty = null;
-		if(f == "FIT")faculty = Faculty.FIT;          //needs to remake
-		if(f == "FGGE")faculty = Faculty.FGGE;
-		if(f == "FEOGI")faculty = Faculty.FEOGI;
-		if(f == "FGE")faculty = Faculty.FGE;
-		if(f == "BS")faculty = Faculty.BS;
-		if(f == "ISE")faculty = Faculty.ISE;
-		if(f == "KMA")faculty = Faculty.KMA;
-		if(f == "SMC")faculty = Faculty.SMC;
-		if(f == "SCE")faculty = Faculty.SCE;
-		if(f == "CAE")faculty = Faculty.CAE;
-		if(f == "SECMSCP")faculty = Faculty.SECMSCP;
-		
-		System.out.println("For year mof study: ");
-		int studY = scan.nextInt();
-		System.out.println("Teacher name: ");
-		String teacher_name= scan.next();
-		System.out.println("Teacher surname: ");
-		String teacher_surname = scan.next();
+//		scan.useDelimiter("\n");
+		System.out.print("Course ID: ");
+		String ID = scan.nextLine();
+		System.out.print("Course name: ");
+		String name = scan.nextLine();
+		System.out.print("Course credit number: ");
+		int credits = Integer.parseInt(scan.nextLine());
+		System.out.print("Course ECTS credit number: ");
+		int ECTS = Integer.parseInt(scan.nextLine());
+		System.out.print("Course Faculty: ");
+		String f = scan.nextLine();
+		Faculty faculty = Faculty.fromString(f);
+		System.out.print("For year of study: ");
+		int studY = Integer.parseInt(scan.nextLine());
+		System.out.print("Teacher name: ");
+		String teacher_name= scan.nextLine();
+		System.out.print("Teacher surname: ");
+		String teacher_surname = scan.nextLine();
 		Teacher teacher = null;
-		for(int i=0; i<db.users.size(); ++i) {
-			if(db.users.elementAt(i) instanceof Teacher) {
-				if(db.users.elementAt(i).getName().equals(teacher_name) && db.users.elementAt(i).getSurname().equals(teacher_surname)) {
-					teacher = (Teacher)db.users.elementAt(i);
-					manager.addCourse(new Course(ID, name, credits, ECTS, faculty, studY,teacher));
-					System.out.println("New Course was added");
+		for(int i=0; i<DataBase.users.size(); ++i) {
+			if(DataBase.users.elementAt(i) instanceof Teacher) {
+				if(DataBase.users.elementAt(i).getName().equals(teacher_name) && DataBase.users.elementAt(i).getSurname().equals(teacher_surname)) {
+					teacher = (Teacher) DataBase.users.elementAt(i);
+					Course course = new Course(ID, name, credits, ECTS, faculty, studY,teacher);
+					manager.addCourse(course);
+					System.out.println("New \""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
+							+teacher.getSurname()+" was added");
 				}
 			}
 		}

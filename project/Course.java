@@ -30,6 +30,7 @@ public class Course implements Serializable {
     	this.creditsECTS = ECTS;
     	this.forStudYears = studY;
     	this.teacher = teacher;
+    	this.faculty = faculty;
     }                          
     
     public String getCourseID() {
@@ -117,8 +118,8 @@ public class Course implements Serializable {
     
 	@Override
 	public String toString() {
-		return "Course: "+ getCourseName()+"("+getCourseID()+") /n" + "Credits/ECTS credits: " + getCredits() +"/" + getCreditsECTS()
-		+"/nFaculty: " + getFaculty().toString() + "/n Teacher: "+ getTeacher().getName() + " "+ getTeacher().getSurname();
+		return "Course: "+ getCourseName()+"("+getCourseID()+") \n" + "Credits/ECTS: " + getCredits() +"/" + getCreditsECTS()
+		+"\nFaculty: " + getFaculty() + "\nTeacher: "+ getTeacher().getName() + " "+ getTeacher().getSurname();
 	}
     
     

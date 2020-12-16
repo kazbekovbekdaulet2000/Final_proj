@@ -12,6 +12,7 @@ public enum Faculty {
 	SCE("SCE", "School of Chemical Engineering"),
 	CAE("CAE", "Center of Chemical Engineering"),
 	SECMSCP("SEC MSCP");
+//	FIT,FGGE,FEOGI,FGE,BS,ISE,KMA,SMC,SCE,CAE,SECMSCP;
 	
 	public String name;
 	public String decryption;
@@ -24,6 +25,15 @@ public enum Faculty {
 		this.name = name;
 		this.decryption = decryption;
 	}
+	
+	public static Faculty fromString(String text) {
+        for (Faculty b : Faculty.values()) {
+            if (b.name.equalsIgnoreCase(text)) {
+                return b;
+            }
+        }
+        return null;
+    }
 	
 	public String toString() {
 		if(decryption!=null) {
