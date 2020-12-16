@@ -79,7 +79,6 @@ public class AdminSession {
 			creator = scan.nextLine();
 			if(creator.equals("1")) {
 				addStudent(admin);
-				return;
 			}else if(creator.equals("2")) {
 				addEmployee(admin, "Teacher");
 			}else if(creator.equals("3")) {
@@ -110,7 +109,7 @@ public class AdminSession {
 			System.out.print("New Pass: ");
 			String new_Pass = scan.next();
 			admin.setPassword(new_Pass);
-		}else {
+		}else{
 			System.out.println("Wrong old password");
 		}	
 	}

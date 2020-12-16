@@ -24,7 +24,11 @@ public class StudentSession {
 			if(request.equals("1")) {
 				Register(student);
 			}else if(request.equals("2")) {
-				//TODO
+				for(int i=0;i<db.courses.size();++i) {
+					System.out.println(db.courses.elementAt(i).toString());
+				}
+//				db.courses.remove(0);
+				System.out.println(db.courses.size());
 			}else if(request.equals("3")) {
 				//TODO
 			}else if(request.equals("4")) {
