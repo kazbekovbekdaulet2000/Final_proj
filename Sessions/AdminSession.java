@@ -56,7 +56,7 @@ public class AdminSession {
 			}else if(manageRequest.equals("2")) {
 				removeUser(admin);
 			}else if(manageRequest.equals("3")) {
-				//TODO
+				//TODOь
 			}else if(manageRequest.equals("4")) {
 				break;
 			}
@@ -90,8 +90,8 @@ public class AdminSession {
 			}else if(creator.equals("6")) {
 				break;
 			}
+			db.save();
 		}
-		db.save();
 	}
 
 	private static void removeUser(Admin admin) {
@@ -104,7 +104,7 @@ public class AdminSession {
 
 	private static void changePass(Admin admin) {
 		System.out.print("Old Pass: ");
-		String old_pass = scan.next();
+		String old_pass = scan.nextLine();
 		if(old_pass.equals(admin.getPassword())) {
 			System.out.print("New Pass: ");
 			String new_Pass = scan.next();
@@ -115,13 +115,13 @@ public class AdminSession {
 	}
 	
 	private static void addEmployee(Admin admin, String userType) {
-		System.out.println("Mail: ");
+		System.out.print("Mail: ");
 		String mail = scan.nextLine();
-		System.out.println("Name: ");
+		System.out.print("Name: ");
 		String name = scan.nextLine();
-		System.out.println("Surname: ");
+		System.out.print("Surname: ");
 		String surname = scan.nextLine();
-		System.out.println("Phone Number: ");
+		System.out.print("Phone Number: ");
 		String phoneNum = scan.nextLine();
 		if(userType == "Student") {
 			System.out.println("Year of education: ");
@@ -138,6 +138,7 @@ public class AdminSession {
 				admin.addUser(mail, name, surname, phoneNum, salary, userType);	
 			}
 		}
+		System.out.println(userType + " " + name + " " + surname + " was added");
 		
 	}
 }
