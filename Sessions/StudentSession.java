@@ -24,11 +24,11 @@ public class StudentSession {
 			if(request.equals("1")) {
 				Register(student);
 			}else if(request.equals("2")) {
-				System.out.println("Count of available Courses: "+db.courses.size());
-				System.out.println(student.getCourses().elementAt(0).toString());
-//				student.viewRegisteredCourses();
+				System.out.println("Count of registrated courses:" +student.getCourses().size());
+				student.viewRegisteredCourses();
 			}else if(request.equals("3")) {
-				//TODO
+				System.out.println("Count of registrated courses:" +student.getCourses().size());
+				student.drawTranscriptTable();
 			}else if(request.equals("4")) {
 				changePass(student);
 			}else if(request.equals("5")) {
@@ -40,15 +40,20 @@ public class StudentSession {
 	}
 	private static void Register(Student student) {
 		student.viewAvailableCourses();
-		System.out.println("Print course Name or Code: ");
+		System.out.println("Print course Name or Code (back to go back): ");
 		String course_name = scan.nextLine();
-		if((course_name.equals(db.courses.elementAt(0).getCourseName())
-				|| course_name.equals(db.courses.elementAt(0).getCourseID()))
-				&& db.courses.elementAt(0).getForStudYears().equals(student.getYear()) ){
-			student.getCourses().add(db.courses.elementAt(0));
-			System.out.println(db.courses.elementAt(0).getCourseName() + " was added");
-		}else {
-			System.out.println("Wrond Name or Id of Course");
+		if(course_name.equals("back")) {
+			return;
+		}
+		for(int i=0;i<db.courses.size();++i) {
+			if((course_name.equals(db.courses.elementAt(i).getCourseName())
+					|| course_name.equals(db.courses.elementAt(i).getCourseID()))
+					&& db.courses.elementAt(i).getForStudYears().equals(student.getYear()) ){
+				student.getCourses().add(db.courses.elementAt(i));
+				System.out.println(db.courses.elementAt(i).getCourseName() + " was added");
+			}else {
+				System.out.println("Wrond Name or Id of Course");
+			}
 		}
 	}
 

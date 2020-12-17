@@ -1,7 +1,9 @@
 package Sessions;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -31,6 +33,7 @@ public class AdminSession {
 			}else if(request.equals("3")) {
 				changePass(admin);
 			}else if(request.equals("4")) {
+				updateLoginBase();
 				readLoginBase();
 			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
@@ -43,19 +46,26 @@ public class AdminSession {
 	
 	private static void readLoginBase() {
 		try {
-			 File myObj = new File("loginBase.txt");
-		     while (scan.hasNextLine()) {
-		        String data = scan.nextLine();
-		        System.out.println(data);
-		     }
-		     scan.close();
-		}catch (Exception e) {
-		      System.out.println("File Not Found");
-		      e.printStackTrace();
+			FileReader fr = new FileReader("LoginBase.txt");
+			BufferedReader br = new BufferedReader(fr);
+			String str = br.readLine();
+			
+			while(str != null) {
+				str = br.readLine();
+				if(str!=null) {
+					System.out.println(str);
+				}
+			}
+			br.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 
 	private static void updateLoginBase() {
+		
 		try {
 			FileWriter myWriter = new FileWriter("loginBase.txt");
 			for(int i=0; i<db.users.size(); ++i) {
@@ -65,7 +75,6 @@ public class AdminSession {
 				myWriter.write(mails);
 			}
 		    myWriter.close();
-		    System.out.println("Successfully wrote to the file.");
 		} catch (IOException e) {
 		    System.out.println("An error occurred.");
 		    e.printStackTrace();

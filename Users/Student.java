@@ -127,7 +127,17 @@ public class Student extends User implements Serializable {
 //    }
     
     public void drawTranscriptTable() {
-        //TODO
+    	int width=5;
+        int count=1; 
+        System.out.println("+  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +");
+        for(int i=0;i<courses.size()+1 ; i++) {
+        	String lines = "+--------+----------------+--------+------+------+-------------+-----+";
+        	System.out.println(lines);
+            System.out.println();
+            if(i==courses.size()+1){
+            	System.out.println("+--------+----------------+--------+------+------+-------------+-----+");
+            }
+        }
     }
     
     public String toString() {
@@ -154,4 +164,10 @@ public class Student extends User implements Serializable {
     public void viewNewsTab() throws IOException {
     	super.viewNewsTab();
     }
+	public void viewRegisteredCourses() {
+		for(int i=0;i<courses.size();++i) {
+			System.out.println(courses.get(i).toString());
+			System.out.println("_________________________________________________");
+		}
+	}
 }

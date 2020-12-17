@@ -28,6 +28,9 @@ public class Auth {
     	db.load();
 		System.out.println("Users account count: " + db.users.size());
 		Scanner scan = new Scanner(System.in);
+//		Admin admin = new Admin("admin","admin","admin","admin",200000);
+//		db.users.add(admin);
+//		System.out.println(admin.getPassword());
 		for(int i=0;i<3;++i) {
 			System.out.println("You have "+ (3-i)+" tries");
 			String mail = scan.nextLine();                 
@@ -51,6 +54,7 @@ public class Auth {
 		        	break;
 		        }else{
 		        	System.out.println("Wrong Password");
+		        	System.out.println(user.getPassword());
 		        	if(i == 2){
 						System.out.println("You haven't no more tries to enter the intranet");
 					}

@@ -56,6 +56,14 @@ public class Teacher extends Employee implements Serializable {
         }
     }
     
+    public void viewCourses() {
+        for(int i=0;i<DataBase.courses.size();++i) {
+        	if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
+        		System.out.println(DataBase.courses.elementAt(i).toString());
+        	}
+        }
+    }
+    
 	public void addCourseFile(Course c, Course_File cf) {
         c.getFiles().add(cf);
     }

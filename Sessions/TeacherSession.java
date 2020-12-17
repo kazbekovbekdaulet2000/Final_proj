@@ -44,6 +44,29 @@ public class TeacherSession {
 		}
 	}
 	
+
+	private static void manageCourse(Teacher teacher) {
+		String manage = null;
+		while(manage!="4") {
+			System.out.println("1.View courses");
+			System.out.println("2.Add course file");
+			System.out.println("3.Delete course file");
+			System.out.println("4.back");
+			System.out.println("Print num to get access");
+			manage = scan.nextLine();
+			if(manage.equals("1")) {
+				teacher.viewCourses();
+			}else if(manage.equals("2")) {
+				//TODO
+			}else if(manage.equals("3")) {
+				//TODO
+			}else if(manage.equals("4")) {
+				return;
+			}
+			db.save();
+		}
+	}
+	
 	private static void changePass(Teacher teacher) {
 		System.out.print("Old Pass: ");
 		String old_pass = scan.nextLine();

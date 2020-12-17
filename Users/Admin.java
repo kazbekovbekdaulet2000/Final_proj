@@ -15,24 +15,9 @@ public class Admin extends Employee implements Serializable {
     	super(mail,firstname,lastname,phoneNum, salary);
     }
     
-    public void addUser(User u) {   // Need contains check!!!!!!!!!
-    	if(u == null) {
-    		System.out.println("No user added there are only null data");
-    	}else if(u instanceof Student && !DataBase.users.contains((Student) u)){  
-    		DataBase.users.add((Student)u);
-    	}else if(u instanceof Teacher && !DataBase.users.contains((Teacher) u)) {	
-    		DataBase.users.add((Teacher)u);
-    	}else if(u instanceof Manager && !DataBase.users.contains((Manager) u)) { 	
-    		DataBase.users.add((Manager)u);
-    	}else if(u instanceof TechSupportGuy && !DataBase.users.contains((TechSupportGuy) u)) {   
-    		DataBase.users.add((TechSupportGuy)u);
-    	}else if(u instanceof Admin && !DataBase.users.contains((Admin) u)) {    		
-    		DataBase.users.add((Admin)u);
-    	}else {
-    		System.out.println("No user added");
-    	}
-    }//maybe just delete? 
-    
+    public void addUser(User user) {
+    	//TODO
+    }
     public void addUser(String mail,String firstname,String lastname,String phoneNum, int salaryORyear, String userType){
     	if(userType=="Manager") {
     		Manager manager = new Manager(mail, firstname, lastname, phoneNum,salaryORyear);
@@ -118,15 +103,6 @@ public class Admin extends Employee implements Serializable {
     
     
     public void viewNewsTab() throws IOException {
-//    	FileReader fr = new FileReader("news.txt");
-//		BufferedReader br = new BufferedReader(fr);
-//		String str = br.readLine();
-//		
-//		while(str != null) {
-//			str = br.readLine();
-//			System.out.println(str);
-//		}
-//		br.close();
     	super.viewNewsTab();
     }
     

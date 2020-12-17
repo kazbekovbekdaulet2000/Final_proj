@@ -9,16 +9,15 @@ import java.sql.Date;
 public class Course_File implements Serializable {    // no Ideas
     private String fileName;
     private Path path;
-    private double size;
     private Date date;
-    
+    private Course course;
     private static final String PATH = "Files/";
     
-    public Course_File(String fileName, Path path, double size, Date date) {    // i think there is no need for constructors if we 
-    	this.fileName = fileName;                                                // want to create files and directories ??? 
+    public Course_File(Course course, String fileName, Path path, double size, Date date) {     
+    	this.fileName = fileName;
     	this.path = path;
-    	this.size = size;
     	this.date = date;
+    	this.setCourse(course);
     }
     
     public String getFileName() {
@@ -37,14 +36,6 @@ public class Course_File implements Serializable {    // no Ideas
         return this.path = path;
     }
     
-    public double getSize() {
-        return this.size;
-    }
-    
-    public double setSize(double size) {
-        return this.size = size;
-    }
-    
     public Date getDate() {
         return this.date;
     }
@@ -52,11 +43,26 @@ public class Course_File implements Serializable {    // no Ideas
     public Date setDate(Date date) {
         return this.date = date;
     }
+    
+    public Course getCourse() {
+		return course;
+	}
+
+	public void setCourse(Course course) {
+		this.course = course;
+	}
+	
     //                          Operations                                  
     
-//    public static void CreateDirectory(String st) {
-//    	File newdirectory = new File(PATH+st);
-//    }
+    public static void CreateDirectory(String st) {
+    	File newdirectory = new File(PATH+st);
+    	boolean bool = newdirectory.mkdir();
+    	if(bool) {
+    		System.out.println("New "+st+" directory created succesfuly");
+    	}else {
+    		System.out.println("Can't create "+st+" directory");
+    	}
+    }
     
     public int compareTo(Object a) {
 		return 0;
@@ -77,5 +83,4 @@ public class Course_File implements Serializable {    // no Ideas
 		return this.clone();
         //TODO
     }
-    
 }
