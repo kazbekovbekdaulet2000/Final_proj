@@ -44,7 +44,6 @@ public class ManagerSession {
 	}
 	
 	private static void addCourse(Manager manager) {
-//		scan.useDelimiter("\n");
 		System.out.print("Course ID: ");
 		String ID = scan.nextLine();
 		System.out.print("Course name: ");
@@ -68,19 +67,25 @@ public class ManagerSession {
 				if(DataBase.users.elementAt(i).getName().equals(teacher_name) && DataBase.users.elementAt(i).getSurname().equals(teacher_surname)) {
 					teacher = (Teacher) DataBase.users.elementAt(i);
 					Course course = new Course(ID, name, credits, ECTS, faculty, studY,teacher);
-					manager.addCourse(course);
-					System.out.println("New \""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
+					if(manager.addCourse(course)) {
+						System.out.println("New \""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
 							+teacher.getSurname()+" was added");
+					}else {
+						System.out.println("\""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
+								+teacher.getSurname()+" was not added");	
+					}
+				}else {
+					System.out.println("We don't have such Teacher");	
 				}
 			}
 		}
 	}
 
 	private static void changePass(Manager user) {
-		System.out.println("Old Pass: ");
+		System.out.print("Old Pass: ");
 		String old_pass = scan.nextLine();
 		if(old_pass.equals(user.getPassword())) {
-			System.out.println("New Pass: ");
+			System.out.print("New Pass: ");
 			String new_Pass = scan.nextLine();
 			user.setPassword(new_Pass);
 		}else {

@@ -110,10 +110,10 @@ public class Course implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Course cs = (Course) o;
-    	return cs.getCourseName() == getCourseName() && 
-    			cs.getCourseID() == getCourseID() && cs.getCredits() == getCredits() && cs.getCreditsECTS() == getCreditsECTS() &&
-    			cs.getFaculty() == getFaculty() && cs.getFiles() == getFiles() && cs.getForStudYears() == getForStudYears() && 
-    			cs.getTeacher() == getTeacher();
+    	return cs.getCourseName().equals(getCourseName()) && cs.getCourseID().equals(getCourseID()) 
+    			&& cs.getCredits().equals(getCredits()) && cs.getCreditsECTS().equals(getCreditsECTS()) 
+    			&& cs.getFaculty().equals(getFaculty()) && cs.getFiles().equals(getFiles()) 
+    			&& cs.getForStudYears().equals(getForStudYears()) && cs.getTeacher().equals(getTeacher());
     }
     
 	@Override

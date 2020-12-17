@@ -8,6 +8,7 @@ import java.util.Random;
 //import java.util.NoSuchElementException;
 import java.util.Vector;
 
+import enums.Faculty;
 import project.Course;
 import project.DataBase;
 import project.Mark;
@@ -19,6 +20,7 @@ public class Student extends User implements Serializable {
     private Integer totalCredits;
     private String ID;
     private double gpa;
+    private Faculty fac;
     private Vector<Course> courses;
     private HashMap<Course,Mark> grades;
     
@@ -28,14 +30,14 @@ public class Student extends User implements Serializable {
         totalCredits = 0;
         courses = new Vector<Course>();
         grades = new HashMap<Course, Mark>(); 
-//        ID = generateID(1);
     }
     
     public Student() {}
-    public Student(String mail, String firstname, String lastname, String phoneNum, int year) {
+    public Student(String mail, String firstname, String lastname, String phoneNum, int year, Faculty fac) {
     	super(mail,firstname,lastname,phoneNum);
     	this.year = year;
     	this.ID = generateID(year, mail, firstname, lastname, phoneNum);
+    	this.fac = fac;
     }
     
     private String generateID(int year,String mail, String firstname,String lastname, String pn) {
@@ -91,6 +93,13 @@ public class Student extends User implements Serializable {
 		ID = iD;
 	}
 	
+	public Faculty getFaculty() {
+		return fac;
+	}
+	public void setFaculty(Faculty fac) {
+		this.fac = fac;
+	}
+	
 	public void registerForCourse(Course c) {
 		viewAvailableCourses(); 
 		if(DataBase.courses.contains(c)) {
@@ -116,15 +125,19 @@ public class Student extends User implements Serializable {
     
     public void viewAvailableCourses() {
     	for(int i=0; i<DataBase.courses.size(); ++i) {
-    		System.out.println(DataBase.courses.get(i).toString());
+			if(!getCourses().contains(DataBase.courses.get(i))) {
+				System.out.println(DataBase.courses.get(i).toString());
+        		System.out.println("_________________________________________________________");
+			}
     	}
     }
     
-//    public void viewRegisteredCourses() {
-//    	for(int i=0; i<getCourses().size(); ++i) {
-//    		System.out.println(getCourses().get(i).toString());
-//    	}
-//    }
+    public void viewRegisteredCourses() {
+    	for(int i=0; i<getCourses().size(); ++i) {
+    		System.out.println(getCourses().get(i).toString());
+    		System.out.println("_________________________________________________________");
+    	}
+    }
     
     public void drawTranscriptTable() {
     	int width=5;
@@ -152,9 +165,7 @@ public class Student extends User implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Student s = (Student) o;
-    	return o.getClass() == getClass() && s.getName() == getName() && 
-    			s.getSurname() == getSurname() && s.getMail() == getMail() && s.getPhoneNum() == getPhoneNum() &&
-    			s.getYear() == getYear() && s.getID() == getID();
+    	return super.equals(s) && s.getYear() == getYear() && s.getID() == getID() && s.getFaculty().equals(getFaculty());
     }
     
     public int compareTo(Student stud) {
@@ -164,10 +175,4 @@ public class Student extends User implements Serializable {
     public void viewNewsTab() throws IOException {
     	super.viewNewsTab();
     }
-	public void viewRegisteredCourses() {
-		for(int i=0;i<courses.size();++i) {
-			System.out.println(courses.get(i).toString());
-			System.out.println("_________________________________________________");
-		}
-	}
 }

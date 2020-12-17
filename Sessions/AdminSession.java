@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.Scanner;
 import Users.Admin;
 import Users.User;
+import enums.Faculty;
 import enums.Teacher_pos;
 import project.DataBase;
 
@@ -29,6 +30,7 @@ public class AdminSession {
 			if(request.equals("1")) {
 				manageUsers(admin);
 			}else if(request.equals("2")) {
+				System.out.println("NO DATA");
 				//TODO
 			}else if(request.equals("3")) {
 				changePass(admin);
@@ -39,7 +41,6 @@ public class AdminSession {
 				System.out.println("Good byeee!");
 				return;
 			}
-			updateLoginBase();
 			db.save();
 		}
 	}
@@ -65,7 +66,6 @@ public class AdminSession {
 	}
 
 	private static void updateLoginBase() {
-		
 		try {
 			FileWriter myWriter = new FileWriter("loginBase.txt");
 			for(int i=0; i<db.users.size(); ++i) {
@@ -118,15 +118,15 @@ public class AdminSession {
 			
 			creator = scan.nextLine();
 			if(creator.equals("1")) {
-				addEmployee(admin, "Student");
+				addUserType(admin, "Student");
 			}else if(creator.equals("2")) {
-				addEmployee(admin, "Teacher");
+				addUserType(admin, "Teacher");
 			}else if(creator.equals("3")) {
-				addEmployee(admin, "Tech Support");
+				addUserType(admin, "Tech Support");
 			}else if(creator.equals("4")) {
-				addEmployee(admin, "Manager");
+				addUserType(admin, "Manager");
 			}else if(creator.equals("5")) {
-				addEmployee(admin, "Admin");
+				addUserType(admin, "Admin");
 			}else if(creator.equals("6")) {
 				break;
 			}
@@ -139,11 +139,7 @@ public class AdminSession {
 		System.out.print("Want to see all logins?(Y/N)");
 		String ans = scan.nextLine();
 		if(ans.equals("Y")) {
-			for(int i=0; i<db.users.size(); ++i) {
-				System.out.println("Mail: "+db.users.elementAt(i).getMail()+" "
-//						+ " Password: "+db.users.elementAtadm(i).getPassword()+ " " 
-						+ " User type: "+db.users.elementAt(i).getClass().getSimpleName());
-			}
+			admin.viewMails();
 		}
 		System.out.print("User mail: ");
 		String mail = scan.nextLine();
@@ -156,14 +152,14 @@ public class AdminSession {
 		String old_pass = scan.nextLine();
 		if(old_pass.equals(admin.getPassword())) {
 			System.out.print("New Pass: ");
-			String new_Pass = scan.next();
+			String new_Pass = scan.nextLine();
 			admin.setPassword(new_Pass);
 		}else{
 			System.out.println("Wrong old password");
 		}	
 	}
 	
-	private static void addEmployee(Admin admin, String userType) {
+	private static void addUserType(Admin admin, String userType) {
 		System.out.print("Mail: ");
 		String mail = scan.nextLine();
 		System.out.print("Name: ");
@@ -173,14 +169,16 @@ public class AdminSession {
 		System.out.print("Phone Number: ");
 		String phoneNum = scan.nextLine();
 		if(userType == "Student") {
-			System.out.println("Year of education: ");
+			System.out.print("Year of education: ");
 			int year = Integer.parseInt(scan.nextLine());
-			admin.addUser(mail, name, surname, phoneNum, year, "Student");
+			System.out.print("Faculty: ");
+			Faculty faculty = Faculty.fromString(scan.nextLine());
+			admin.addUser(mail, name, surname, phoneNum, year, faculty, userType);
 		}else {
-			System.out.println("Salary: ");
+			System.out.print("Salary: ");
 			int salary = Integer.parseInt(scan.nextLine());
 			if(userType == "Teacher") {
-				System.out.println("Teacher position: ");
+				System.out.print("Teacher position: ");
 				Teacher_pos pos = Teacher_pos.fromString(scan.nextLine());
 				admin.addUser(mail, name, surname, phoneNum, salary, pos, userType);
 			}else {

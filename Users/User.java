@@ -83,15 +83,6 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public void login() {
-//		TODO
-	}
-	
-	public void logout() {
-//		TODO
-	}
-
 	
     @Override
 	public String toString() {
@@ -101,34 +92,24 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 
 	public Object clone() {
 		return this.clone();
-        //TODO
     }
     
     public int hashCode() {
     	int res = 17;
         res+=res*31+17*password.hashCode();
         return res;
-//    	TODO
     }
     
     public boolean equals(Object obj) {
     	  if (obj==null) return false;
           if (getClass()!=obj.getClass()) return false;
           User u = (User) obj;
-          return this.mail.equals(u.mail);   //add more entities
+          return  u.getName().equals(getName()) && u.getSurname().equals(getSurname()) && u.getMail().equals(getMail()) 
+      			&& u.getPhoneNum().equals(getPhoneNum());
     }
     
-    public void viewNewsTab() throws IOException {  //idea to read the news from common txt file // i think so(
-//    	FileReader fr = new FileReader("news.txt");
-//		BufferedReader br = new BufferedReader(fr);
-//		String str = br.readLine();
-//		
-//		while(str != null) {
-//			str = br.readLine();
-//			System.out.println(str);
-//		}
-//		br.close();
-    	for(int i=0; i<DataBase.news.size(); ++i) {                        // кажется так легче
+    public void viewNewsTab() throws IOException {
+    	for(int i=0; i<DataBase.news.size(); ++i) {
     		System.out.println(DataBase.news.get(i).toString());
     	}
     }
@@ -138,13 +119,5 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
-//	public boolean changePassword(String old_pass,String new_pass) {
-//		if(Auth.encode(old_pass)== password.hashCode()){
-//			setPassword(new_pass);
-//			return true;
-//		}
-//		return false;
-//	}
     
 }

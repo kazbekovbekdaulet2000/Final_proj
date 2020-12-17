@@ -5,6 +5,7 @@ import java.util.Scanner;
 import Users.Admin;
 import Users.Student;
 import Users.Teacher;
+import project.Course;
 import project.DataBase;
 
 public class TeacherSession {
@@ -29,7 +30,7 @@ public class TeacherSession {
 			}else if(request.equals("2")) {
 				//TODO
 			}else if(request.equals("3")) {
-				//TODO
+				viewCourses(teacher);
 			}else if(request.equals("4")) {
 				//TODO
 			}else if(request.equals("5")) {
@@ -65,6 +66,10 @@ public class TeacherSession {
 			}
 			db.save();
 		}
+	}
+	
+	private static void viewCourses(Teacher teacher) {
+		teacher.viewCourses();
 	}
 	
 	private static void changePass(Teacher teacher) {

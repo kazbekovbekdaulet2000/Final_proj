@@ -15,23 +15,26 @@ public class Manager extends Employee implements Serializable {
     	super(mail,firstname,lastname, phoneNum, salary);
     }
 	
-    public void addCourse(Course c) {
+    public boolean addCourse(Course c) {
         if(!DataBase.courses.contains(c)) {
-        	DataBase.courses.add(c);
+        	return DataBase.courses.add(c);
         }
+        return false;
     }
 
-    public void deleteCourse(Course c) {
+    public boolean deleteCourse(Course c) {
     	if(DataBase.courses.contains(c)) {
-        	DataBase.courses.remove((Course)c);
+        	return DataBase.courses.remove((Course)c);
         }
+    	return false;
     }
     
-    public void sendMessage(String message, Teacher t) {
+    public boolean sendMessage(String message, Teacher t) {
         if(DataBase.users.contains(t)) {
-        	t.addMessage(message);
+        	return t.addMessage(message);
         }else {
         	System.out.println("No such Teacher founded");
+        	return false;
         }
     }
     
@@ -43,12 +46,106 @@ public class Manager extends Employee implements Serializable {
         }
     }
     
+    public Teacher viewTeacherInfo(String name) {
+    	int cnt=0;
+    	Teacher teacher = null;
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(DataBase.users.get(i) instanceof Teacher && DataBase.users.get(i).getName().equals(name)){
+        		cnt+=1;
+        		if(cnt==2) {
+        			return null;
+        		}
+        		teacher =(Teacher)DataBase.users.get(i);
+        	}
+        }
+        return teacher;
+    }
+    
+    public Teacher viewTeacherInfo(String name, String surname) {
+    	int cnt=0;
+    	Teacher teacher = null;
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(DataBase.users.get(i) instanceof Teacher && DataBase.users.get(i).getName().equals(name)
+        			&& DataBase.users.get(i).getSurname().equals(surname)){
+        		cnt+=1;
+        		if(cnt==2) {
+        			return null;
+        		}
+        		teacher =(Teacher)DataBase.users.get(i);
+        	}
+        }
+        return teacher;
+    }
+    
+    public Teacher viewTeacherInfo(String name, String surname, String mail) {
+    	int cnt=0;
+    	Teacher teacher = null;
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(DataBase.users.get(i) instanceof Teacher && DataBase.users.get(i).getName().equals(name)
+        			&& DataBase.users.get(i).getSurname().equals(surname) && DataBase.users.get(i).getMail().equals(mail)){
+        		cnt+=1;
+        		if(cnt==2) {
+        			return null;
+        		}
+        		teacher =(Teacher)DataBase.users.get(i);
+        	}
+        }
+        return teacher;
+    }
+    
     public void viewStudentInfo(Student s) {
     	for(int i=0;i<DataBase.users.size();++i) {
         	if(s.getClass() == DataBase.users.get(i).getClass()) {
         		System.out.println(s.toString());
         	}
         }
+    }
+    
+    public Student viewStudentInfo(String name) {
+    	int cnt=0;
+    	Student stud = null;
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(DataBase.users.get(i) instanceof Student && DataBase.users.get(i).getName().equals(name)){
+        		cnt+=1;
+        		if(cnt==2) {
+        			return null;
+        		}
+        		stud  = (Student)DataBase.users.get(i);
+        	}
+        }
+        return stud;
+    }
+    
+    public Student viewStudentInfo(String name, String surname) {
+    	int cnt=0;
+    	Student stud = null;
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(DataBase.users.get(i) instanceof Student && DataBase.users.get(i).getName().equals(name)
+        			&& DataBase.users.get(i).getSurname().equals(surname)){
+        		cnt+=1;
+        		if(cnt==2) {
+        			return null;
+        		}
+        		stud =(Student)DataBase.users.get(i);
+        	}
+        }
+        return stud;
+    }
+    
+    public Student viewStudentInfo(String name, String surname, String mail) {
+    	int cnt=0;
+    	Student stud = null;
+        for(int i=0;i<DataBase.users.size();++i) {
+        	if(DataBase.users.get(i) instanceof Student && DataBase.users.get(i).getName().equals(name)
+        			&& DataBase.users.get(i).getSurname().equals(surname) && DataBase.users.get(i).getMail().equals(mail)){
+        		cnt+=1;
+        		if(cnt==2) {
+        			return null;
+        		}
+        		stud =(Student)DataBase.users.get(i);
+        	}
+        }
+        return stud;
     }
     
     public String toString() {
@@ -64,14 +161,7 @@ public class Manager extends Employee implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Manager m = (Manager)o;
-    	return o.getClass() == getClass() && m.getName() == getName() && 
-    			m.getSurname() == getSurname() && m.getMail() == getMail() && m.getPhoneNum() == getPhoneNum() &&
-    			m.getSalary() == getSalary();
-    }
-    
-    
-    public void createNewsTab(News n) {
-        //TODO
+    	return super.equals(m);
     }
     
     public void createNewsTab(String title,String text) {

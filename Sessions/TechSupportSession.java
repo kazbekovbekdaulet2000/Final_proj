@@ -2,6 +2,7 @@ package Sessions;
 
 import java.util.Scanner;
 
+import Users.Admin;
 import Users.Teacher;
 import Users.TechSupportGuy;
 import project.DataBase;
@@ -32,5 +33,17 @@ public class TechSupportSession {
 			}
 			db.save();
 		}
+	}
+	
+	private static void changePass(TechSupportGuy tsg) {
+		System.out.print("Old Pass: ");
+		String old_pass = scan.nextLine();
+		if(old_pass.equals(tsg.getPassword())) {
+			System.out.print("New Pass: ");
+			String new_Pass = scan.nextLine();
+			tsg.setPassword(new_Pass);
+		}else{
+			System.out.println("Wrong old password");
+		}	
 	}
 }

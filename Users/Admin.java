@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Serializable;
 
+import enums.Faculty;
 import enums.Teacher_pos;
 import project.DataBase;
 
@@ -15,44 +16,48 @@ public class Admin extends Employee implements Serializable {
     	super(mail,firstname,lastname,phoneNum, salary);
     }
     
-    public void addUser(User user) {
-    	//TODO
-    }
-    public void addUser(String mail,String firstname,String lastname,String phoneNum, int salaryORyear, String userType){
+    public void addUser(String mail,String firstname,String lastname,String phoneNum, int salary, String userType){
     	if(userType=="Manager") {
-    		Manager manager = new Manager(mail, firstname, lastname, phoneNum,salaryORyear);
+    		Manager manager = new Manager(mail, firstname, lastname, phoneNum, salary);
     		if(!DataBase.users.contains(manager)) {
     			DataBase.users.add(manager);
     		}else {
     			System.out.println(manager.getName()+" "+manager.getSurname() + " already exist in the database" );
     		}
     	}else if(userType == "Tech Support") {
-    		TechSupportGuy tsg = new TechSupportGuy(mail, firstname, lastname, phoneNum,salaryORyear);
+    		TechSupportGuy tsg = new TechSupportGuy(mail, firstname, lastname, phoneNum, salary);
     		if(!DataBase.users.contains(tsg)) {
     			DataBase.users.add(tsg);
     		}else {
     			System.out.println(tsg.getName() +" "+tsg.getSurname()+ " already exist in the database");
     		}
     	}else if(userType == "Admin") {
-    		Admin admin = new Admin(mail, firstname, lastname, phoneNum,salaryORyear);
+    		Admin admin = new Admin(mail, firstname, lastname, phoneNum, salary);
     		if(!DataBase.users.contains(admin)) {
     			DataBase.users.add(admin);
     		}else {
     			System.out.println(admin.getName() + " " + admin.getSurname() + " already exist in the database");
     		}
-    		DataBase.users.add(new Admin(mail, firstname, lastname, phoneNum,salaryORyear));
-    	}else if(userType == "Student"){      //Student
-    		Student st = new Student(mail, firstname, lastname, phoneNum,salaryORyear);
+    		DataBase.users.add(new Admin(mail, firstname, lastname, phoneNum, salary));
+    	}else {
+    		System.out.println("Wrong User Type");
+    	}
+    	
+    }
+    
+    public void addUser(String mail,String firstname,String lastname,String phoneNum, int year, Faculty faculty, String userType){
+    	if(userType == "Student"){ 
+    		Student st = new Student(mail, firstname, lastname, phoneNum, year, faculty);
     		if(!DataBase.users.contains(st)) {
     			DataBase.users.add(st);
     		}else {
     			System.out.println(st.getName()+" "+st.getSurname() + " already exist in the database" );
     		}	
     	}else {
-    		System.out.println("No user added");
+    		System.out.println("Wrong User Type");
     	}
-    	
     }
+    
     
     public void addUser(String mail,String firstname,String lastname,String phoneNum, int salary, Teacher_pos pos, String userType){
     	if(userType=="Teacher") {             
@@ -63,7 +68,7 @@ public class Admin extends Employee implements Serializable {
     			System.out.println(teacher.getName() + " " + teacher.getSurname() + " already exist in the database");
     		}
     	}else{
-    		System.out.println("No user added");
+    		System.out.println("Wrong User Type");
     	}
     }
     
@@ -76,12 +81,21 @@ public class Admin extends Employee implements Serializable {
         }
     }
     
+    public void viewMails() {
+    	for(int i=0; i<DataBase.users.size(); ++i) {
+			System.out.println("Mail: "+DataBase.users.elementAt(i).getMail()
+					+" Name: "+DataBase.users.elementAt(i).getName()
+					+" Surname: "+DataBase.users.elementAt(i).getSurname()
+					+ " User type: "+DataBase.users.elementAt(i).getClass().getSimpleName());
+		}
+    }
+    
     public void updateUserInfo(User u) {
         //TODO
     }
     
     public void viewLogFilles() {
-        //TODO
+    	DataBase.viewLogFiles();
     }
     
     public String toString() {
@@ -96,9 +110,7 @@ public class Admin extends Employee implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Admin a = (Admin)o;
-    	return o.getClass() == getClass() && a.getName() == getName() && 
-    			a.getSurname() == getSurname() && a.getMail() == getMail() && a.getPhoneNum() == getPhoneNum() &&
-    			a.getSalary() == getSalary();
+    	return super.equals(a);
     }
     
     

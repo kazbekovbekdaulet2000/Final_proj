@@ -69,9 +69,7 @@ public class TechSupportGuy extends Employee implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	TechSupportGuy tsg = (TechSupportGuy)o;
-    	return o.getClass() == getClass() && tsg.getName() == getName() && 
-    			tsg.getSurname() == getSurname() && tsg.getMail() == getMail() && tsg.getPhoneNum() == getPhoneNum() &&
-    			tsg.getSalary() == getSalary();
+    	return super.equals(tsg);
     
     }
     

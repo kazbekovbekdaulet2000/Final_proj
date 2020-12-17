@@ -84,7 +84,7 @@ public class Teacher extends Employee implements Serializable {
     			System.out.println("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course");
+    		System.out.println("No such Course founded");
     	}
     }
    
@@ -99,7 +99,7 @@ public class Teacher extends Employee implements Serializable {
     			System.out.println("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course");
+    		System.out.println("No such Course founded");
     	}
     }
     
@@ -114,7 +114,7 @@ public class Teacher extends Employee implements Serializable {
     			System.out.println("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course");
+    		System.out.println("No such Course founded");
     	}
     }
     
@@ -129,12 +129,12 @@ public class Teacher extends Employee implements Serializable {
     			System.out.println("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course");
+    		System.out.println("No such Course founded");
     	}
     }
     
-    public void addMessage(String s) {
-    	getMessages().add(s);
+    public boolean addMessage(String s) {
+    	return getMessages().add(s);
     }
     
     public String toString() {
@@ -149,9 +149,7 @@ public class Teacher extends Employee implements Serializable {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Teacher t = (Teacher) o;
-    	return t.getName() == getName() && 
-    			t.getSurname() == getSurname() && t.getMail() == getMail() && t.getPhoneNum() == getPhoneNum() &&
-    			t.getSalary() == getSalary() && t.getPos() == getPos();
+    	return super.equals(t) && t.getPos().equals(getPos());
     
     }
     
@@ -159,7 +157,7 @@ public class Teacher extends Employee implements Serializable {
     	if(DataBase.users.contains(tsg)) {
     		tsg.addToWaitingList(o);
     	}else {
-			System.out.println("No User founded");
+			System.out.println("The system error your order was not recived");
     	}
     }
     
@@ -167,7 +165,7 @@ public class Teacher extends Employee implements Serializable {
     	if(DataBase.users.contains(tsg)) {
     		tsg.addToWaitingList(new Order(title, text));
     	}else {
-			System.out.println("No User founded");
+			System.out.println("The system error your order was not recived");
     	}
     }
     

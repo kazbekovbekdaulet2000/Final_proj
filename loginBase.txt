@@ -1,2 +1,6 @@
 Mail: admin  Password: admin  User type: Admin
 Mail: qwerty  Password: qwerty  User type: Student
+Mail: pakita  Password: wCGYr37c  User type: Teacher
+Mail: manager  Password: manager  User type: Manager
+Mail: tech  Password: HeMWDbqc  User type: TechSupportGuy
+Mail: akshabaev@gmail.com  Password: Hn6PEhHq  User type: Teacher

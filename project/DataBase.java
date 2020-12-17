@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -59,6 +60,37 @@ public class DataBase {
 	   }
 	   return null;
 	}
+
+   public void saveLog(User user, String text){
+//	   try {
+//		   FileWriter logs = new FileWriter("log_file.txt");
+//		   logs.write(user.getClass().getSimpleName()+":  "+text);
+//		   logs.close();
+//		} catch (IOException e) {
+//		    System.out.println("An error occurred.");
+//		    e.printStackTrace();
+//		}
+   }
+   
+   
+   public static void viewLogFiles() {
+//	   try {
+//			FileReader fr = new FileReader("log_file.txt");
+//			BufferedReader br = new BufferedReader(fr);
+//			String str = br.readLine();
+//			while(str != null) {
+//				str = br.readLine();
+//				if(str!=null) {
+//					System.out.println(str);
+//				}
+//			}
+//			br.close();
+//		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+   }
 
     
 }

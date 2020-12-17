@@ -11,7 +11,8 @@ public enum Faculty {
 	SMC("SMC", "School of Mathematics and Cybernetics"),
 	SCE("SCE", "School of Chemical Engineering"),
 	CAE("CAE", "Center of Chemical Engineering"),
-	SECMSCP("SEC MSCP");
+	SECMSCP("SEC MSCP"),
+	NULL("null","null");
 //	FIT,FGGE,FEOGI,FGE,BS,ISE,KMA,SMC,SCE,CAE,SECMSCP;
 	
 	public String name;
@@ -32,7 +33,7 @@ public enum Faculty {
                 return b;
             }
         }
-        return null;
+        return Faculty.NULL;  //as default
     }
 	
 	public String toString() {

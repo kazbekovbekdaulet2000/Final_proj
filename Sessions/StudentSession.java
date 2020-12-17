@@ -39,6 +39,7 @@ public class StudentSession {
 		}
 	}
 	private static void Register(Student student) {
+		System.out.println("Count of available courses: " + (db.courses.size()-student.getCourses().size()));
 		student.viewAvailableCourses();
 		System.out.println("Print course Name or Code (back to go back): ");
 		String course_name = scan.nextLine();
@@ -58,10 +59,10 @@ public class StudentSession {
 	}
 
 	private static void changePass(Student user) {
-		System.out.println("Old Pass: ");
+		System.out.print("Old Pass: ");
 		String old_pass = scan.nextLine();
 		if(old_pass.equals(user.getPassword())) {
-			System.out.println("New Pass: ");
+			System.out.print("New Pass: ");
 			String new_Pass = scan.nextLine();
 			user.setPassword(new_Pass);
 		}else {
