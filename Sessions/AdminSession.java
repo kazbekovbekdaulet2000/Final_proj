@@ -1,5 +1,9 @@
 package Sessions;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 import Users.Admin;
 import Users.User;
@@ -27,18 +31,44 @@ public class AdminSession {
 			}else if(request.equals("3")) {
 				changePass(admin);
 			}else if(request.equals("4")) {
-				for(int i=0; i<db.users.size(); ++i) {
-					System.out.println("Mail: "+db.users.elementAt(i).getMail()+" "
-							+ " Password: "+db.users.elementAt(i).getPassword()+ " " 
-							+ " User type: "+db.users.elementAt(i).getClass().getSimpleName());
-				}
-				
-				//TODO
+				readLoginBase();
 			}else if(request.equals("5")) {
 				System.out.println("Good byeee!");
 				return;
 			}
+			updateLoginBase();
 			db.save();
+		}
+	}
+	
+	private static void readLoginBase() {
+		try {
+			 File myObj = new File("loginBase.txt");
+		     while (scan.hasNextLine()) {
+		        String data = scan.nextLine();
+		        System.out.println(data);
+		     }
+		     scan.close();
+		}catch (Exception e) {
+		      System.out.println("File Not Found");
+		      e.printStackTrace();
+		}
+	}
+
+	private static void updateLoginBase() {
+		try {
+			FileWriter myWriter = new FileWriter("loginBase.txt");
+			for(int i=0; i<db.users.size(); ++i) {
+				String mails = "Mail: "+db.users.elementAt(i).getMail()+" "
+						+ " Password: "+db.users.elementAt(i).getPassword()+ " " 
+						+ " User type: "+db.users.elementAt(i).getClass().getSimpleName()+"\n";
+				myWriter.write(mails);
+			}
+		    myWriter.close();
+		    System.out.println("Successfully wrote to the file.");
+		} catch (IOException e) {
+		    System.out.println("An error occurred.");
+		    e.printStackTrace();
 		}
 	}
 
@@ -54,7 +84,6 @@ public class AdminSession {
 			manageRequest = scan.nextLine();
 			if(manageRequest.equals("1")) {
 				addUser(admin);
-				db.save();
 			}else if(manageRequest.equals("2")) {
 				removeUser(admin);
 			}else if(manageRequest.equals("3")) {
@@ -92,11 +121,21 @@ public class AdminSession {
 			}else if(creator.equals("6")) {
 				break;
 			}
+			updateLoginBase();
 			db.save();
 		}
 	}
 
 	private static void removeUser(Admin admin) {
+		System.out.print("Want to see all logins?(Y/N)");
+		String ans = scan.nextLine();
+		if(ans.equals("Y")) {
+			for(int i=0; i<db.users.size(); ++i) {
+				System.out.println("Mail: "+db.users.elementAt(i).getMail()+" "
+//						+ " Password: "+db.users.elementAtadm(i).getPassword()+ " " 
+						+ " User type: "+db.users.elementAt(i).getClass().getSimpleName());
+			}
+		}
 		System.out.print("User mail: ");
 		String mail = scan.nextLine();
 		User user = db.findUser(mail);

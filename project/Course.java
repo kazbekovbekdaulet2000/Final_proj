@@ -119,7 +119,7 @@ public class Course implements Serializable {
 	@Override
 	public String toString() {
 		return "Course: "+ getCourseName()+"("+getCourseID()+") \n" + "Credits/ECTS: " + getCredits() +"/" + getCreditsECTS()
-		+"\nFaculty: " + getFaculty() + "\nTeacher: "+ getTeacher().getName() + " "+ getTeacher().getSurname();
+		+"\nFaculty: " + getFaculty() +"\nFor students of "+getForStudYears()+" year of education"+ "\nTeacher: "+ getTeacher().getName() + " "+ getTeacher().getSurname();
 	}
     
     

@@ -118,8 +118,13 @@ public class Student extends User implements Serializable {
     	for(int i=0; i<DataBase.courses.size(); ++i) {
     		System.out.println(DataBase.courses.get(i).toString());
     	}
-    	
     }
+    
+//    public void viewRegisteredCourses() {
+//    	for(int i=0; i<getCourses().size(); ++i) {
+//    		System.out.println(getCourses().get(i).toString());
+//    	}
+//    }
     
     public void drawTranscriptTable() {
         //TODO

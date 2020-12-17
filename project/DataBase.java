@@ -38,7 +38,7 @@ public class DataBase {
    public boolean save() {
 	   return save("Users.out",users) && save("Courses.out",courses);
    }
-   
+  
    private boolean save(String fileName, Object obj) {
 	   return Serializer.serialize(fileName, obj);
    }

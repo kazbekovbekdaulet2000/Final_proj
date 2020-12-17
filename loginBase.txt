@@ -1,0 +1,6 @@
+Mail: qwerty  Password: qwerty  User type: Student
+Mail: admin  Password: admin  User type: Admin
+Mail: manager  Password: manager  User type: Manager
+Mail: pakita@gmail.com  Password: 123456  User type: Teacher
+Mail: Y.Yerasyl@gmail.com  Password: Mk8xEyS8  User type: Student
+Mail: TechSupp@gmail.com  Password: w9RoLpq4  User type: TechSupportGuy

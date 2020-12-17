@@ -25,7 +25,8 @@ public class StudentSession {
 				Register(student);
 			}else if(request.equals("2")) {
 				System.out.println("Count of available Courses: "+db.courses.size());
-				student.viewAvailableCourses();
+				System.out.println(student.getCourses().elementAt(0).toString());
+//				student.viewRegisteredCourses();
 			}else if(request.equals("3")) {
 				//TODO
 			}else if(request.equals("4")) {
@@ -39,6 +40,16 @@ public class StudentSession {
 	}
 	private static void Register(Student student) {
 		student.viewAvailableCourses();
+		System.out.println("Print course Name or Code: ");
+		String course_name = scan.nextLine();
+		if((course_name.equals(db.courses.elementAt(0).getCourseName())
+				|| course_name.equals(db.courses.elementAt(0).getCourseID()))
+				&& db.courses.elementAt(0).getForStudYears().equals(student.getYear()) ){
+			student.getCourses().add(db.courses.elementAt(0));
+			System.out.println(db.courses.elementAt(0).getCourseName() + " was added");
+		}else {
+			System.out.println("Wrond Name or Id of Course");
+		}
 	}
 
 	private static void changePass(Student user) {

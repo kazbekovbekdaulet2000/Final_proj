@@ -18,15 +18,15 @@ public class Admin extends Employee implements Serializable {
     public void addUser(User u) {   // Need contains check!!!!!!!!!
     	if(u == null) {
     		System.out.println("No user added there are only null data");
-    	}else if(u instanceof Student) {    
+    	}else if(u instanceof Student && !DataBase.users.contains((Student) u)){  
     		DataBase.users.add((Student)u);
-    	}else if(u instanceof Teacher) {	
+    	}else if(u instanceof Teacher && !DataBase.users.contains((Teacher) u)) {	
     		DataBase.users.add((Teacher)u);
-    	}else if(u instanceof Manager) { 	
+    	}else if(u instanceof Manager && !DataBase.users.contains((Manager) u)) { 	
     		DataBase.users.add((Manager)u);
-    	}else if(u instanceof TechSupportGuy) {   
+    	}else if(u instanceof TechSupportGuy && !DataBase.users.contains((TechSupportGuy) u)) {   
     		DataBase.users.add((TechSupportGuy)u);
-    	}else if(u instanceof Admin) {    		
+    	}else if(u instanceof Admin && !DataBase.users.contains((Admin) u)) {    		
     		DataBase.users.add((Admin)u);
     	}else {
     		System.out.println("No user added");
@@ -66,6 +66,7 @@ public class Admin extends Employee implements Serializable {
     	}else {
     		System.out.println("No user added");
     	}
+    	
     }
     
     public void addUser(String mail,String firstname,String lastname,String phoneNum, int salary, Teacher_pos pos, String userType){
