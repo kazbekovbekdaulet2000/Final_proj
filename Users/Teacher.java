@@ -60,6 +60,7 @@ public class Teacher extends Employee implements Serializable {
         for(int i=0;i<DataBase.courses.size();++i) {
         	if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
         		System.out.println(DataBase.courses.elementAt(i).toString());
+        		System.out.println("_________________________________________________________");
         	}
         }
     }
@@ -184,5 +185,21 @@ public class Teacher extends Employee implements Serializable {
     	return getName().compareTo(a.getName());
     	
     }
+
+	public void listofStudents() {
+		for(int i=0;i<DataBase.users.size();++i) {
+			if(DataBase.users.get(i) instanceof Student) {
+				Student st = (Student)DataBase.users.get(i);
+				for(int j=0;j<DataBase.courses.size();++j) {
+					if(DataBase.courses.elementAt(j).getTeacher().equals(this)) {
+						if(st.getCourses().contains(DataBase.courses.elementAt(j))){
+							System.out.println(st.getName()+ " " + st.getSurname());
+						}
+					}
+				}
+				
+			}
+		}
+	}
     
 }

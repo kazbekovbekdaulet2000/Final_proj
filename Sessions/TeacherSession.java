@@ -30,7 +30,7 @@ public class TeacherSession {
 			}else if(request.equals("2")) {
 				//TODO
 			}else if(request.equals("3")) {
-				viewCourses(teacher);
+				viewCoursesStudents(teacher);
 			}else if(request.equals("4")) {
 				//TODO
 			}else if(request.equals("5")) {
@@ -44,7 +44,6 @@ public class TeacherSession {
 			db.save();
 		}
 	}
-	
 
 	private static void manageCourse(Teacher teacher) {
 		String manage = null;
@@ -68,8 +67,14 @@ public class TeacherSession {
 		}
 	}
 	
-	private static void viewCourses(Teacher teacher) {
-		teacher.viewCourses();
+	private static void viewCoursesStudents(Teacher teacher) {
+		System.out.println("List of students: ");
+		teacher.listofStudents();
+		System.out.println("_______________________________________");
+	}
+	
+	private static void viewCoursesStudents(Teacher teacher, Course course) {
+		teacher.listofStudents();
 	}
 	
 	private static void changePass(Teacher teacher) {
