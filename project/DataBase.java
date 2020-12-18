@@ -11,7 +11,10 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Vector;
 
-import Users.User;
+import course.Course;
+import course.Course_File;
+import course.Mark;
+import users.User;
 import utils.Serializer;
 
 

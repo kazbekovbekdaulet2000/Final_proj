@@ -1,14 +1,14 @@
 
-package Sessions;
+package sessions;
 
 import java.util.Scanner;
 
-import Users.Manager;
-import Users.Student;
-import Users.Teacher;
+import course.Course;
 import enums.Faculty;
-import project.Course;
 import project.DataBase;
+import users.Manager;
+import users.Student;
+import users.Teacher;
 
 public class ManagerSession {
 	static Scanner scan = new Scanner(System.in);
@@ -88,6 +88,9 @@ public class ManagerSession {
 			System.out.print("New Pass: ");
 			String new_Pass = scan.nextLine();
 			user.setPassword(new_Pass);
+			if(new_Pass.equals(user.getPassword())) {
+				System.out.print("Password is changed: ");	
+			}
 		}else {
 			System.out.println("Wrong old password");
 		}	

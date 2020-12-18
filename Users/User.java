@@ -1,4 +1,4 @@
-package Users;
+package users;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,7 +15,6 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     private String phoneNum;
     private String mail;
     private String password;
-//    private Boolean isLogedIn;
     
     {
     	password = generatePass();                 //automatic generation of Password

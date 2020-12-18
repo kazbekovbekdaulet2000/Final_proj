@@ -1,10 +1,12 @@
-package project;
+package course;
 
 
 import java.io.File;
 import java.io.Serializable;
 import java.nio.file.Path;
 import java.sql.Date;
+
+import users.Teacher;
 
 public class Course_File implements Serializable {    // no Ideas
     private String fileName;
@@ -69,9 +71,11 @@ public class Course_File implements Serializable {    // no Ideas
         //TODO
     }
     
-    public boolean equals(Object a) {
-		return false;
-        //TODO
+    public boolean equals(Object o) {
+    	if(o == null) return false;
+    	if(o.getClass()!=getClass()) return false;
+    	Course_File t = (Course_File) o;
+    	return this.path.equals(t.getPath()) && this.fileName.equals(t.getFileName());
     }
     
     public int hashCode() {

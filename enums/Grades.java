@@ -9,7 +9,8 @@ public enum Grades {
 	C_plus("C+"),
 	C("C"),
 	D("D"),
-	F("F");
+	F("F"),
+	NULL("null");
 	
 	private String sign;
 	
@@ -20,6 +21,15 @@ public enum Grades {
 	public String toString() {
 		return sign;
 	}
+	
+	public static Grades fromString(String sign) {
+        for (Grades b : Grades.values()) {
+            if (b.sign.equalsIgnoreCase(sign)) {
+                return b;
+            }
+        }
+        return Grades.NULL;  //as default
+    }
 }
 
 //A+
@@ -31,3 +41,4 @@ public enum Grades {
 //C-
 //D
 //F
+//null

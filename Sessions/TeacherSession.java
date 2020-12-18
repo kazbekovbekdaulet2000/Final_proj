@@ -1,12 +1,13 @@
-package Sessions;
+package sessions;
 
 import java.util.Scanner;
 
-import Users.Admin;
-import Users.Student;
-import Users.Teacher;
-import project.Course;
+import course.Course;
+import enums.Faculty;
 import project.DataBase;
+import users.Admin;
+import users.Student;
+import users.Teacher;
 
 public class TeacherSession {
 	static Scanner scan = new Scanner(System.in);
@@ -26,11 +27,13 @@ public class TeacherSession {
 			System.out.println("Print num to get access");
 			request = scan.nextLine();
 			if(request.equals("1")) {
-				//TODO
+				addCourse(teacher);
 			}else if(request.equals("2")) {
-				//TODO
+				manageCourse(teacher);
 			}else if(request.equals("3")) {
-				viewCoursesStudents(teacher);
+				System.out.println("List of students for different courses: ");
+				teacher.listofStudents();
+				System.out.println("_______________________________________");
 			}else if(request.equals("4")) {
 				//TODO
 			}else if(request.equals("5")) {
@@ -47,43 +50,79 @@ public class TeacherSession {
 
 	private static void manageCourse(Teacher teacher) {
 		String manage = null;
-		while(manage!="4") {
-			System.out.println("1.View courses");
-			System.out.println("2.Add course file");
-			System.out.println("3.Delete course file");
-			System.out.println("4.back");
+		System.out.println("Print course name or code: ");
+		String course_name = scan.nextLine();
+		Course course = null;
+		for(int i=0;i<db.courses.size();++i) {
+			if(db.courses.get(i).getCourseName().equals(course_name) || db.courses.get(i).getCourseName().equals(course_name)) {
+				if(db.courses.get(i).getTeacher().equals(teacher)) {
+					course=db.courses.get(i);
+					break;
+				}
+			}
+		}
+		if(course==null) {
+			System.out.println("No Such course or wrong name of course");
+			return;
+		}
+		while(manage!="5") {
+			System.out.println("1.View course");
+			System.out.println("2.View course students");
+			System.out.println("3.Add course file");
+			System.out.println("4.Delete course file");
+			System.out.println("5.back");
 			System.out.println("Print num to get access");
 			manage = scan.nextLine();
 			if(manage.equals("1")) {
-				teacher.viewCourses();
+				teacher.viewCourse(course);
 			}else if(manage.equals("2")) {
-				//TODO
+				System.out.println("List of students for "+course.getCourseName()+" course: ");
+				teacher.listofStudents(course);
+				System.out.println("_______________________________________");
 			}else if(manage.equals("3")) {
 				//TODO
 			}else if(manage.equals("4")) {
+				//TODO
+			}else if(manage.equals("5")) {
 				return;
 			}
 			db.save();
 		}
 	}
 	
-	private static void viewCoursesStudents(Teacher teacher) {
-		System.out.println("List of students: ");
-		teacher.listofStudents();
-		System.out.println("_______________________________________");
+	private static void addCourse(Teacher teacher) {
+		System.out.print("Course ID: ");
+		String ID = scan.nextLine();
+		System.out.print("Course name: ");
+		String name = scan.nextLine();
+		System.out.print("Course credit number: ");
+		int credits = Integer.parseInt(scan.nextLine());
+		System.out.print("Course ECTS credit number: ");
+		int ECTS = Integer.parseInt(scan.nextLine());
+		System.out.print("Course Faculty: ");
+		String f = scan.nextLine();
+		Faculty faculty = Faculty.fromString(f);
+		System.out.print("For year of study: ");
+		int studY = Integer.parseInt(scan.nextLine());
+		Course course = new Course(ID, name, credits, ECTS, faculty, studY, teacher);
+		db.courses.add(course);
+		System.out.println("New \""+course.getCourseName()+ "\" was added");
 	}
 	
-	private static void viewCoursesStudents(Teacher teacher, Course course) {
-		teacher.listofStudents();
+	private static void addCourseFile(Teacher teacher) {
+		System.out.println("Print Course name: ");
 	}
-	
-	private static void changePass(Teacher teacher) {
+
+	private static void changePass(Teacher user) {
 		System.out.print("Old Pass: ");
 		String old_pass = scan.nextLine();
-		if(old_pass.equals(teacher.getPassword())) {
+		if(old_pass.equals(user.getPassword())) {
 			System.out.print("New Pass: ");
 			String new_Pass = scan.nextLine();
-			teacher.setPassword(new_Pass);
+			user.setPassword(new_Pass);
+			if(new_Pass.equals(user.getPassword())) {
+				System.out.print("Password is changed: ");	
+			}
 		}else{
 			System.out.println("Wrong old password");
 		}	

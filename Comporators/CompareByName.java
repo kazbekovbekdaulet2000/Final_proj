@@ -1,8 +1,8 @@
-package Comporators;
+package comporators;
 
 import java.util.Comparator;
 
-import Users.User;
+import users.User;
 
 public class CompareByName implements Comparator<User> {
 	

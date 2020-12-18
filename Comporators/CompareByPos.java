@@ -1,8 +1,8 @@
-package Comporators;
+package comporators;
 
 import java.util.Comparator;
 
-import Users.Teacher;
+import users.Teacher;
 
 public class CompareByPos implements Comparator<Teacher> {
 	

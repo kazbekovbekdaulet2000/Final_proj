@@ -1,10 +1,10 @@
-package Sessions;
+package sessions;
 
 import java.util.Scanner;
 
-import Users.Admin;
-import Users.Student;
 import project.DataBase;
+import users.Admin;
+import users.Student;
 
 public class StudentSession {
 	static Scanner scan = new Scanner(System.in);
@@ -65,6 +65,9 @@ public class StudentSession {
 			System.out.print("New Pass: ");
 			String new_Pass = scan.nextLine();
 			user.setPassword(new_Pass);
+			if(new_Pass.equals(user.getPassword())) {
+				System.out.print("Password is changed: ");	
+			}
 		}else {
 			System.out.println("Wrong old password");
 		}	

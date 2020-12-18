@@ -1,8 +1,8 @@
-package Comporators;
+package comporators;
 
 import java.util.Comparator;
 
-import Users.Student;
+import users.Student;
 
 public class CompareByMark implements Comparator<Student> {
 	@Override

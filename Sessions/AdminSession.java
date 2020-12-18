@@ -1,4 +1,4 @@
-package Sessions;
+package sessions;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,11 +7,12 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-import Users.Admin;
-import Users.User;
+
 import enums.Faculty;
 import enums.Teacher_pos;
 import project.DataBase;
+import users.Admin;
+import users.User;
 
 public class AdminSession {
 	static Scanner scan = new Scanner(System.in);
@@ -154,6 +155,9 @@ public class AdminSession {
 			System.out.print("New Pass: ");
 			String new_Pass = scan.nextLine();
 			admin.setPassword(new_Pass);
+			if(new_Pass.equals(admin.getPassword())) {
+				System.out.print("Password is changed: ");	
+			}
 		}else{
 			System.out.println("Wrong old password");
 		}	

@@ -1,8 +1,8 @@
-package Comporators;
+package comporators;
 
 import java.util.Vector;
 
-import Users.User;
+import users.User;
 
 public class Sort<E> {
 	static <E> void swap(Vector<E> vec , int i, int j) {  

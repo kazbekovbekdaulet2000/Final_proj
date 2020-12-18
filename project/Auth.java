@@ -3,17 +3,17 @@ package project;
 import java.util.Scanner;
 import java.util.Vector;
 
-import Sessions.AdminSession;
-import Sessions.ManagerSession;
-import Sessions.StudentSession;
-import Sessions.TeacherSession;
-import Sessions.TechSupportSession;
-import Users.Admin;
-import Users.Manager;
-import Users.Student;
-import Users.Teacher;
-import Users.TechSupportGuy;
-import Users.User;
+import sessions.AdminSession;
+import sessions.ManagerSession;
+import sessions.StudentSession;
+import sessions.TeacherSession;
+import sessions.TechSupportSession;
+import users.Admin;
+import users.Manager;
+import users.Student;
+import users.Teacher;
+import users.TechSupportGuy;
+import users.User;
 
 public class Auth {
     private static Auth instance;
@@ -25,7 +25,7 @@ public class Auth {
     }
 	
     public void authorize() {
-    	db.load();
+    	db.load(); //deserializatioan
 		System.out.println("Users account count: " + db.users.size());
 		Scanner scan = new Scanner(System.in);
 //		Admin admin = new Admin("admin","admin","admin","admin",200000);

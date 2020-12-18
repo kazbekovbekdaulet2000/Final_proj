@@ -1,11 +1,11 @@
-package Users;
+package users;
 
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
 
-import project.Course;
+import course.Course;
 import project.DataBase;
 import project.News;
 

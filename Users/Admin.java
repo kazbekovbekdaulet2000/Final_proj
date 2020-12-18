@@ -1,4 +1,4 @@
-package Users;
+package users;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

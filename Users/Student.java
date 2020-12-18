@@ -1,4 +1,4 @@
-package Users;
+package users;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -8,10 +8,10 @@ import java.util.Random;
 //import java.util.NoSuchElementException;
 import java.util.Vector;
 
+import course.Course;
+import course.Mark;
 import enums.Faculty;
-import project.Course;
 import project.DataBase;
-import project.Mark;
 
 public class Student extends User implements Serializable {
     

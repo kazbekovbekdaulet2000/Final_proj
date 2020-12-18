@@ -1,4 +1,4 @@
-package Users;
+package users;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -6,11 +6,11 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Vector;
 
+import course.Course;
+import course.Course_File;
+import course.Mark;
 import enums.Teacher_pos;
-import project.Course;
-import project.Course_File;
 import project.DataBase;
-import project.Mark;
 import project.Order;
 
 /**
@@ -187,18 +187,34 @@ public class Teacher extends Employee implements Serializable {
     }
 
 	public void listofStudents() {
-		for(int i=0;i<DataBase.users.size();++i) {
-			if(DataBase.users.get(i) instanceof Student) {
-				Student st = (Student)DataBase.users.get(i);
-				for(int j=0;j<DataBase.courses.size();++j) {
-					if(DataBase.courses.elementAt(j).getTeacher().equals(this)) {
-						if(st.getCourses().contains(DataBase.courses.elementAt(j))){
+		for(int i=0;i<DataBase.courses.size();++i) {
+			if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
+				System.out.println("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
+				for(int j=0;j<DataBase.users.size();++j) {
+					if(DataBase.users.get(j) instanceof Student) {
+						Student st = (Student)DataBase.users.get(j);
+						if(st.getCourses().contains(DataBase.courses.get(i))) {
 							System.out.println(st.getName()+ " " + st.getSurname());
 						}
 					}
 				}
-				
 			}
+			
+		}
+
+	}
+
+	public void listofStudents(Course course) {
+		for(int i=0;i<DataBase.users.size();++i) {
+			System.out.println("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
+			for(int j=0;j<DataBase.users.size();++j) {
+				if(DataBase.users.get(i) instanceof Student) {
+					Student st = (Student)DataBase.users.get(i);
+					if(st.getCourses().contains(course)) {
+						System.out.println(st.getName()+ " " + st.getSurname());
+					}
+				}
+			}	
 		}
 	}
     

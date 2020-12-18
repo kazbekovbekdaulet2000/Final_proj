@@ -1,11 +1,11 @@
-package project;
+package course;
 
 import java.io.Serializable;
 import java.util.Vector;
 
-import Users.Student;
-import Users.Teacher;
 import enums.Faculty;
+import users.Student;
+import users.Teacher;
 
 public class Course implements Serializable {
     
