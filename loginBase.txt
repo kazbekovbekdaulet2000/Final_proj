@@ -2,3 +2,4 @@ Mail: admin  Password: admin  User type: Admin
 Mail: teacher  Password: 8kcMv29i  User type: Teacher
 Mail: qwe  Password: XkMhGlIv  User type: Student
 Mail: asd  Password: W6hzBNvK  User type: Student
+Mail: manager  Password: mJVugueS  User type: Manager

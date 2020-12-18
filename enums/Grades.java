@@ -32,7 +32,7 @@ public enum Grades {
         return Grades.NULL;  //as default
     }
 
-	public Grades mark(double gradeDouble) {
+	public static Grades mark(double gradeDouble) {
 		if(gradeDouble<50) {
 			return Grades.F;
 		}else if(gradeDouble>50 && gradeDouble<65) {

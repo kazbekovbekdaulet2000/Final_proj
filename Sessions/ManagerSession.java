@@ -10,6 +10,7 @@ import users.Admin;
 import users.Manager;
 import users.Student;
 import users.Teacher;
+import users.User;
 import utils.Printer;
 
 public class ManagerSession {
@@ -28,9 +29,9 @@ public class ManagerSession {
 			System.out.println("Print num to get access");
 			request = scan.nextLine();
 			if(request.equals("1")) {
-				//TODO
+				viewTeacherInfo();
 			}else if(request.equals("2")) {
-				//TODO
+				viewStudentInfo();
 			}else if(request.equals("3")) {
 				addCourse(manager);
 			}else if(request.equals("4")) {
@@ -42,6 +43,24 @@ public class ManagerSession {
 				return;
 			}
 			db.save();
+		}
+	}
+	
+	private static void viewTeacherInfo() {
+		System.out.println("Print teacher's name/surname/mail you want to search");
+		String search = scan.nextLine();
+		for (User k : DataBase.users) {
+			if ((search.equals(k.getName()) || search.equals(k.getName()) || search.equals(k.getMail())) && k instanceof Teacher)
+				System.out.println(k.toString());
+		}
+	}
+	
+	private static void viewStudentInfo() {
+		System.out.println("Print student's name/surname/mail you want to search");
+		String search = scan.nextLine();
+		for (User k : DataBase.users) {
+			if ((search.equals(k.getName()) || search.equals(k.getName()) || search.equals(k.getMail())) && k instanceof Student)
+				System.out.println(k.toString());
 		}
 	}
 	
