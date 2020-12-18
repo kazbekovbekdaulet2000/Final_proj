@@ -6,9 +6,11 @@ import java.util.Scanner;
 import course.Course;
 import enums.Faculty;
 import project.DataBase;
+import users.Admin;
 import users.Manager;
 import users.Student;
 import users.Teacher;
+import utils.Printer;
 
 public class ManagerSession {
 	static Scanner scan = new Scanner(System.in);
@@ -44,23 +46,14 @@ public class ManagerSession {
 	}
 	
 	private static void addCourse(Manager manager) {
-		System.out.print("Course ID: ");
-		String ID = scan.nextLine();
-		System.out.print("Course name: ");
-		String name = scan.nextLine();
-		System.out.print("Course credit number: ");
-		int credits = Integer.parseInt(scan.nextLine());
-		System.out.print("Course ECTS credit number: ");
-		int ECTS = Integer.parseInt(scan.nextLine());
-		System.out.print("Course Faculty: ");
-		String f = scan.nextLine();
-		Faculty faculty = Faculty.fromString(f);
-		System.out.print("For year of study: ");
-		int studY = Integer.parseInt(scan.nextLine());
-		System.out.print("Teacher name: ");
-		String teacher_name= scan.nextLine();
-		System.out.print("Teacher surname: ");
-		String teacher_surname = scan.nextLine();
+		String ID = Printer.input("Course ID: ");
+		String name = Printer.input("Course name: ");
+		int credits = Integer.parseInt(Printer.input("Course credit number: "));
+		int ECTS = Integer.parseInt(Printer.input("Course ECTS credit number: "));
+		Faculty faculty = Faculty.fromString(Printer.input("Course Faculty: "));
+		int studY = Integer.parseInt(Printer.input("For year of study: "));
+		String teacher_name = Printer.input("Teacher name: ");
+		String teacher_surname = Printer.input("Teacher surname: ");
 		Teacher teacher = null;
 		for(int i=0; i<DataBase.users.size(); ++i) {
 			if(DataBase.users.elementAt(i) instanceof Teacher) {
@@ -82,17 +75,15 @@ public class ManagerSession {
 	}
 
 	private static void changePass(Manager user) {
-		System.out.print("Old Pass: ");
-		String old_pass = scan.nextLine();
+		String old_pass = Printer.input("Old Password: ");
 		if(old_pass.equals(user.getPassword())) {
-			System.out.print("New Pass: ");
-			String new_Pass = scan.nextLine();
+			String new_Pass = Printer.input("New Password: ");
 			user.setPassword(new_Pass);
 			if(new_Pass.equals(user.getPassword())) {
-				System.out.print("Password is changed: ");	
+				Printer.print("Password is changed: ");	
 			}
-		}else {
-			System.out.println("Wrong old password");
+		}else{
+			Printer.print("Wrong old password");
 		}	
 	}
 }

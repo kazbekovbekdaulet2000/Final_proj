@@ -13,6 +13,7 @@ import enums.Teacher_pos;
 import project.DataBase;
 import users.Admin;
 import users.User;
+import utils.Printer;
 
 public class AdminSession {
 	static Scanner scan = new Scanner(System.in);
@@ -148,48 +149,38 @@ public class AdminSession {
 		admin.deleteUser(user);
 	}
 	
-	private static void changePass(Admin admin) {
-		System.out.print("Old Pass: ");
-		String old_pass = scan.nextLine();
-		if(old_pass.equals(admin.getPassword())) {
-			System.out.print("New Pass: ");
-			String new_Pass = scan.nextLine();
-			admin.setPassword(new_Pass);
-			if(new_Pass.equals(admin.getPassword())) {
-				System.out.print("Password is changed: ");	
+	private static void changePass(Admin user) {
+		String old_pass = Printer.input("Old Password: ");
+		if(old_pass.equals(user.getPassword())) {
+			String new_Pass = Printer.input("New Password: ");
+			user.setPassword(new_Pass);
+			if(new_Pass.equals(user.getPassword())) {
+				Printer.print("Password is changed: ");	
 			}
 		}else{
-			System.out.println("Wrong old password");
+			Printer.print("Wrong old password");
 		}	
 	}
 	
 	private static void addUserType(Admin admin, String userType) {
-		System.out.print("Mail: ");
-		String mail = scan.nextLine();
-		System.out.print("Name: ");
-		String name = scan.nextLine();
-		System.out.print("Surname: ");
-		String surname = scan.nextLine();
-		System.out.print("Phone Number: ");
-		String phoneNum = scan.nextLine();
+		String mail = Printer.input("Mail: ");
+		String name = Printer.input("Name: ");
+		String surname = Printer.input("Surname: ");
+		String phoneNum = Printer.input("Phone Number: ");
 		if(userType == "Student") {
-			System.out.print("Year of education: ");
-			int year = Integer.parseInt(scan.nextLine());
-			System.out.print("Faculty: ");
-			Faculty faculty = Faculty.fromString(scan.nextLine());
+			int year = Integer.parseInt(Printer.input("Year of education: "));
+			Faculty faculty = Faculty.fromString(Printer.input("Faculty: "));
 			admin.addUser(mail, name, surname, phoneNum, year, faculty, userType);
 		}else {
-			System.out.print("Salary: ");
-			int salary = Integer.parseInt(scan.nextLine());
+			int salary = Integer.parseInt(Printer.input("Salary: "));
 			if(userType == "Teacher") {
-				System.out.print("Teacher position: ");
-				Teacher_pos pos = Teacher_pos.fromString(scan.nextLine());
+				Teacher_pos pos = Teacher_pos.fromString(Printer.input("Teacher position: "));
 				admin.addUser(mail, name, surname, phoneNum, salary, pos, userType);
 			}else {
 				admin.addUser(mail, name, surname, phoneNum, salary, userType);	
 			}
 		}
-		System.out.println(userType + " " + name + " " + surname + " was added");
+		Printer.print(userType + " " + name + " " + surname + " was added");
 		
 	}
 }

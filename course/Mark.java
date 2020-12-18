@@ -9,18 +9,24 @@ public class Mark implements Serializable, Comparable {
     private double firstAtt;
     private double secondAtt;
     private double finalgrade;
-    private Grades stringfinalGrade;
+    private Grades grade;
     
     private final double limit_att = 30;
     private final double limit_final = 40; 
     
     
-    public Mark() {}
-    public Mark(int first, int sec, int fin) {    //I think wrong concept because teachers never put all marks together
+    public Mark() {
+    	this.firstAtt = 0;
+    	this.secondAtt = 0;
+    	this.finalgrade = 0;
+    	this.grade = Grades.NULL;
+    }
+    
+    public Mark(double first, double sec, double fin) {    //I think wrong concept because teachers never put all marks together
     	this.firstAtt = first;
     	this.secondAtt = sec;
     	this.finalgrade = fin;
-    	
+    	this.grade = Grades.mark(first+sec+fin);
     }
     
     public double getFirstAtt() {

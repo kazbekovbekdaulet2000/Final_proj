@@ -6,6 +6,7 @@ import project.DataBase;
 import users.Admin;
 import users.Teacher;
 import users.TechSupportGuy;
+import utils.Printer;
 
 public class TechSupportSession {
 	static Scanner scan = new Scanner(System.in);
@@ -36,17 +37,15 @@ public class TechSupportSession {
 	}
 	
 	private static void changePass(TechSupportGuy user) {
-		System.out.print("Old Pass: ");
-		String old_pass = scan.nextLine();
+		String old_pass = Printer.input("Old Password: ");
 		if(old_pass.equals(user.getPassword())) {
-			System.out.print("New Pass: ");
-			String new_Pass = scan.nextLine();
+			String new_Pass = Printer.input("New Password: ");
 			user.setPassword(new_Pass);
 			if(new_Pass.equals(user.getPassword())) {
-				System.out.print("Password is changed: ");	
+				Printer.print("Password is changed: ");	
 			}
 		}else{
-			System.out.println("Wrong old password");
+			Printer.print("Wrong old password");
 		}	
 	}
 }

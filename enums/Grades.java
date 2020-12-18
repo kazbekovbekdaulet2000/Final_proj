@@ -13,6 +13,7 @@ public enum Grades {
 	NULL("null");
 	
 	private String sign;
+	private double gpa;
 	
 	Grades(String sign) {
 		this.sign = sign;
@@ -30,6 +31,16 @@ public enum Grades {
         }
         return Grades.NULL;  //as default
     }
+
+	public Grades mark(double gradeDouble) {
+		if(gradeDouble<50) {
+			return Grades.F;
+		}else if(gradeDouble>50 && gradeDouble<65) {
+			return Grades.D;
+		}
+		return Grades.NULL;
+		
+	}
 }
 
 //A+

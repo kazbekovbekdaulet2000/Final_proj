@@ -8,6 +8,7 @@ import project.DataBase;
 import users.Admin;
 import users.Student;
 import users.Teacher;
+import utils.Printer;
 
 public class TeacherSession {
 	static Scanner scan = new Scanner(System.in);
@@ -91,40 +92,31 @@ public class TeacherSession {
 	}
 	
 	private static void addCourse(Teacher teacher) {
-		System.out.print("Course ID: ");
-		String ID = scan.nextLine();
-		System.out.print("Course name: ");
-		String name = scan.nextLine();
-		System.out.print("Course credit number: ");
-		int credits = Integer.parseInt(scan.nextLine());
-		System.out.print("Course ECTS credit number: ");
-		int ECTS = Integer.parseInt(scan.nextLine());
-		System.out.print("Course Faculty: ");
-		String f = scan.nextLine();
-		Faculty faculty = Faculty.fromString(f);
-		System.out.print("For year of study: ");
-		int studY = Integer.parseInt(scan.nextLine());
+		String ID = Printer.input("Course ID: ");
+		String name = Printer.input("Course name: ");
+		int credits = Integer.parseInt(Printer.input("Course credit number: "));
+		int ECTS = Integer.parseInt(Printer.input("Course ECTS credit number: "));
+		Faculty faculty = Faculty.fromString(Printer.input("Course Faculty: "));
+		int studY = Integer.parseInt(Printer.input("For year of study: "));
 		Course course = new Course(ID, name, credits, ECTS, faculty, studY, teacher);
 		db.courses.add(course);
 		System.out.println("New \""+course.getCourseName()+ "\" was added");
 	}
 	
 	private static void addCourseFile(Teacher teacher) {
-		System.out.println("Print Course name: ");
+		Printer.print("Print Course name: ");
 	}
 
 	private static void changePass(Teacher user) {
-		System.out.print("Old Pass: ");
-		String old_pass = scan.nextLine();
+		String old_pass = Printer.input("Old Password: ");
 		if(old_pass.equals(user.getPassword())) {
-			System.out.print("New Pass: ");
-			String new_Pass = scan.nextLine();
+			String new_Pass = Printer.input("New Password: ");
 			user.setPassword(new_Pass);
 			if(new_Pass.equals(user.getPassword())) {
-				System.out.print("Password is changed: ");	
+				Printer.print("Password is changed: ");	
 			}
 		}else{
-			System.out.println("Wrong old password");
+			Printer.print("Wrong old password");
 		}	
 	}
 }

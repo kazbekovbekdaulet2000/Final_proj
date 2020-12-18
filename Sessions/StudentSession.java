@@ -5,6 +5,7 @@ import java.util.Scanner;
 import project.DataBase;
 import users.Admin;
 import users.Student;
+import utils.Printer;
 
 public class StudentSession {
 	static Scanner scan = new Scanner(System.in);
@@ -24,10 +25,10 @@ public class StudentSession {
 			if(request.equals("1")) {
 				Register(student);
 			}else if(request.equals("2")) {
-				System.out.println("Count of registrated courses:" +student.getCourses().size());
+				System.out.println("Count of registrated courses: " +student.getCourses().size());
 				student.viewRegisteredCourses();
 			}else if(request.equals("3")) {
-				System.out.println("Count of registrated courses:" +student.getCourses().size());
+				System.out.println("Count of registrated courses: " +student.getCourses().size());
 				student.drawTranscriptTable();
 			}else if(request.equals("4")) {
 				changePass(student);
@@ -39,9 +40,9 @@ public class StudentSession {
 		}
 	}
 	private static void Register(Student student) {
-		System.out.println("Count of available courses: " + (db.courses.size()-student.getCourses().size()));
+		Printer.print("Count of available courses: " + (db.courses.size()-student.getCourses().size()));
 		student.viewAvailableCourses();
-		System.out.println("Print course Name or Code (back to go back): ");
+		Printer.print("Print course Name or Code (back to go back): ");
 		String course_name = scan.nextLine();
 		if(course_name.equals("back")) {
 			return;
@@ -59,17 +60,15 @@ public class StudentSession {
 	}
 
 	private static void changePass(Student user) {
-		System.out.print("Old Pass: ");
-		String old_pass = scan.nextLine();
+		String old_pass = Printer.input("Old Password: ");
 		if(old_pass.equals(user.getPassword())) {
-			System.out.print("New Pass: ");
-			String new_Pass = scan.nextLine();
+			String new_Pass = Printer.input("New Password: ");
 			user.setPassword(new_Pass);
 			if(new_Pass.equals(user.getPassword())) {
-				System.out.print("Password is changed: ");	
+				Printer.print("Password is changed: ");	
 			}
-		}else {
-			System.out.println("Wrong old password");
+		}else{
+			Printer.print("Wrong old password");
 		}	
 	}
 }
