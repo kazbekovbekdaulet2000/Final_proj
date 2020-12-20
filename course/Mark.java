@@ -69,7 +69,7 @@ public class Mark implements Serializable, Comparable {
     @Override
 	public String toString() {
 		return "First attestation = " + firstAtt + ", Second attestation = " + secondAtt + ", Final exam = " + finalgrade
-				+ ", Grade = " + (firstAtt + secondAtt + finalgrade) + ", Letter grade = " + stringfinalGrade.toString();
+				+ ", Grade = " + (firstAtt + secondAtt + finalgrade) + ", Letter grade = " +grade.toString();
 	}
     
     

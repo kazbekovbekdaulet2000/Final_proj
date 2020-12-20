@@ -22,17 +22,13 @@ public class AdminSession {
 		System.out.println("You entered as Admin");
 		String request = null;
 		while(request!="5") {
-			System.out.println("1.Manage Users");
-			System.out.println("2.See log files");
-			System.out.println("3.Change Password");
-			System.out.println("4.View all accounts with class");
-			System.out.println("5.exit");
-			System.out.println("Print num to get access");
-			request = scan.nextLine();
+			String[] a = {"1.Manage Users","2.See log files","3.Change Password","4.View all accounts with class","5.Exit"};
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");
 			if(request.equals("1")) {
 				manageUsers(admin);
 			}else if(request.equals("2")) {
-				System.out.println("NO DATA");
+//				System.out.println("NO DATA");
 				//TODO
 			}else if(request.equals("3")) {
 				changePass(admin);
@@ -86,13 +82,9 @@ public class AdminSession {
 	private static void manageUsers(Admin admin) {
 		String manageRequest = null;
 		while(manageRequest!="4") {
-			System.out.println("1.Add User");
-			System.out.println("2.Remove User");
-			System.out.println("3.Update info about User");
-			System.out.println("4.Back");
-			System.out.println("Print num to get access");
-			
-			manageRequest = scan.nextLine();
+			String[] a = {"1.Add User","2.Remove User","3.Update info about User","4.Back"};
+			Printer.print(a);
+			manageRequest = Printer.input("Print num to get access: ");
 			if(manageRequest.equals("1")) {
 				addUser(admin);
 			}else if(manageRequest.equals("2")) {
@@ -110,15 +102,10 @@ public class AdminSession {
 	private static void addUser(Admin admin) {
 		String creator= null;
 		while(creator!="6") {
-			System.out.println("1.Add Student");
-			System.out.println("2.Add Teacher");
-			System.out.println("3.Add Tech Support");
-			System.out.println("4.Add Manager");
-			System.out.println("5.Add Admin");
-			System.out.println("6.Back");
-			System.out.println("Print num to get access");
+			String[] a = {"1.Add Student","2.Add Teacher","3.Add Tech Support","4.Add Manager","5.Add Admin","6.Back"};
+			Printer.print(a);
+			creator = Printer.input("Print num to get access: ");
 			
-			creator = scan.nextLine();
 			if(creator.equals("1")) {
 				addUserType(admin, "Student");
 			}else if(creator.equals("2")) {
@@ -138,13 +125,12 @@ public class AdminSession {
 	}
 
 	private static void removeUser(Admin admin) {
-		System.out.print("Want to see all logins?(Y/N)");
-		String ans = scan.nextLine();
+		String ans = Printer.input("Want to see all logins(Y/N): ");
 		if(ans.equals("Y")) {
 			admin.viewMails();
 		}
-		System.out.print("User mail: ");
-		String mail = scan.nextLine();
+		
+		String mail = Printer.input("User mail");	
 		User user = db.findUser(mail);
 		admin.deleteUser(user);
 	}

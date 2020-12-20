@@ -1,0 +1,9 @@
+
+Users account count: 7
+You have 3 tries
+Mail:  adminMail:  admin1.Manage Users
+2.See log files
+3.Change Password
+4.View all accounts with class
+5.Exit
+Print num to get access:  5

@@ -14,6 +14,7 @@ import users.Student;
 import users.Teacher;
 import users.TechSupportGuy;
 import users.User;
+import utils.Printer;
 
 public class Auth {
     private static Auth instance;
@@ -26,15 +27,15 @@ public class Auth {
 	
     public void authorize() {
     	db.load(); //deserializatioan
-		System.out.println("Users account count: " + db.users.size());
+		Printer.print("Users account count: " + db.users.size());
 		Scanner scan = new Scanner(System.in);
 //		Admin admin = new Admin("admin","admin","admin","admin",200000);
 //		db.users.add(admin);
 //		System.out.println(admin.getPassword());
 		for(int i=0;i<3;++i) {
-			System.out.println("You have "+ (3-i)+" tries");
-			String mail = scan.nextLine();
-			String password = scan.nextLine();             
+			Printer.print("You have "+ (3-i)+" tries");
+			String mail = Printer.input("Mail: ");
+			String password = Printer.input("Mail: ");         
 			User user = db.findUser(mail);
 			if(user!=null) {
 		        if(encode(password) == user.hashCode()) {
@@ -51,15 +52,15 @@ public class Auth {
 		        	}
 		        	break;
 		        }else{
-		        	System.out.println("Wrong Password");
+		        	Printer.print("Wrong Password");
 		        	if(i == 2){
-						System.out.println("You haven't no more tries to enter the intranet");
+		        		Printer.print("You haven't no more tries to enter the intranet system");
 					}
 		        }
 			}else {
-				System.out.println("Wrong Mail");
+				Printer.print("Wrong Mail");
 				if(i == 2) {
-					System.out.println("You haven't no more tries to enter the intranet");
+					Printer.print("You haven't no more tries to enter the intranet system");
 				}
 			}
 		}
