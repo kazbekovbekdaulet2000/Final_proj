@@ -70,7 +70,7 @@ public class DataBase {
 //		   logs.write(user.getClass().getSimpleName()+":  "+text);
 //		   logs.close();
 //		} catch (IOException e) {
-//		    System.out.println("An error occurred.");
+//		    Printer.print("An error occurred.");
 //		    e.printStackTrace();
 //		}
    }
@@ -84,7 +84,7 @@ public class DataBase {
 //			while(str != null) {
 //				str = br.readLine();
 //				if(str!=null) {
-//					System.out.println(str);
+//					Printer.print(str);
 //				}
 //			}
 //			br.close();

@@ -12,6 +12,7 @@ import course.Course;
 import course.Mark;
 import enums.Faculty;
 import project.DataBase;
+import utils.Printer;
 
 public class Student extends User implements Serializable {
     
@@ -105,7 +106,7 @@ public class Student extends User implements Serializable {
 		if(DataBase.courses.contains(c)) {
 			courses.add(c);
 		}else {
-			System.out.println("No "+c.getCourseName()+ " Course founded try again"); 
+			Printer.print("No "+c.getCourseName()+ " Course founded try again"); 
 		}
     }
 	
@@ -116,39 +117,39 @@ public class Student extends User implements Serializable {
     public void viewCourseFile(Course c) {
         try {
 	        for(int i=0; i<c.getFiles().size();++i) {
-	        	System.out.println(c.getFiles().get(i).toString());
+	        	Printer.print(c.getFiles().get(i).toString());
 	        }
         }catch (NullPointerException ex) {
-        	System.out.println("No Files");
+        	Printer.print("No Files");
         }
     }
     
     public void viewAvailableCourses() {
     	for(int i=0; i<DataBase.courses.size(); ++i) {
 			if(!getCourses().contains(DataBase.courses.get(i))) {
-				System.out.println(DataBase.courses.get(i).toString());
-        		System.out.println("_________________________________________________________");
+				Printer.print(DataBase.courses.get(i).toString());
+				Printer.print("_________________________________________________________");
 			}
     	}
     }
     
     public void viewRegisteredCourses() {
     	for(int i=0; i<getCourses().size(); ++i) {
-    		System.out.println(getCourses().get(i).toString());
-    		System.out.println("_________________________________________________________");
+    		Printer.print(getCourses().get(i).toString());
+    		Printer.print("_________________________________________________________");
     	}
     }
     
     public void drawTranscriptTable() {
     	int width=5;
         int count=1; 
-        System.out.println("+  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +");
+        Printer.print("+  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +");
         for(int i=0;i<courses.size()+1 ; i++) {
         	String lines = "+--------+----------------+--------+------+------+-------------+-----+";
-        	System.out.println(lines);
-            System.out.println();
+        	Printer.print(lines);
+        	Printer.print("");
             if(i==courses.size()+1){
-            	System.out.println("+--------+----------------+--------+------+------+-------------+-----+");
+            	Printer.print("+--------+----------------+--------+------+------+-------------+-----+");
             }
         }
     }

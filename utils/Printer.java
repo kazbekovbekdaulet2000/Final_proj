@@ -27,7 +27,7 @@ public class Printer {
 	
 	public static void writeFile(String text, String ans) {
 		try(BufferedWriter buffer = new BufferedWriter(new FileWriter("output.txt", true))){
-			buffer.write(text+" "+ans + "\n");
+			buffer.write(text+ans + "\n");
 		}catch(IOException e) {
 			e.printStackTrace();
 		}

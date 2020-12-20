@@ -7,6 +7,7 @@ import java.nio.file.Path;
 import java.sql.Date;
 
 import users.Teacher;
+import utils.Printer;
 
 public class Course_File implements Serializable {    // no Ideas
     private String fileName;
@@ -60,9 +61,9 @@ public class Course_File implements Serializable {    // no Ideas
     	File newdirectory = new File(PATH+st);
     	boolean bool = newdirectory.mkdir();
     	if(bool) {
-    		System.out.println("New "+st+" directory created succesfuly");
+    		Printer.print("New "+st+" directory created succesfuly");
     	}else {
-    		System.out.println("Can't create "+st+" directory");
+    		Printer.print("Can't create "+st+" directory");
     	}
     }
     

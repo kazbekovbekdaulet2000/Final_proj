@@ -12,6 +12,7 @@ import course.Mark;
 import enums.Teacher_pos;
 import project.DataBase;
 import project.Order;
+import utils.Printer;
 
 /**
 * @generated
@@ -52,15 +53,15 @@ public class Teacher extends Employee implements Serializable {
     
     public void viewCourse(Course c) {
         if(DataBase.courses.contains(c)) {
-        	System.out.println(c.toString());
+        	Printer.print(c.toString());
         }
     }
     
     public void viewCourses() {
         for(int i=0;i<DataBase.courses.size();++i) {
         	if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
-        		System.out.println(DataBase.courses.elementAt(i).toString());
-        		System.out.println("_________________________________________________________");
+        		Printer.print(DataBase.courses.elementAt(i).toString());
+        		Printer.print("_________________________________________________________");
         	}
         }
     }
@@ -82,10 +83,10 @@ public class Teacher extends Employee implements Serializable {
     	    	s.getGrades().put(c, m);
     	    	DataBase.marks.add(m);
     		}else {
-    			System.out.println("Student is not registered for this course");
+    			Printer.print("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course founded");
+    		Printer.print("No such Course founded");
     	}
     }
    
@@ -97,10 +98,10 @@ public class Teacher extends Employee implements Serializable {
     			new_m.setFirstAtt(first);
     			s.getGrades().replace(c,new_m);
     		}else {
-    			System.out.println("Student is not registered for this course");
+    			Printer.print("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course founded");
+    		Printer.print("No such Course founded");
     	}
     }
     
@@ -112,10 +113,10 @@ public class Teacher extends Employee implements Serializable {
     			new_m.setSecondAtt(second);
     			s.getGrades().replace(c,new_m);
     		}else {
-    			System.out.println("Student is not registered for this course");
+    			Printer.print("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course founded");
+    		Printer.print("No such Course founded");
     	}
     }
     
@@ -127,10 +128,10 @@ public class Teacher extends Employee implements Serializable {
     			new_m.setFinalgrade(last);
     			s.getGrades().replace(c,new_m);
     		}else {
-    			System.out.println("Student is not registered for this course");
+    			Printer.print("Student is not registered for this course");
     		}
     	}else {
-    		System.out.println("No such Course founded");
+    		Printer.print("No such Course founded");
     	}
     }
     
@@ -158,7 +159,7 @@ public class Teacher extends Employee implements Serializable {
     	if(DataBase.users.contains(tsg)) {
     		tsg.addToWaitingList(o);
     	}else {
-			System.out.println("The system error your order was not recived");
+			Printer.print("The system error your order was not recived");
     	}
     }
     
@@ -166,14 +167,14 @@ public class Teacher extends Employee implements Serializable {
     	if(DataBase.users.contains(tsg)) {
     		tsg.addToWaitingList(new Order(title, text));
     	}else {
-			System.out.println("The system error your order was not recived");
+			Printer.print("The system error your order was not recived");
     	}
     }
     
     public void viewMessages() {
         for(int i=0;i<getMessages().size();++i) {
         	System.out.print("Message from manager:  ");
-        	System.out.println(getMessages().get(i));
+        	Printer.print(getMessages().get(i));
         }
     }
     
@@ -189,12 +190,12 @@ public class Teacher extends Employee implements Serializable {
 	public void listofStudents() {
 		for(int i=0;i<DataBase.courses.size();++i) {
 			if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
-				System.out.println("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
+				Printer.print("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
 				for(int j=0;j<DataBase.users.size();++j) {
 					if(DataBase.users.get(j) instanceof Student) {
 						Student st = (Student)DataBase.users.get(j);
 						if(st.getCourses().contains(DataBase.courses.get(i))) {
-							System.out.println(st.getName()+ " " + st.getSurname());
+							Printer.print(st.getName()+ " " + st.getSurname());
 						}
 					}
 				}
@@ -206,12 +207,12 @@ public class Teacher extends Employee implements Serializable {
 
 	public void listofStudents(Course course) {
 		for(int i=0;i<DataBase.users.size();++i) {
-			System.out.println("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
+			Printer.print("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
 			for(int j=0;j<DataBase.users.size();++j) {
 				if(DataBase.users.get(i) instanceof Student) {
 					Student st = (Student)DataBase.users.get(i);
 					if(st.getCourses().contains(course)) {
-						System.out.println(st.getName()+ " " + st.getSurname());
+						Printer.print(st.getName()+ " " + st.getSurname());
 					}
 				}
 			}	

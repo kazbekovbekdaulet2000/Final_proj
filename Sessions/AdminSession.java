@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
 
 import enums.Faculty;
 import enums.Teacher_pos;
@@ -16,10 +15,9 @@ import users.User;
 import utils.Printer;
 
 public class AdminSession {
-	static Scanner scan = new Scanner(System.in);
 	static DataBase db = DataBase.getInstance();
 	public static void start(Admin admin) {
-		System.out.println("You entered as Admin");
+		Printer.print("You entered as Admin");
 		String request = null;
 		while(request!="5") {
 			String[] a = {"1.Manage Users","2.See log files","3.Change Password","4.View all accounts with class","5.Exit"};
@@ -28,7 +26,7 @@ public class AdminSession {
 			if(request.equals("1")) {
 				manageUsers(admin);
 			}else if(request.equals("2")) {
-//				System.out.println("NO DATA");
+//				Printer.print("NO DATA");
 				//TODO
 			}else if(request.equals("3")) {
 				changePass(admin);
@@ -36,7 +34,7 @@ public class AdminSession {
 				updateLoginBase();
 				readLoginBase();
 			}else if(request.equals("5")) {
-				System.out.println("Good byeee!");
+				Printer.print("Good byeee!");
 				return;
 			}
 			db.save();
@@ -52,7 +50,7 @@ public class AdminSession {
 			while(str != null) {
 				str = br.readLine();
 				if(str!=null) {
-					System.out.println(str);
+					Printer.print(str);
 				}
 			}
 			br.close();
@@ -63,7 +61,7 @@ public class AdminSession {
 		}
 	}
 
-	private static void updateLoginBase() {
+	protected static void updateLoginBase() {
 		try {
 			FileWriter myWriter = new FileWriter("loginBase.txt");
 			for(int i=0; i<db.users.size(); ++i) {
@@ -74,7 +72,7 @@ public class AdminSession {
 			}
 		    myWriter.close();
 		} catch (IOException e) {
-		    System.out.println("An error occurred.");
+		    Printer.print("An error occurred.");
 		    e.printStackTrace();
 		}
 	}

@@ -1,8 +1,6 @@
 
 package sessions;
 
-import java.util.Scanner;
-
 import course.Course;
 import enums.Faculty;
 import project.DataBase;
@@ -14,20 +12,14 @@ import users.User;
 import utils.Printer;
 
 public class ManagerSession {
-	static Scanner scan = new Scanner(System.in);
 	static DataBase db = DataBase.getInstance();
 	public static void start(Manager manager){
-		System.out.println("Hello "+ manager.getName() +" "+manager.getSurname()+"! \nYou entered as a Manager");
+		Printer.print("Hello "+ manager.getName() +" "+manager.getSurname()+"! \nYou entered as a Manager");
 		String request = null;
 		while(request!="6") {
-			System.out.println("1.View Teacher info");
-			System.out.println("2.View Student info");
-			System.out.println("3.Add Course");
-			System.out.println("4.Send Message to Teacher");
-			System.out.println("5.Change password");
-			System.out.println("6.exit");
-			System.out.println("Print num to get access");
-			request = scan.nextLine();
+			String[] a = {"1.View Teacher info","2.View Student info","3.Add Course","4.Send Message to Teacher","5.Change password","6.Exit"};
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
 				viewTeacherInfo();
 			}else if(request.equals("2")) {
@@ -39,7 +31,7 @@ public class ManagerSession {
 			}else if(request.equals("5")) {
 				changePass(manager);
 			}else if(request.equals("6")) {
-				System.out.println("Good byeee!");
+				Printer.print("Good byeee!");
 				return;
 			}
 			db.save();
@@ -47,21 +39,19 @@ public class ManagerSession {
 	}
 	
 	private static void viewTeacherInfo() {
-		System.out.println("Print teacher's name/surname/mail you want to search");
-		String search = scan.nextLine();
+		String search = Printer.input("Print teacher's name/surname/mail you want to search");
 		for (User k : DataBase.users) {
 			if ((search.equals(k.getName()) || search.equals(k.getName()) || search.equals(k.getMail())) && k instanceof Teacher)
-				System.out.println(k.toString());
+				Printer.print(k.toString());
 		}
 	}
 	
 	private static void viewStudentInfo() {
-		System.out.println("Print student's name/surname/mail you want to search");
-		String search = scan.nextLine();
+		String search = Printer.input("Print student's name/surname/mail you want to search");
 		for (User k : DataBase.users) {
 			if ((search.equals(k.getName()) || search.equals(k.getName()) || search.equals(k.getMail())) && k instanceof Student)
-				System.out.println(k.toString());
-		}
+				Printer.print(k.toString());
+			}
 	}
 	
 	private static void addCourse(Manager manager) {
@@ -80,14 +70,14 @@ public class ManagerSession {
 					teacher = (Teacher) DataBase.users.elementAt(i);
 					Course course = new Course(ID, name, credits, ECTS, faculty, studY,teacher);
 					if(manager.addCourse(course)) {
-						System.out.println("New \""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
+						Printer.print("New \""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
 							+teacher.getSurname()+" was added");
 					}else {
-						System.out.println("\""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
+						Printer.print("\""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
 								+teacher.getSurname()+" was not added");	
 					}
 				}else {
-					System.out.println("We don't have such Teacher");	
+					Printer.print("We don't have such Teacher");	
 				}
 			}
 		}
@@ -104,5 +94,6 @@ public class ManagerSession {
 		}else{
 			Printer.print("Wrong old password");
 		}	
+		AdminSession.updateLoginBase();
 	}
 }

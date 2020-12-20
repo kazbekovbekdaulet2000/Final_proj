@@ -8,6 +8,7 @@ import java.util.Random;
 
 import project.Auth;
 import project.DataBase;
+import utils.Printer;
 
 public abstract class User implements Serializable, Comparable<Object>, Cloneable {
     private String name;
@@ -109,7 +110,7 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     
     public void viewNewsTab() throws IOException {
     	for(int i=0; i<DataBase.news.size(); ++i) {
-    		System.out.println(DataBase.news.get(i).toString());
+    		Printer.print(DataBase.news.get(i).toString());
     	}
     }
 

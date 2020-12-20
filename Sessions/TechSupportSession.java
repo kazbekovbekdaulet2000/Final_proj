@@ -12,15 +12,15 @@ public class TechSupportSession {
 	static Scanner scan = new Scanner(System.in);
 	static DataBase db = DataBase.getInstance();
 	public static void start(TechSupportGuy techSupport){
-		System.out.println("Hello "+ techSupport.getName() +" "+techSupport.getSurname()
+		Printer.print("Hello "+ techSupport.getName() +" "+techSupport.getSurname()
 							+"! \nYou entered as a Tech Support worker");
 		String request = null;
 		while(request!="4") {
-			System.out.println("1.View new orders");
-			System.out.println("2.View accepted orders");
-			System.out.println("3.Change password");
-			System.out.println("4.exit");
-			System.out.println("Print num to get access");
+			Printer.print("1.View new orders");
+			Printer.print("2.View accepted orders");
+			Printer.print("3.Change password");
+			Printer.print("4.exit");
+			Printer.print("Print num to get access");
 			request = scan.nextLine();
 			if(request.equals("1")) {
 				//TODO
@@ -29,7 +29,7 @@ public class TechSupportSession {
 			}else if(request.equals("3")) {
 				changePass(techSupport);
 			}else if(request.equals("4")) {
-				System.out.println("Good byeee!");
+				Printer.print("Good byeee!");
 				return;
 			}
 			db.save();
@@ -47,5 +47,6 @@ public class TechSupportSession {
 		}else{
 			Printer.print("Wrong old password");
 		}	
+		AdminSession.updateLoginBase();
 	}
 }

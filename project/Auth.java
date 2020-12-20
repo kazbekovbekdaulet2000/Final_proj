@@ -26,16 +26,15 @@ public class Auth {
     }
 	
     public void authorize() {
-    	db.load(); //deserializatioan
-		Printer.print("Users account count: " + db.users.size());
-		Scanner scan = new Scanner(System.in);
+    	db.load();
+//		Printer.print("Users account count: " + db.users.size());
 //		Admin admin = new Admin("admin","admin","admin","admin",200000);
 //		db.users.add(admin);
-//		System.out.println(admin.getPassword());
+//		admin.setPassword("admin");
 		for(int i=0;i<3;++i) {
 			Printer.print("You have "+ (3-i)+" tries");
 			String mail = Printer.input("Mail: ");
-			String password = Printer.input("Mail: ");         
+			String password = Printer.input("Password: ");         
 			User user = db.findUser(mail);
 			if(user!=null) {
 		        if(encode(password) == user.hashCode()) {

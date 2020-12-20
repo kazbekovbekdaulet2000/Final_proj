@@ -8,6 +8,7 @@ import java.util.Vector;
 
 import project.DataBase;
 import project.Order;
+import utils.Printer;
 
 public class TechSupportGuy extends Employee implements Serializable {
     
@@ -75,7 +76,7 @@ public class TechSupportGuy extends Employee implements Serializable {
     
     public void viewAcceptedList() {
         for(int i=0; i<acceptedList.size();++i){
-        	System.out.println(acceptedList.get(i).toString());
+        	Printer.print(acceptedList.get(i).toString());
         }
     }
     

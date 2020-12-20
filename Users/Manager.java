@@ -8,6 +8,7 @@ import java.util.Date;
 import course.Course;
 import project.DataBase;
 import project.News;
+import utils.Printer;
 
 public class Manager extends Employee implements Serializable {
 	public Manager(){}
@@ -33,7 +34,7 @@ public class Manager extends Employee implements Serializable {
         if(DataBase.users.contains(t)) {
         	return t.addMessage(message);
         }else {
-        	System.out.println("No such Teacher founded");
+        	Printer.print("No such Teacher founded");
         	return false;
         }
     }
@@ -41,7 +42,7 @@ public class Manager extends Employee implements Serializable {
     public void viewTeacherInfo(Teacher t) {
         for(int i=0;i<DataBase.users.size();++i) {
         	if(t.getClass() == DataBase.users.get(i).getClass()) {
-        		System.out.println(t.toString());
+        		Printer.print(t.toString());
         	}
         }
     }
@@ -96,7 +97,7 @@ public class Manager extends Employee implements Serializable {
     public void viewStudentInfo(Student s) {
     	for(int i=0;i<DataBase.users.size();++i) {
         	if(s.getClass() == DataBase.users.get(i).getClass()) {
-        		System.out.println(s.toString());
+        		Printer.print(s.toString());
         	}
         }
     }

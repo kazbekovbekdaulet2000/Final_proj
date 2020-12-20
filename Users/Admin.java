@@ -9,6 +9,7 @@ import java.io.Serializable;
 import enums.Faculty;
 import enums.Teacher_pos;
 import project.DataBase;
+import utils.Printer;
 
 public class Admin extends Employee implements Serializable {
     public Admin() {}
@@ -22,25 +23,25 @@ public class Admin extends Employee implements Serializable {
     		if(!DataBase.users.contains(manager)) {
     			DataBase.users.add(manager);
     		}else {
-    			System.out.println(manager.getName()+" "+manager.getSurname() + " already exist in the database" );
+    			Printer.print(manager.getName()+" "+manager.getSurname() + " already exist in the database" );
     		}
     	}else if(userType == "Tech Support") {
     		TechSupportGuy tsg = new TechSupportGuy(mail, firstname, lastname, phoneNum, salary);
     		if(!DataBase.users.contains(tsg)) {
     			DataBase.users.add(tsg);
     		}else {
-    			System.out.println(tsg.getName() +" "+tsg.getSurname()+ " already exist in the database");
+    			Printer.print(tsg.getName() +" "+tsg.getSurname()+ " already exist in the database");
     		}
     	}else if(userType == "Admin") {
     		Admin admin = new Admin(mail, firstname, lastname, phoneNum, salary);
     		if(!DataBase.users.contains(admin)) {
     			DataBase.users.add(admin);
     		}else {
-    			System.out.println(admin.getName() + " " + admin.getSurname() + " already exist in the database");
+    			Printer.print(admin.getName() + " " + admin.getSurname() + " already exist in the database");
     		}
     		DataBase.users.add(new Admin(mail, firstname, lastname, phoneNum, salary));
     	}else {
-    		System.out.println("Wrong User Type");
+    		Printer.print("Wrong User Type");
     	}
     	
     }
@@ -51,10 +52,10 @@ public class Admin extends Employee implements Serializable {
     		if(!DataBase.users.contains(st)) {
     			DataBase.users.add(st);
     		}else {
-    			System.out.println(st.getName()+" "+st.getSurname() + " already exist in the database" );
+    			Printer.print(st.getName()+" "+st.getSurname() + " already exist in the database" );
     		}	
     	}else {
-    		System.out.println("Wrong User Type");
+    		Printer.print("Wrong User Type");
     	}
     }
     
@@ -65,25 +66,25 @@ public class Admin extends Employee implements Serializable {
     		if(!DataBase.users.contains(teacher)) {
     			DataBase.users.add(teacher);
     		}else {
-    			System.out.println(teacher.getName() + " " + teacher.getSurname() + " already exist in the database");
+    			Printer.print(teacher.getName() + " " + teacher.getSurname() + " already exist in the database");
     		}
     	}else{
-    		System.out.println("Wrong User Type");
+    		Printer.print("Wrong User Type");
     	}
     }
     
     public void deleteUser(User u) {
         if(DataBase.users.contains(u)) {
         	DataBase.users.remove(DataBase.users.indexOf(u));
-        	System.out.println(u.getName() + " " + u.getSurname() + " have been deleted");
+        	Printer.print(u.getName() + " " + u.getSurname() + " have been deleted");
         }else {
-        	System.out.println("User not found");
+        	Printer.print("User not found");
         }
     }
     
     public void viewMails() {
     	for(int i=0; i<DataBase.users.size(); ++i) {
-			System.out.println("Mail: "+DataBase.users.elementAt(i).getMail()
+			Printer.print("Mail: "+DataBase.users.elementAt(i).getMail()
 					+" Name: "+DataBase.users.elementAt(i).getName()
 					+" Surname: "+DataBase.users.elementAt(i).getSurname()
 					+ " User type: "+DataBase.users.elementAt(i).getClass().getSimpleName());

@@ -1,9 +1,97 @@
 
-Users account count: 7
 You have 3 tries
-Mail:  adminMail:  admin1.Manage Users
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
 2.See log files
 3.Change Password
 4.View all accounts with class
 5.Exit
-Print num to get access:  5
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: Bekdaulet
+Name: Bekdaulet
+Surname: Kazbekov
+Phone Number: 87077121500
+Year of education: 2
+Faculty: FIT
+Student Bekdaulet Kazbekov was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View all accounts with class
+5.Exit
+Print num to get access: 4
+Mail: Bekdaulet  Password: N6xiiunz  User type: Student
+1.Manage Users
+2.See log files
+3.Change Password
+4.View all accounts with class
+5.Exit
+You have 3 tries
+You have 3 tries
+Mail: Bekdaulet
+Password: N6xiiunz
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 4
+Old Password: N6xiiunz
+New Password: 11Qwerty00
+Password is changed: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 5
+Good byeee!
+You have 3 tries
+Mail: Bekdaulet
+Password: 11Qwerty00
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 4
+Old Password: 11Qwerty00
+New Password: qwerty
+Password is changed: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 5
+Good byeee!
