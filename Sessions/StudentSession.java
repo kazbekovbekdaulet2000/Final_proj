@@ -1,8 +1,10 @@
 package sessions;
 
+import course.Course;
 import project.DataBase;
 import users.Admin;
 import users.Student;
+import users.Teacher;
 import utils.Printer;
 
 public class StudentSession {
@@ -18,6 +20,7 @@ public class StudentSession {
 			if(request.equals("1")) {
 				Register(student);
 			}else if(request.equals("2")) {
+				student.getCourses().removeAllElements();
 				Printer.print("Count of registrated courses: " +student.getCourses().size());
 				student.viewRegisteredCourses();
 			}else if(request.equals("3")) {
@@ -39,15 +42,51 @@ public class StudentSession {
 		if(course_name.equals("back")) {
 			return;
 		}
+		Course course = null;
 		for(int i=0;i<db.courses.size();++i) {
 			if((course_name.equals(db.courses.elementAt(i).getCourseName())
 					|| course_name.equals(db.courses.elementAt(i).getCourseID()))
-					&& db.courses.elementAt(i).getForStudYears().equals(student.getYear()) ){
-				student.getCourses().add(db.courses.elementAt(i));
-				Printer.print(db.courses.elementAt(i).getCourseName() + " was added");
-			}else {
-				Printer.print("Wrond Name or Id of Course");
+					&& db.courses.elementAt(i).getForStudYears().equals(student.getYear())
+							&& !student.getCourses().contains(db.courses.elementAt(i)) ){
+				System.out.print("lol");
+				if(course == null) {
+					course = db.courses.elementAt(i);
+				}else{
+					RegisterWithTeacher(student, course_name);
+					return;
+				}
+				
 			}
+		}
+		if(student.getCourses().add(course)) {
+			Printer.print(course.getCourseName() + " was added");
+		}
+	}
+	
+	private static void RegisterWithTeacher(Student student, String course_name) {
+		String name = Printer.input("Print course Teacher Name: ");
+		String surname = Printer.input("Print course Teacher Surname: ");
+		if(name.equals("back") || surname.equals("back")) {
+			return;
+		}
+		Course new_course = null;
+		for(int i=0;i<db.users.size();++i) {
+			if((name.equals(db.users.elementAt(i).getName()) && surname.equals(db.users.elementAt(i).getSurname()))
+					&& db.users.elementAt(i) instanceof Teacher){
+				if(new_course==null) {
+					new_course = db.courses.elementAt(i);
+				}else {
+					return;
+				}
+				
+			}
+		}
+		if(new_course!=null) {
+			if(student.getCourses().add(new_course)) {
+				Printer.print(new_course.getCourseName() + " was added");
+			}
+		}else {
+			Printer.print("Wrond Name or Surname of Teacher");
 		}
 	}
 

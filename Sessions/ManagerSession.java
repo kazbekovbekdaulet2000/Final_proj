@@ -76,10 +76,11 @@ public class ManagerSession {
 						Printer.print("\""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
 								+teacher.getSurname()+" was not added");	
 					}
-				}else {
-					Printer.print("We don't have such Teacher");	
 				}
 			}
+		}
+		if(teacher == null) {
+			Printer.print("We don't have such Teacher");	
 		}
 	}
 
