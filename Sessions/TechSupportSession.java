@@ -9,19 +9,15 @@ import users.TechSupportGuy;
 import utils.Printer;
 
 public class TechSupportSession {
-	static Scanner scan = new Scanner(System.in);
 	static DataBase db = DataBase.getInstance();
 	public static void start(TechSupportGuy techSupport){
 		Printer.print("Hello "+ techSupport.getName() +" "+techSupport.getSurname()
 							+"! \nYou entered as a Tech Support worker");
 		String request = null;
 		while(request!="4") {
-			Printer.print("1.View new orders");
-			Printer.print("2.View accepted orders");
-			Printer.print("3.Change password");
-			Printer.print("4.exit");
-			Printer.print("Print num to get access");
-			request = scan.nextLine();
+			String[] a = {"1.View new orders","2.View accepted orders","3.Change password","4.exit"};
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
 				//TODO
 			}else if(request.equals("2")) {

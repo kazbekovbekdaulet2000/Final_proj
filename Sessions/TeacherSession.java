@@ -11,22 +11,16 @@ import users.Teacher;
 import utils.Printer;
 
 public class TeacherSession {
-	static Scanner scan = new Scanner(System.in);
 	static DataBase db = DataBase.getInstance();
 	public static void start(Teacher teacher){
 		Printer.print("Hello "+ teacher.getName() +" "+teacher.getSurname()
 							+"! \nYou entered as a Teacher");
 		String request = null;
 		while(request!="7") {
-			Printer.print("1.Add course ");
-			Printer.print("2.Manage Courses");
-			Printer.print("3.View Students");
-			Printer.print("4.Put Marks");
-			Printer.print("5.Send Order to IT support");
-			Printer.print("6.Change password");
-			Printer.print("7.exit");
-			Printer.print("Print num to get access");
-			request = scan.nextLine();
+			String[] a = {"1.Add course ","2.Manage Courses","3.View Students",
+					"4.Put Marks","5.Send Order to IT support","6.Change password","7.exit","Print num to get access"};
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
 				addCourse(teacher);
 			}else if(request.equals("2")) {
@@ -51,8 +45,7 @@ public class TeacherSession {
 
 	private static void manageCourse(Teacher teacher) {
 		String manage = null;
-		Printer.print("Print course name or code: ");
-		String course_name = scan.nextLine();
+		String course_name = Printer.input("Print course name or code: ");
 		Course course = null;
 		for(int i=0;i<db.courses.size();++i) {
 			if(db.courses.get(i).getCourseName().equals(course_name) || db.courses.get(i).getCourseName().equals(course_name)) {
@@ -67,13 +60,10 @@ public class TeacherSession {
 			return;
 		}
 		while(manage!="5") {
-			Printer.print("1.View course");
-			Printer.print("2.View course students");
-			Printer.print("3.Add course file");
-			Printer.print("4.Delete course file");
-			Printer.print("5.back");
-			Printer.print("Print num to get access");
-			manage = scan.nextLine();
+			String[] a = {"1.View course","2.View course students","3.Add course file","4.Delete course file","5.Back"};
+			Printer.print(a);
+			manage = Printer.input("Print num to get access: ");;
+			
 			if(manage.equals("1")) {
 				teacher.viewCourse(course);
 			}else if(manage.equals("2")) {
