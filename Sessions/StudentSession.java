@@ -20,7 +20,6 @@ public class StudentSession {
 			if(request.equals("1")) {
 				Register(student);
 			}else if(request.equals("2")) {
-				student.getCourses().removeAllElements();
 				Printer.print("Count of registrated courses: " +student.getCourses().size());
 				student.viewRegisteredCourses();
 			}else if(request.equals("3")) {
@@ -44,18 +43,18 @@ public class StudentSession {
 		}
 		Course course = null;
 		for(int i=0;i<db.courses.size();++i) {
-			if((course_name.equals(db.courses.elementAt(i).getCourseName())
-					|| course_name.equals(db.courses.elementAt(i).getCourseID()))
-					&& db.courses.elementAt(i).getForStudYears().equals(student.getYear())
-							&& !student.getCourses().contains(db.courses.elementAt(i)) ){
-				System.out.print("lol");
-				if(course == null) {
-					course = db.courses.elementAt(i);
-				}else{
-					RegisterWithTeacher(student, course_name);
-					return;
+			Course cr = db.courses.elementAt(i);
+			if(!student.getCourses().contains(cr)){
+				if(cr.getCourseName().equals(course_name) || cr.getCourseID().equals(course_name)
+						&& cr.getForStudYears().equals(student.getYear()) && cr.getFaculty().equals(student.getFaculty())){
+					if(course == null) {
+						course = db.courses.elementAt(i);
+					}else{
+						RegisterWithTeacher(student, course_name);
+						return;
+					}
+					
 				}
-				
 			}
 		}
 		if(student.getCourses().add(course)) {
@@ -69,24 +68,29 @@ public class StudentSession {
 		if(name.equals("back") || surname.equals("back")) {
 			return;
 		}
-		Course new_course = null;
+		Teacher teacher = null;
 		for(int i=0;i<db.users.size();++i) {
-			if((name.equals(db.users.elementAt(i).getName()) && surname.equals(db.users.elementAt(i).getSurname()))
-					&& db.users.elementAt(i) instanceof Teacher){
-				if(new_course==null) {
-					new_course = db.courses.elementAt(i);
-				}else {
-					return;
+			if(db.users.elementAt(i) instanceof Teacher) {
+				Teacher t = (Teacher) db.users.elementAt(i);
+				if((t.getName().equals(name) && t.getSurname().equals(surname))){
+						teacher = t;
 				}
-				
 			}
 		}
+		Course new_course = null;
+		for(int i=0;i<db.courses.size();++i) {
+			Course cr = db.courses.elementAt(i);
+			if((cr.getTeacher().equals(teacher))){
+				new_course = cr;
+			}
+		}
+		
 		if(new_course!=null) {
 			if(student.getCourses().add(new_course)) {
 				Printer.print(new_course.getCourseName() + " was added");
 			}
 		}else {
-			Printer.print("Wrond Name or Surname of Teacher");
+			Printer.print("Wrong Name or Surname of Teacher");
 		}
 	}
 

@@ -1,7 +1,6 @@
 package utils;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class Printer {
 	public static String input(String text) {

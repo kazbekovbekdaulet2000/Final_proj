@@ -727,3 +727,198 @@ For students of 2 year of education
 Teacher: Askar Akshabaev
 _________________________________________________________
 Print course Name or Code (back to go back): CSCI2106
+You have 3 tries
+Mail: Bekdaulet
+Password: qwerty
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 2
+Count of registrated courses: 0
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: ADS(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): CSCI2106
+Print course Teacher Name: Pakita
+Print course Teacher Surname: Shamoi
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 2
+Count of registrated courses: 0
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: ADS(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+You have 3 tries
+Mail: Bekdaulet
+Password: qwerty
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: ADS(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Print course Teacher Name: Askar
+Print course Teacher Surname: Akshabaev
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: ADS(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.Exit
