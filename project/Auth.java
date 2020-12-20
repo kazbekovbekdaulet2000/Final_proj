@@ -1,5 +1,7 @@
 package project;
 
+import java.sql.Date;
+import java.util.Calendar;
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -31,6 +33,7 @@ public class Auth {
 //		Admin admin = new Admin("admin","admin","admin","admin",200000);
 //		db.users.add(admin);
 //		admin.setPassword("admin");
+    	Printer.writeFile("Session start: "+ Calendar.getInstance().getTime());
 		for(int i=0;i<3;++i) {
 			Printer.print("You have "+ (3-i)+" tries");
 			String mail = Printer.input("Mail: ");
