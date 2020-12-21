@@ -13,7 +13,7 @@ public enum Grades {
 	NULL("null");
 	
 	private String sign;
-	private double gpa;
+	private static double gpa;
 	
 	Grades(String sign) {
 		this.sign = sign;
@@ -21,6 +21,14 @@ public enum Grades {
 	
 	public String toString() {
 		return sign;
+	}
+	
+	public String getSign() {
+		return sign;
+	}
+	
+	public double getGpa() {
+		return gpa;
 	}
 	
 	public static Grades fromString(String sign) {
@@ -34,6 +42,7 @@ public enum Grades {
 
 	public static Grades mark(double gradeDouble) {
 		if(gradeDouble<50) {
+			gpa = 1.00;
 			return Grades.F;
 		}else if(gradeDouble>50 && gradeDouble<65) {
 			return Grades.D;

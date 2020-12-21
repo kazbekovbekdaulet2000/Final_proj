@@ -144,16 +144,25 @@ public class Student extends User implements Serializable {
     public void drawTranscriptTable() {
         Printer.print("+  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +");
         for(int i=0;i<courses.size() ; i++) {
-        	String lines = "+--------+----------------+--------+------+------+-------------+-----+";
-        	Printer.print(lines);
+        	Printer.print("+--------+----------------+--------+------+------+-------------+-----+");
         	String spaces = "                                       ";
-        	Printer.print("|"+courses.get(i).getCourseID().substring(0, 8)
-        			+"|"+courses.get(i).getCourseName().substring(0, courses.get(i).getCourseName().length()) + spaces.substring(0,16-courses.get(i).getCourseName().length()) 
+        	String CourseName = courses.get(i).getCourseName();
+        	String CourseID = courses.get(i).getCourseID();
+        	if(courses.get(i).getCourseName().length()>16){
+        		CourseName = courses.get(i).getCourseName().substring(0,16); 
+        	}
+        	
+        	if(courses.get(i).getCourseID().length()>8){
+        		CourseID = courses.get(i).getCourseName().substring(0,8); 
+        	}
+        	
+        	Printer.print("|"+CourseID.substring(0,CourseID.length()) + spaces.substring(0,8-CourseID.length()) 
+        			+"|"+CourseName.substring(0, CourseName.length()) + spaces.substring(0,16-CourseName.length()) 
         			+"|" +spaces.substring(0,4) + courses.get(i).getCredits() +spaces.substring(0,3)
         			+"|" +spaces.substring(0,3) + courses.get(i).getCreditsECTS() + spaces.substring(0,2) 
         			+"|" +spaces.substring(0,2) + grades.get(courses.get(i)).getFinalgrade() + spaces.substring(0,1)
-        			+"|" +spaces.substring(0,5) + grades.get(courses.get(i)).getGrade().toString() + spaces.substring(0,5) // change to letter grade
-        			+"|" +spaces.substring(0,5)
+        			+"|" +spaces.substring(0,4) + grades.get(courses.get(i)).getGrade().getSign() + spaces.substring(0,5) // change to letter grade
+        			+"|" +spaces.substring(0,1) + grades.get(courses.get(i)).getGrade().getGpa() + spaces.substring(0,1)
         			+"|");
         }
         Printer.print("+--------+----------------+--------+------+------+-------------+-----+");

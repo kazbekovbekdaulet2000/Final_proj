@@ -39,7 +39,6 @@ public class Admin extends Employee implements Serializable {
     		}else {
     			Printer.print(admin.getName() + " " + admin.getSurname() + " already exist in the database");
     		}
-    		DataBase.users.add(new Admin(mail, firstname, lastname, phoneNum, salary));
     	}else {
     		Printer.print("Wrong User Type");
     	}
