@@ -1380,3 +1380,682 @@ Mail: manager  Password: manage  User type: Manager
 4.View accounts
 5.View news
 6.Exit
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: askarA
+Name: Askar
+Surname: Akshabaev
+Phone Number: 878798794
+Salary: 800000
+Teacher position: Professor
+Teacher Askar Akshabaev was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: bex
+Name: Bekdaulet
+Surname: Kazbekov
+Phone Number: 87077121500
+Year of education: 2
+Faculty: FIT
+Student Bekdaulet Kazbekov was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 18:58:19 ALMT 2020
+You have 3 tries
+Mail: askarA
+Users account count: 7
+Session start: Mon Dec 21 18:59:30 ALMT 2020
+You have 3 tries
+Mail: askarA
+Password: XwEHwXhw
+Hello Askar Akshabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 19:00:15 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: c337T1uy
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Print course Teacher Name: Askar
+Print course Teacher Surname: Akshabaev
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:09:35 ALMT 2020
+You have 3 tries
+Users account count: 7
+Session start: Mon Dec 21 19:10:01 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: c337T1uy
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Users account count: 7
+Session start: Mon Dec 21 19:10:19 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: c337T1uy
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:10:38 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: c337T1uy
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 19:10:52 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: c337T1uy
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): 2
+2 already registered
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:11:50 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: c337T1uy
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 4
+Old Password: c337T1uy
+New Password: bex
+Password is changed: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:12:45 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:13:03 ALMT 2020
+You have 3 tries
+Users account count: 7
+Session start: Mon Dec 21 19:13:11 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:13:31 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:14:36 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Users account count: 7
+Session start: Mon Dec 21 19:14:48 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP already registered
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:15:15 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP already registered
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit

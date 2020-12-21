@@ -48,7 +48,6 @@ public class StudentSession {
 			}else if(request.equals("6")) {
 				Printer.writeLogPrimitive(student, "Leave the intanet");
 				Printer.print("Good byeee!");
-				return;
 			}
 			db.save();
 		}
@@ -60,6 +59,14 @@ public class StudentSession {
 			String course_name = Printer.input("Print course Name or Code (back to go back): ");
 			if(course_name.equals("back")) {
 				return;
+			}
+			for(int i=0;i<student.getCourses().size();++i) {
+				if(DataBase.courses.get(i).getCourseName().equals(course_name) ||
+						DataBase.courses.get(i).getCourseID().equals(course_name)) {
+					Printer.print(course_name + " already is registered");
+					Printer.writeLogPrimitive(student, "fails to register "+ course_name + "(duplicate of exiting course)");
+					return;
+				}
 			}
 			Course course = null;
 			for(int i=0;i<DataBase.courses.size();++i) {
@@ -83,6 +90,7 @@ public class StudentSession {
 				Printer.print(course.getCourseName() + " was added");
 				Printer.writeLogPrimitive(student, "added course: "+course.getCourseName());
 			}
+			
 		}else {
 			Printer.print("No courses available");
 		}
