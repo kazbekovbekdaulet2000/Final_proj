@@ -8,6 +8,7 @@ public enum Grades {
 	B_minus("B-"),
 	C_plus("C+"),
 	C("C"),
+	D_plus("D+"),
 	D("D"),
 	F("F"),
 	NULL("null");
@@ -42,23 +43,12 @@ public enum Grades {
 
 	public static Grades mark(double gradeDouble) {
 		if(gradeDouble<50) {
-			gpa = 1.00;
+			gpa = 0.00;
 			return Grades.F;
-		}else if(gradeDouble>50 && gradeDouble<65) {
+		}else if(gradeDouble>=50 && gradeDouble<55) {
 			return Grades.D;
 		}
 		return Grades.NULL;
 		
 	}
 }
-
-//A+
-//A-
-//B+
-//B
-//B-
-//C+
-//C-
-//D
-//F
-//null
