@@ -812,3 +812,7 @@ Mon Dec 21 23:32:15 ALMT 2020 Admin::admin Entered: Main screen
 Mon Dec 21 23:32:16 ALMT 2020 Admin::admin Leave the intranet
 Mon Dec 21 23:32:35 ALMT 2020 Manager::manager ---->Enters to the intranet<----
 Mon Dec 21 23:33:35 ALMT 2020 Manager::manager Entered: View Teacher info
+Tue Dec 22 02:08:23 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:08:29 ALMT 2020 Manager::manager Entered: View Teacher info
+Tue Dec 22 02:13:28 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:13:31 ALMT 2020 Manager::manager Entered: View Teacher info

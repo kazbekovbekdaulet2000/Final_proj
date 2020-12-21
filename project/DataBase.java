@@ -28,9 +28,6 @@ public class DataBase {
     private static DataBase instance;
     public static Vector<Course> courses = new Vector<Course>();
     public static Vector<User> users = new Vector<User>();
-    public static Vector<Course_File> files  = new Vector<Course_File>();
-    public static Vector<Mark> marks = new Vector<Mark>();
-    public static Vector<Order> orders = new Vector<Order>();
     public static Vector<News> news = new Vector<News>();
    
     public static DataBase getInstance() {

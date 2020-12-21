@@ -158,7 +158,7 @@ public class ManagerSession {
 		for (User k : DataBase.users) {
 			if (search.equals(k.getName()) && k instanceof Teacher) {
 				if(teacher==null) {
-					teacher =(Teacher) k; 
+					teacher =(Teacher)k; 
 				}else {
 					name = true;
 				}
@@ -172,8 +172,10 @@ public class ManagerSession {
 					Printer.print(((Teacher) k).toString());
 				}
 			}
+		}else if(teacher!=null){
+			Printer.print(teacher.toString());	
 		}else {
-			Printer.print(teacher.toString());
+			Printer.print("Can't find teacher with this name");
 		}
 	}
 	
@@ -198,8 +200,10 @@ public class ManagerSession {
 					Printer.print(((Student) k).toString());
 				}
 			}
+		}else if(student!=null){
+			Printer.print(student.toString());	
 		}else {
-			Printer.print(student.toString());
+			Printer.print("Can't find teacher with this name");
 		}
 	}
 	

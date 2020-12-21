@@ -4766,3 +4766,80 @@ ________________________________
 Users account count: 4
 Session start: Mon Dec 21 23:38:28 ALMT 2020
 You have 3 tries
+Users account count: 4
+Session start: Tue Dec 22 02:08:00 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 1
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 1
+Print teacher's name you want to search: Pakita
+Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 1
+Print teacher's name you want to search: Asfasf
+Users account count: 4
+Session start: Tue Dec 22 02:13:22 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 1
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 1
+Print teacher's name you want to search: asfa
+Can't find teacher with this name
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 2
+________________________________
+Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+________________________________
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back

@@ -83,7 +83,6 @@ public class Teacher extends Employee implements Serializable {
     		int course = DataBase.courses.indexOf(c);
     		if(DataBase.courses.elementAt(course).getTeacher().equals(this) && s.getCourses().contains(c)) {
     	    	s.getGrades().put(c, m);
-    	    	DataBase.marks.add(m);
     		}else {
     			Printer.print("Student is not registered for this course");
     		}
