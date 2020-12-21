@@ -2,11 +2,11 @@
 package sessions;
 
 import java.util.Vector;
+import java.util.logging.Logger;
 
 import course.Course;
 import enums.Faculty;
 import project.DataBase;
-import users.Admin;
 import users.Manager;
 import users.Student;
 import users.Teacher;
@@ -15,24 +15,39 @@ import utils.Printer;
 
 public class ManagerSession {
 	static DataBase db = DataBase.getInstance();
+    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(Manager manager){
 		Printer.print("Hello "+ manager.getName() +" "+manager.getSurname()+"! \nYou entered as a Manager");
 		String request = null;
-		while(request!="6") {
-			String[] a = {"1.View Teacher info","2.View Student info","3.Add Course","4.Send Message to Teacher","5.Change password","6.Exit"};
+		while(request!="8") {
+			String[] a = {"1.View Teacher info","2.View Student info","3.Add Course","4.Send Message to Teacher",
+					"5.Change password","6.Add News","7.View news","8.Exit"};
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
+				Printer.writeLog(manager, a[0].substring(2));
 				viewTeacherInfo();
 			}else if(request.equals("2")) {
+				Printer.writeLog(manager, a[1].substring(2));
 				viewStudentInfo();
 			}else if(request.equals("3")) {
+				Printer.writeLog(manager, a[2].substring(2));
 				addCourse(manager);
 			}else if(request.equals("4")) {
+				Printer.writeLog(manager, a[3].substring(2));
 				//TODO
+				Messanger(manager);
 			}else if(request.equals("5")) {
-				changePass(manager);
+				Printer.writeLog(manager, a[4].substring(2));
+				AdminSession.changePass(manager);
 			}else if(request.equals("6")) {
+				Printer.writeLog(manager, a[5].substring(2));
+//				manager.addNews();
+			}else if(request.equals("7")) {
+				Printer.writeLog(manager, a[6].substring(2));
+				Printer.print("News Todo");
+			}else if(request.equals("8")) {
+				Printer.writeLogPrimitive(manager, "Leave the intranet");
 				Printer.print("Good byeee!");
 				return;
 			}
@@ -40,6 +55,10 @@ public class ManagerSession {
 		}
 	}
 	
+	private static void Messanger(Manager manager) {
+//		manager.sendMessage(message, teacher);
+	}
+
 	private static void viewTeacherInfo() {
 		String search = Printer.input("Print teacher's name you want to search: ");
 		Teacher teacher = null;
@@ -118,30 +137,19 @@ public class ManagerSession {
 					if(manager.addCourse(course)) {
 						Printer.print("New \""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
 							+teacher.getSurname()+" was added");
+						Printer.writeLogPrimitive(manager, "added new\""+course.getCourseName()+ "\" course with teacher"+ 
+							teacher.getName()+" "+teacher.getSurname());
 					}else {
-						Printer.print("\""+course.getCourseName()+ "\" course with teacher "+ teacher.getName()+ " "
-								+teacher.getSurname()+" was not added");	
+						Printer.print("Course was not added");	
+						Printer.writeLogPrimitive(manager, "Fail to add course");
 					}
 				}
 				names.removeAllElements();
 			}
 		}
 		if(t == null) {
+			Printer.writeLogPrimitive(manager, "Fail to add Course");
 			Printer.print("We don't have such Teacher");	
 		}
-	}
-
-	private static void changePass(Manager user) {
-		String old_pass = Printer.input("Old Password: ");
-		if(old_pass.equals(user.getPassword())) {
-			String new_Pass = Printer.input("New Password: ");
-			user.setPassword(new_Pass);
-			if(new_Pass.equals(user.getPassword())) {
-				Printer.print("Password is changed: ");	
-			}
-		}else{
-			Printer.print("Wrong old password");
-		}	
-		AdminSession.updateLoginBase();
 	}
 }

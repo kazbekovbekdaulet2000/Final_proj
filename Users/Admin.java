@@ -96,7 +96,7 @@ public class Admin extends Employee implements Serializable {
     }
     
     public void viewLogFilles() {
-    	DataBase.viewLogFiles();
+//    	DataBase.viewLogFiles();
     }
     
     public String toString() {

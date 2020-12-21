@@ -1,41 +1,50 @@
 package sessions;
 
-import java.util.Scanner;
+import java.util.logging.Logger;
 
 import course.Course;
 import enums.Faculty;
 import project.DataBase;
-import users.Admin;
-import users.Student;
 import users.Teacher;
 import utils.Printer;
 
 public class TeacherSession {
 	static DataBase db = DataBase.getInstance();
+    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(Teacher teacher){
 		Printer.print("Hello "+ teacher.getName() +" "+teacher.getSurname()
 							+"! \nYou entered as a Teacher");
 		String request = null;
-		while(request!="7") {
+		while(request!="8") {
 			String[] a = {"1.Add course ","2.Manage Courses","3.View Students",
-					"4.Put Marks","5.Send Order to IT support","6.Change password","7.exit","Print num to get access"};
+					"4.Put Marks","5.Send Order to IT support","6.Change password","7.View news","8.exit"};
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
+				Printer.writeLog(teacher, a[0].substring(2));
 				addCourse(teacher);
 			}else if(request.equals("2")) {
+				Printer.writeLog(teacher, a[1].substring(2));
 				manageCourse(teacher);
 			}else if(request.equals("3")) {
+				Printer.writeLog(teacher, a[2].substring(2));
 				Printer.print("List of students for different courses: ");
 				teacher.listofStudents();
 				Printer.print("_______________________________________");
 			}else if(request.equals("4")) {
+				Printer.writeLog(teacher, a[3].substring(2));
 				//TODO
 			}else if(request.equals("5")) {
+				Printer.writeLog(teacher, a[4].substring(2));	
 				//TODO
 			}else if(request.equals("6")) {
-				changePass(teacher);
+				Printer.writeLog(teacher, a[5].substring(2));
+				AdminSession.changePass(teacher);
 			}else if(request.equals("7")) {
+				Printer.writeLog(teacher, a[6].substring(2));
+				Printer.print("News Todo");
+			}else if(request.equals("8")) {
+				Printer.writeLogPrimitive(teacher, "Leave the intranet");
 				Printer.print("Good byeee!");
 				return;
 			}
@@ -47,15 +56,16 @@ public class TeacherSession {
 		String manage = null;
 		String course_name = Printer.input("Print course name or code: ");
 		Course course = null;
-		for(int i=0;i<db.courses.size();++i) {
-			if(db.courses.get(i).getCourseName().equals(course_name) || db.courses.get(i).getCourseName().equals(course_name)) {
-				if(db.courses.get(i).getTeacher().equals(teacher)) {
-					course=db.courses.get(i);
+		for(int i=0;i<DataBase.courses.size();++i) {
+			if(DataBase.courses.get(i).getCourseName().equals(course_name) || DataBase.courses.get(i).getCourseName().equals(course_name)) {
+				if(DataBase.courses.get(i).getTeacher().equals(teacher)) {
+					course=DataBase.courses.get(i);
 					break;
 				}
 			}
 		}
 		if(course==null) {
+			Printer.writeLogPrimitive(teacher, "Fail to manage course");
 			Printer.print("No Such course or wrong name of course");
 			return;
 		}
@@ -65,16 +75,21 @@ public class TeacherSession {
 			manage = Printer.input("Print num to get access: ");;
 			
 			if(manage.equals("1")) {
+				Printer.writeLog(teacher, a[0].substring(2));
 				teacher.viewCourse(course);
 			}else if(manage.equals("2")) {
+				Printer.writeLog(teacher, a[1].substring(2));
 				Printer.print("List of students for "+course.getCourseName()+" course: ");
 				teacher.listofStudents(course);
 				Printer.print("_______________________________________");
 			}else if(manage.equals("3")) {
+				Printer.writeLog(teacher, a[2].substring(2));
 				//TODO
 			}else if(manage.equals("4")) {
+				Printer.writeLog(teacher, a[3].substring(2));
 				//TODO
 			}else if(manage.equals("5")) {
+				Printer.writeLogPrimitive(teacher, "Mail screen");
 				return;
 			}
 			db.save();
@@ -89,25 +104,12 @@ public class TeacherSession {
 		Faculty faculty = Faculty.fromString(Printer.input("Course Faculty: "));
 		int studY = Integer.parseInt(Printer.input("For year of study: "));
 		Course course = new Course(ID, name, credits, ECTS, faculty, studY, teacher);
-		db.courses.add(course);
+		DataBase.courses.add(course);
 		Printer.print("New \""+course.getCourseName()+ "\" was added");
+		Printer.writeLogPrimitive(teacher, "added new \""+ course.getCourseName()+"\"");
 	}
 	
-	private static void addCourseFile(Teacher teacher) {
-		Printer.print("Print Course name: ");
-	}
-
-	private static void changePass(Teacher user) {
-		String old_pass = Printer.input("Old Password: ");
-		if(old_pass.equals(user.getPassword())) {
-			String new_Pass = Printer.input("New Password: ");
-			user.setPassword(new_Pass);
-			if(new_Pass.equals(user.getPassword())) {
-				Printer.print("Password is changed: ");	
-			}
-		}else{
-			Printer.print("Wrong old password");
-		}	
-		AdminSession.updateLoginBase();
-	}
+//	private static void addCourseFile(Teacher teacher) {
+//		Printer.print("Print Course name: ");
+//	}
 }

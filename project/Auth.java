@@ -29,7 +29,7 @@ public class Auth {
 	
     public void authorize() {
     	db.load();
-//		Printer.print("Users account count: " + db.users.size());
+		Printer.print("Users account count: " + db.users.size());
 //		Admin admin = new Admin("admin","admin","admin","admin",200000);
 //		db.users.add(admin);
 //		admin.setPassword("admin");
@@ -41,6 +41,7 @@ public class Auth {
 			User user = db.findUser(mail);
 			if(user!=null) {
 		        if(encode(password) == user.hashCode()) {
+		        	Printer.writeLogPrimitive(user, "---->Enters to the intranet<----");
 		        	if(user instanceof Admin) {
 			        	AdminSession.start((Admin)user);	
 		        	}else if(user instanceof Student) {
@@ -54,6 +55,7 @@ public class Auth {
 		        	}
 		        	break;
 		        }else{
+		        	Printer.writeLogPrimitive(user, "tries to enter with wrong password");
 		        	Printer.print("Wrong Password");
 		        	if(i == 2){
 		        		Printer.print("You haven't no more tries to enter the intranet system");

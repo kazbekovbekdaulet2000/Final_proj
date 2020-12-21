@@ -1,6 +1,8 @@
 package utils;
 
 import java.io.*;
+import java.util.Calendar;
+import users.User;
 
 public class Printer {
 	public static String input(String text) {
@@ -9,6 +11,7 @@ public class Printer {
 			System.out.print(text);
 			String new_text = buffer.readLine();
 			writeFile(text, new_text);
+//			writeLog(user, text);
 			return new_text;
 		}catch(IOException e) {
 			e.printStackTrace();
@@ -32,6 +35,34 @@ public class Printer {
 		}
 	}
 	
+	public static void writeLog(User user, String text) {
+		try(BufferedWriter log = new BufferedWriter(new FileWriter("log.txt", true))){
+			log.write(Calendar.getInstance().getTime() +" "+ user.getClass().getSimpleName()+
+					"::"+user.getName()+ " Entered: "+ text+"\n");
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	public static void writeLogPrimitive(User user, String text) {
+		try(BufferedWriter log = new BufferedWriter(new FileWriter("log.txt", true))){
+			log.write(Calendar.getInstance().getTime()+" "+user.getClass().getSimpleName()+
+					"::"+user.getName() + " "+ text+"\n");
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void writeLogWarning(User user, String text) {
+		try(BufferedWriter log = new BufferedWriter(new FileWriter("log.txt", true))){
+			log.write(Calendar.getInstance().getTime()+" "+user.getClass().getSimpleName()+
+					"::"+user.getName() + " WARNING!! "+ text+"\n");
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public static void print(String text) {
 		System.out.println(text);
 		writeFile(text);
@@ -42,4 +73,5 @@ public class Printer {
 			print(text[i]);
 		}
 	}
+
 }

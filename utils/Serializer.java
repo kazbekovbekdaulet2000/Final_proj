@@ -20,10 +20,10 @@ public class Serializer {
             return true;
         }
         catch (FileNotFoundException e) {
-        	Printer.print("Class not found");
+        	System.out.println("Class not found");
         }
         catch (IOException e) {
-        	Printer.print("IO Exception");
+        	System.out.println("IO Exception");
         }
 		
 		return false;
@@ -35,10 +35,10 @@ public class Serializer {
             return (T) in.readObject();
         }
 		catch (ClassNotFoundException e) {
-            System.err.println("Class Not Found");
+			Printer.print("Class Not Found");
         }
 		catch (FileNotFoundException e) {
-        	Printer.print("File not found");
+			Printer.print("File not found");
         }
         catch (IOException e) {
         	Printer.print("IO Exception");
@@ -52,10 +52,10 @@ public class Serializer {
 			return (Vector<T>)in.readObject();
 		}
 		catch (ClassNotFoundException e) {
-            System.err.println("Class Not Found");
+			Printer.print("Class Not Found");
         }
 		catch (FileNotFoundException e) {
-        	Printer.print("File not found");
+			Printer.print("File not found");
         }
         catch (IOException e) {
         	Printer.print("IO Exception");

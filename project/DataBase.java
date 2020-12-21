@@ -7,14 +7,20 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Vector;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 import course.Course;
 import course.Course_File;
 import course.Mark;
 import users.User;
+import utils.Printer;
 import utils.Serializer;
 
 
@@ -26,6 +32,7 @@ public class DataBase {
     public static Vector<Mark> marks = new Vector<Mark>();
     public static Vector<Order> orders = new Vector<Order>();
     public static Vector<News> news = new Vector<News>();
+    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
    
     public static DataBase getInstance() {
     	if(instance == null)
@@ -37,6 +44,7 @@ public class DataBase {
    public void load() {
 	   this.users = load("Users.out", User.class);
 	   this.courses = load("Courses.out", Course.class);
+//	   this.news = load("News.out",News.class);
    }
    
    public boolean save() {
@@ -55,44 +63,31 @@ public class DataBase {
 	   return null;
    }
    
-   public User findUser(String mail) {          
+   public User findUser(String mail) {  
+	   User user = null;
 	   for(int i=0;i<users.size();++i) {
 		   if(users.elementAt(i).getMail().equals(mail)) {
-			   return users.elementAt(i);
+			   if(user == null) {
+				   user = users.elementAt(i);
+			   }else {
+				   return null;
+			   }
 		   }
 	   }
-	   return null;
+	   return user;
 	}
-
-   public void saveLog(User user, String text){
-//	   try {
-//		   FileWriter logs = new FileWriter("log_file.txt");
-//		   logs.write(user.getClass().getSimpleName()+":  "+text);
-//		   logs.close();
-//		} catch (IOException e) {
-//		    Printer.print("An error occurred.");
-//		    e.printStackTrace();
-//		}
-   }
    
-   
-   public static void viewLogFiles() {
-//	   try {
-//			FileReader fr = new FileReader("log_file.txt");
-//			BufferedReader br = new BufferedReader(fr);
-//			String str = br.readLine();
-//			while(str != null) {
-//				str = br.readLine();
-//				if(str!=null) {
-//					Printer.print(str);
-//				}
-//			}
-//			br.close();
-//		} catch (FileNotFoundException e) {
-//			e.printStackTrace();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
+   public static void readLog(){
+	   try {
+			BufferedReader log = new BufferedReader(new FileReader("log.txt"));
+			String line = log.readLine();
+			while(line!=null) {
+				System.out.println(line);
+				line = log.readLine();
+			}
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
    }
 
     

@@ -1,0 +1,81 @@
+Mon Dec 21 12:07:58 ALMT 2020 Student::student Entered: View Courses
+Mon Dec 21 12:08:00 ALMT 2020 Student::student Entered: Register for a Courses
+Mon Dec 21 12:08:08 ALMT 2020 Student::student Entered: View News
+Mon Dec 21 12:08:11 ALMT 2020 Student::student Leave the intanet
+Mon Dec 21 12:17:06 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:17:08 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:17:18 ALMT 2020 Student::bex delete user: bex bex
+Mon Dec 21 12:17:22 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 12:17:23 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 12:19:17 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:19:19 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:19:26 ALMT 2020 Admin::admin deleted user: asd asd
+Mon Dec 21 12:32:31 ALMT 2020 Admin::admin Enters to the intranet
+Mon Dec 21 12:34:02 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:34:06 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 12:34:19 ALMT 2020 Student::student ---->Enters to the intranet<----
+Mon Dec 21 12:34:23 ALMT 2020 Student::student Entered: Register for a Courses
+Mon Dec 21 12:34:26 ALMT 2020 Student::student Entered: View Courses
+Mon Dec 21 12:34:29 ALMT 2020 Student::student Leave the intanet
+Mon Dec 21 12:35:01 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:35:10 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:35:11 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 12:35:13 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 12:35:30 ALMT 2020 Admin::admin add Student student student was added
+Mon Dec 21 12:35:35 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 12:35:37 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 12:35:39 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 12:36:48 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:36:49 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:36:50 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 12:36:55 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 12:37:10 ALMT 2020 Admin::admin add Student student student was added
+Mon Dec 21 12:37:43 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:40:28 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:40:29 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:40:29 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 12:40:30 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 12:41:10 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:41:11 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:41:11 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 12:41:12 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 12:41:52 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:41:58 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:41:59 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:42:20 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:42:22 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:42:23 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:46:17 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:46:19 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:46:20 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:46:51 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:46:52 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:46:53 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:47:21 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:47:22 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:47:23 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:47:29 ALMT 2020 Admin::admin WARNING!! finded dublicates of mails
+Mon Dec 21 12:48:12 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:48:14 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:48:14 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:48:23 ALMT 2020 Admin::admin WARNING!! finded dublicates of mails
+Mon Dec 21 12:49:35 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:49:37 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:49:38 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:49:46 ALMT 2020 Admin::admin WARNING!! finded dublicates of mails
+Mon Dec 21 12:50:38 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:50:46 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:50:48 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:50:55 ALMT 2020 Admin::admin WARNING!! finded dublicates of mails
+Mon Dec 21 12:51:34 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:51:36 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:51:37 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 12:51:40 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 12:52:02 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:52:04 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 12:52:06 ALMT 2020 Admin::admin Entered: Remove User
+Mon Dec 21 12:52:14 ALMT 2020 Admin::admin WARNING!! finded dublicates of mails
+Mon Dec 21 12:52:16 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 12:52:18 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 12:54:03 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 12:54:07 ALMT 2020 Admin::admin Leave the intranet
