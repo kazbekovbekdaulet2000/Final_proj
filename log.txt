@@ -79,3 +79,143 @@ Mon Dec 21 12:52:16 ALMT 2020 Admin::admin Entered: Main screen
 Mon Dec 21 12:52:18 ALMT 2020 Admin::admin Leave the intranet
 Mon Dec 21 12:54:03 ALMT 2020 Admin::admin ---->Enters to the intranet<----
 Mon Dec 21 12:54:07 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 13:26:31 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:26:32 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 13:26:33 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 13:26:36 ALMT 2020 Admin::admin Entered: Add Manager
+Mon Dec 21 13:26:52 ALMT 2020 Admin::admin add Manager manager manager was added
+Mon Dec 21 13:26:54 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 13:26:55 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 13:26:59 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:27:02 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 13:27:19 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 13:27:24 ALMT 2020 Manager::manager Entered: Add News
+Mon Dec 21 13:27:34 ALMT 2020 Manager::manager creates news
+Mon Dec 21 13:27:40 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 13:28:20 ALMT 2020 Manager::manager tries to enter with wrong password
+Mon Dec 21 13:28:24 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 13:28:26 ALMT 2020 Manager::manager Entered: Change password
+Mon Dec 21 13:28:29 ALMT 2020 Manager::manager changed password
+Mon Dec 21 13:28:31 ALMT 2020 Manager::manager Entered: Add News
+Mon Dec 21 13:28:57 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:28:59 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:31:55 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:31:57 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:32:20 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:32:23 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 13:32:24 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 13:32:26 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 13:32:52 ALMT 2020 Admin::admin add Student Bekdaulet Kazbekov was added
+Mon Dec 21 13:32:55 ALMT 2020 Admin::admin Entered: Add Manager
+Mon Dec 21 13:33:10 ALMT 2020 Admin::admin add Manager Manager Manager was added
+Mon Dec 21 13:33:12 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 13:33:13 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 13:33:15 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 13:33:30 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:33:32 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 13:33:37 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:33:41 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 13:33:47 ALMT 2020 Manager::Manager ---->Enters to the intranet<----
+Mon Dec 21 13:33:52 ALMT 2020 Manager::Manager Entered: Add News
+Mon Dec 21 13:34:04 ALMT 2020 Manager::Manager creates news
+Mon Dec 21 13:34:09 ALMT 2020 Manager::Manager Entered: View news
+Mon Dec 21 13:34:15 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:34:18 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:35:50 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:35:51 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:36:17 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:36:18 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:36:34 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:36:36 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:37:40 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:37:42 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:38:07 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:38:08 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:38:21 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:38:22 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:38:30 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:38:31 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:39:00 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:39:02 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:39:19 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:39:21 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:41:00 ALMT 2020 Manager::Manager tries to enter with wrong password
+Mon Dec 21 13:41:13 ALMT 2020 Manager::Manager ---->Enters to the intranet<----
+Mon Dec 21 13:41:32 ALMT 2020 Manager::Manager Entered: Send Message to a Teacher
+Mon Dec 21 13:41:47 ALMT 2020 Manager::Manager Entered: View news
+Mon Dec 21 13:41:51 ALMT 2020 Manager::Manager Leave the intranet
+Mon Dec 21 13:41:57 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:43:20 ALMT 2020 Admin::admin tries to enter with wrong password
+Mon Dec 21 13:43:53 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:44:04 ALMT 2020 Admin::admin Entered: View news
+Mon Dec 21 13:44:07 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 13:44:08 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 13:44:10 ALMT 2020 Admin::admin Entered: Add Teacher
+Mon Dec 21 13:44:35 ALMT 2020 Admin::admin add Teacher Pakita Shamoi was added
+Mon Dec 21 13:44:37 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 13:44:38 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 13:44:40 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 13:46:46 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:46:47 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 13:46:48 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 13:46:50 ALMT 2020 Admin::admin Entered: Add Manager
+Mon Dec 21 13:47:01 ALMT 2020 Admin::admin add Manager manager manager was added
+Mon Dec 21 13:47:03 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 13:47:03 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 13:47:04 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 13:47:19 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 13:47:24 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 13:47:32 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 13:47:45 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 13:48:20 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 13:48:29 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 13:48:47 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 13:49:05 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:49:18 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 13:49:22 ALMT 2020 Teacher::Pakita Fail to manage course
+Mon Dec 21 13:51:20 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:51:23 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 13:54:42 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:54:53 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 13:54:55 ALMT 2020 Manager::manager Entered: Change password
+Mon Dec 21 13:54:57 ALMT 2020 Manager::manager changed password
+Mon Dec 21 13:55:04 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 13:55:21 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 13:56:01 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 13:56:07 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 13:56:23 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:56:27 ALMT 2020 Teacher::Pakita Entered: View messages
+Mon Dec 21 13:56:32 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 13:57:08 ALMT 2020 Teacher::Pakita tries to enter with wrong password
+Mon Dec 21 13:57:25 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:57:33 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 13:58:30 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:58:48 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 13:59:13 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:59:15 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 13:59:25 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 13:59:27 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 13:59:37 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 13:59:47 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 13:59:49 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:00:32 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 14:00:34 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 14:00:53 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 14:01:00 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:01:03 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:02:22 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 14:02:25 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 14:02:32 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 14:02:46 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:02:52 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:03:54 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 14:03:56 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 14:04:05 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 14:04:12 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:04:14 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:04:48 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:04:50 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:06:32 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:06:35 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:07:04 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:07:09 ALMT 2020 Teacher::Pakita Entered: Change password

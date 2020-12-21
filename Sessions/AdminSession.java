@@ -16,7 +16,6 @@ import utils.Printer;
 
 public class AdminSession {
 	static DataBase db = DataBase.getInstance();
-    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(Admin admin) {
 		Printer.print("You entered as Admin");
 		String request = null;
@@ -40,7 +39,11 @@ public class AdminSession {
 				readLoginBase();
 			}else if(request.equals("5")) {
 				Printer.writeLog(admin, a[4].substring(2));
-				Printer.print("News Todo");
+				try {
+					admin.viewNewsTab();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}else if(request.equals("6")) {
 				Printer.writeLogPrimitive(admin, "Leave the intranet");
 				Printer.print("Good byeee!");
@@ -189,14 +192,14 @@ public class AdminSession {
 		if(userType == "Student") {
 			int year = Integer.parseInt(Printer.input("Year of education: "));
 			Faculty faculty = Faculty.fromString(Printer.input("Faculty: "));
-			admin.addUser(mail, name, surname, phoneNum, year, faculty, userType);
+			admin.addUser(mail.toLowerCase(), name, surname, phoneNum, year, faculty, userType);
 		}else {
 			int salary = Integer.parseInt(Printer.input("Salary: "));
 			if(userType == "Teacher") {
 				Teacher_pos pos = Teacher_pos.fromString(Printer.input("Teacher position: "));
-				admin.addUser(mail, name, surname, phoneNum, salary, pos, userType);
+				admin.addUser(mail.toLowerCase(), name, surname, phoneNum, salary, pos, userType);
 			}else {
-				admin.addUser(mail, name, surname, phoneNum, salary, userType);	
+				admin.addUser(mail.toLowerCase(), name, surname, phoneNum, salary, userType);	
 			}
 		}
 		Printer.print(userType + " " + name + " " + surname + " was added");

@@ -1,5 +1,6 @@
 package sessions;
 
+import java.io.IOException;
 import java.util.logging.Logger;
 
 import course.Course;
@@ -10,14 +11,13 @@ import utils.Printer;
 
 public class TeacherSession {
 	static DataBase db = DataBase.getInstance();
-    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(Teacher teacher){
 		Printer.print("Hello "+ teacher.getName() +" "+teacher.getSurname()
 							+"! \nYou entered as a Teacher");
 		String request = null;
-		while(request!="8") {
+		while(request!="9") {
 			String[] a = {"1.Add course ","2.Manage Courses","3.View Students",
-					"4.Put Marks","5.Send Order to IT support","6.Change password","7.View news","8.exit"};
+					"4.Put Marks","5.Send Order to IT support","6.View messages","7.Change password","8.View news","9.Exit"};
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
@@ -38,12 +38,19 @@ public class TeacherSession {
 				Printer.writeLog(teacher, a[4].substring(2));	
 				//TODO
 			}else if(request.equals("6")) {
+				Printer.writeLog(teacher, a[6].substring(2));
+				teacher.viewMessages();
+			}else if(request.equals("7")) {
 				Printer.writeLog(teacher, a[5].substring(2));
 				AdminSession.changePass(teacher);
-			}else if(request.equals("7")) {
-				Printer.writeLog(teacher, a[6].substring(2));
-				Printer.print("News Todo");
 			}else if(request.equals("8")) {
+				Printer.writeLog(teacher, a[7].substring(2));
+				try {
+					teacher.viewNewsTab();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}else if(request.equals("9")) {
 				Printer.writeLogPrimitive(teacher, "Leave the intranet");
 				Printer.print("Good byeee!");
 				return;

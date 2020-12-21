@@ -1,5 +1,6 @@
 package sessions;
 
+import java.io.IOException;
 import java.util.logging.Logger;
 
 import project.DataBase;
@@ -8,7 +9,6 @@ import utils.Printer;
 
 public class TechSupportSession {
 	static DataBase db = DataBase.getInstance();
-    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(TechSupportGuy techSupport){
 		Printer.print("Hello "+ techSupport.getName() +" "+techSupport.getSurname()
 							+"! \nYou entered as a Tech Support worker");
@@ -28,7 +28,11 @@ public class TechSupportSession {
 				AdminSession.changePass(techSupport);
 			}else if(request.equals("4")) {
 				Printer.writeLog(techSupport, a[3].substring(0));
-				Printer.print("News Todo");
+				try {
+					techSupport.viewNewsTab();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}else if(request.equals("5")) {
 				Printer.writeLogPrimitive(techSupport, "Leave the intranet");
 				Printer.print("Good byeee!");

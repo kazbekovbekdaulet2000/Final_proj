@@ -32,7 +32,6 @@ public class DataBase {
     public static Vector<Mark> marks = new Vector<Mark>();
     public static Vector<Order> orders = new Vector<Order>();
     public static Vector<News> news = new Vector<News>();
-    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
    
     public static DataBase getInstance() {
     	if(instance == null)
@@ -44,11 +43,11 @@ public class DataBase {
    public void load() {
 	   this.users = load("Users.out", User.class);
 	   this.courses = load("Courses.out", Course.class);
-//	   this.news = load("News.out",News.class);
+	   this.news = load("News.out",News.class);
    }
    
    public boolean save() {
-	   return save("Users.out",users) && save("Courses.out",courses);
+	   return save("Users.out",users) && save("Courses.out",courses) && save("News.out", news);
    }
   
    private boolean save(String fileName, Object obj) {

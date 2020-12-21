@@ -32,7 +32,7 @@ public class Manager extends Employee implements Serializable {
     
     public boolean sendMessage(String message, Teacher t) {
         if(DataBase.users.contains(t)) {
-        	return t.addMessage(message);
+        	return t.addMessage(super.getName()+" "+super.getSurname()+": "+message);
         }else {
         	Printer.print("No such Teacher founded");
         	return false;
@@ -166,16 +166,17 @@ public class Manager extends Employee implements Serializable {
     }
     
     public void createNewsTab(String title,String text) {
-    	Date date=Calendar.getInstance().getTime();
-    	News news = new News(title, text, date);
+    	News news = new News(title, text);
     	if(!DataBase.news.contains(news)) {
     		DataBase.news.add(news);
+    		Printer.print("News was created");
+    		Printer.writeLogPrimitive(this,"creates news");
     	}
     }
    
     public void updateNewsTab(News n, String new_title, String new_text) {
     	if(DataBase.news.contains(n)) {
-    		Date date = Calendar.getInstance().getTime();               // update time;
+    		Date date = Calendar.getInstance().getTime();
     		DataBase.news.get(DataBase.news.indexOf((News)n)).setTitle(new_title);
         	DataBase.news.get(DataBase.news.indexOf((News)n)).setText(new_text);
         	DataBase.news.get(DataBase.news.indexOf((News)n)).setDate(date);

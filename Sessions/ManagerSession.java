@@ -1,8 +1,8 @@
 
 package sessions;
 
+import java.io.IOException;
 import java.util.Vector;
-import java.util.logging.Logger;
 
 import course.Course;
 import enums.Faculty;
@@ -15,12 +15,11 @@ import utils.Printer;
 
 public class ManagerSession {
 	static DataBase db = DataBase.getInstance();
-    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(Manager manager){
 		Printer.print("Hello "+ manager.getName() +" "+manager.getSurname()+"! \nYou entered as a Manager");
 		String request = null;
 		while(request!="8") {
-			String[] a = {"1.View Teacher info","2.View Student info","3.Add Course","4.Send Message to Teacher",
+			String[] a = {"1.View Teacher info","2.View Student info","3.Add Course","4.Send Message to a Teacher",
 					"5.Change password","6.Add News","7.View news","8.Exit"};
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");;
@@ -35,17 +34,20 @@ public class ManagerSession {
 				addCourse(manager);
 			}else if(request.equals("4")) {
 				Printer.writeLog(manager, a[3].substring(2));
-				//TODO
 				Messanger(manager);
 			}else if(request.equals("5")) {
 				Printer.writeLog(manager, a[4].substring(2));
 				AdminSession.changePass(manager);
 			}else if(request.equals("6")) {
 				Printer.writeLog(manager, a[5].substring(2));
-//				manager.addNews();
+				NewsCreator(manager);
 			}else if(request.equals("7")) {
 				Printer.writeLog(manager, a[6].substring(2));
-				Printer.print("News Todo");
+				try {
+					manager.viewNewsTab();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}else if(request.equals("8")) {
 				Printer.writeLogPrimitive(manager, "Leave the intranet");
 				Printer.print("Good byeee!");
@@ -55,8 +57,27 @@ public class ManagerSession {
 		}
 	}
 	
+	private static void NewsCreator(Manager manager) {
+		String title = Printer.input("News title: ");
+		String text = Printer.input("text: ");
+		manager.createNewsTab(title, text);
+	}
+
 	private static void Messanger(Manager manager) {
-//		manager.sendMessage(message, teacher);
+		String mail = Printer.input("Print teacher's mail you want to send message: ");
+		Teacher teacher = null;
+		for (User k : DataBase.users) {
+			if (mail.equals(k.getMail()) && k instanceof Teacher) {
+				teacher =(Teacher) k; 
+			}
+		}
+		if(teacher!=null) {
+			String text = Printer.input("Print text of your message: ");
+			manager.sendMessage(text, teacher);
+			Printer.print("Message is delivered");
+		}else {
+			Printer.print("Can't find teacher with such mail");
+		}
 	}
 
 	private static void viewTeacherInfo() {

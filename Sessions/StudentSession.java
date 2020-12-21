@@ -1,5 +1,6 @@
 package sessions;
 
+import java.io.IOException;
 import java.util.logging.Logger;
 
 import course.Course;
@@ -10,7 +11,6 @@ import utils.Printer;
 
 public class StudentSession {
 	static DataBase db = DataBase.getInstance();
-    public final static Logger log = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	public static void start(Student student){
 		Printer.print("Hello "+ student.getName() +" "+student.getSurname()
 							+"! \nYou entered as a Student");
@@ -40,7 +40,11 @@ public class StudentSession {
 				AdminSession.changePass(student);
 			}else if(request.equals("5")) {
 				Printer.writeLog(student, a[4].substring(2));
-				Printer.print("News Todo");
+				try {
+					student.viewNewsTab();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}else if(request.equals("6")) {
 				Printer.writeLogPrimitive(student, "Leave the intanet");
 				Printer.print("Good byeee!");

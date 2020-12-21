@@ -1660,3 +1660,1417 @@ Good byeee!
 Users account count: 3
 Session start: Mon Dec 21 12:54:11 ALMT 2020
 You have 3 tries
+Users account count: 3
+Session start: Mon Dec 21 13:26:27 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: manager
+Name: manager
+Surname: manager
+Phone Number: 8794864546
+Salary: 250000
+Manager manager manager was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+News Todo
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 4
+Session start: Mon Dec 21 13:27:06 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: rw1x07Cn
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 6
+News title: title
+text: text
+News was created
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+File not found
+Users account count: 4
+Session start: Mon Dec 21 13:28:13 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: manager
+Wrong Password
+You have 2 tries
+Mail: manager
+Password: rw1x07Cn
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 5
+Old Password: rw1x07Cn
+New Password: manager
+Password is changed: 
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 6
+News title: title
+text: text
+Users account count: 4
+Session start: Mon Dec 21 13:28:53 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+News Todo
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 4
+Session start: Mon Dec 21 13:31:52 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+Users account count: 0
+Session start: Mon Dec 21 13:32:17 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: Bekdaulet
+Name: Bekdaulet
+Surname: Kazbekov
+Phone Number: 87077121500
+Year of education: 2
+Faculty: FIT
+Student Bekdaulet Kazbekov was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: Manager
+Name: Manager
+Surname: Manager
+Phone Number: 87070/09498
+Salary: 20000
+Manager Manager Manager was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 3
+Session start: Mon Dec 21 13:33:27 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: Bekdaulet  Password: lVaM4rzl  User type: Student
+Mail: Manager  Password: p2s03YD6  User type: Manager
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 3
+Session start: Mon Dec 21 13:33:43 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: p2s03YD6
+Hello Manager Manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 6
+News title: title
+text: aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+News was created
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 7
+News Todo
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:34:13 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Mon Dec 21 13:34:04 ALMT 2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:35:46 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 13
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:36:15 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 1
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:36:31 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:37:38 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.120
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:38:02 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.1201900
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:38:19 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:38:27 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+      title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:38:57 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+TITLE:   title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:39:15 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+----->TITLE:   title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:40:56 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: manager
+Wrong Password
+You have 2 tries
+Mail: Manager
+Password: p2s03YD6
+Hello Manager Manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: teacher
+Can't find teacher with such mail
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 7
+----->TITLE:   title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 3
+Session start: Mon Dec 21 13:41:53 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 13:43:12 ALMT 2020
+You have 3 tries
+Mail: AdMiN
+Password: ADMIN
+Wrong Password
+You have 2 tries
+Users account count: 3
+Session start: Mon Dec 21 13:43:46 ALMT 2020
+You have 3 tries
+Mail: AdmiN
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+----->TITLE:   title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: PakitaS
+Name: Pakita
+Surname: Shamoi
+Phone Number: 879889464
+Salary: 500000
+Teacher position: Professor
+Teacher Pakita Shamoi was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 4
+Session start: Mon Dec 21 13:44:42 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: manager
+Wrong Mail
+You have 2 tries
+Mail: manage
+Password: man
+Wrong Mail
+You have 1 tries
+Mail: manager
+Password: rw1x07Cn
+Wrong Mail
+You haven't no more tries to enter the intranet system
+Users account count: 4
+Session start: Mon Dec 21 13:45:17 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: rw1x07Cn
+Wrong Mail
+You have 2 tries
+Mail: Manager
+Password: p2s03YD6
+Wrong Mail
+You have 1 tries
+Mail: manager
+Password: p2s03YD6
+Wrong Mail
+You haven't no more tries to enter the intranet system
+Users account count: 4
+Session start: Mon Dec 21 13:46:04 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: manager
+Wrong Mail
+You have 2 tries
+Mail: manager
+Password: p2s03YD6
+Wrong Mail
+You have 1 tries
+Mail: MANAGER
+Password: p2s03YD6
+Wrong Mail
+You haven't no more tries to enter the intranet system
+Users account count: 4
+Session start: Mon Dec 21 13:46:43 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: manager
+Name: manager
+Surname: manager
+Phone Number: 87988949
+Salary: 250000
+Manager manager manager was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 13:47:06 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: 5PhoJKJu
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: Pakitas
+Can't find teacher with such mail
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Can't find teacher with such mail
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Can't find teacher with such mail
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:48:11 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: 5PhoJKJu
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Print text of your message: hello Pakita!!!
+Message is delivered
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 13:48:50 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.Change password
+7.View news
+8.exit
+Print num to get access: 2
+Print course name or code: 
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.Change password
+7.View news
+8.exit
+Users account count: 5
+Session start: Mon Dec 21 13:51:13 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 7
+hello Pakita!!!
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:54:40 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:54:45 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: 5PhoJKJu
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 5
+Old Password: 5PhoJKJu
+New Password: manage
+Password is changed: 
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Print text of your message: Hello again!
+Message is delivered
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 13:55:24 ALMT 2020
+You have 3 tries
+Mail: PakitS
+Password: WAtYy20d
+Wrong Mail
+You have 2 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: Bekdaulet  Password: lVaM4rzl  User type: Student
+Mail: Manager  Password: p2s03YD6  User type: Manager
+Mail: pakitas  Password: WAtYy20d  User type: Teacher
+Mail: manager  Password: manage  User type: Manager
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:56:18 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Old Password: s
+Wrong old password
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 7
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:57:03 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: 
+Wrong Password
+You have 2 tries
+Mail: 				teacher.viewMessages();
+Password: 
+Wrong Mail
+You have 1 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:58:22 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:59:03 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 13:59:20 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: manage
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Print text of your message: HELLO
+Message is delivered
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 13:59:40 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+Message from manager HELLO
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:00:19 ALMT 2020
+You have 3 tries
+Users account count: 5
+Session start: Mon Dec 21 14:00:27 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: manage
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Print text of your message: hello again
+Message is delivered
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 14:00:55 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+Message from manager HELLO
+Message from manager hello again
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:02:16 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: manage
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Print text of your message: heppl
+Message is delivered
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 14:02:34 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: WAtYy20d
+Wrong Mail
+You have 2 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+Message from manager HELLO
+Message from manager hello again
+Message from manager heppl
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:03:51 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: manage
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 4
+Print teacher's mail you want to send message: pakitas
+Print text of your message: HEPPLNFAN:No;ef
+Message is delivered
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 14:04:07 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager hello Pakita!!!
+Message from manager Hello again!
+Message from manager HELLO
+Message from manager hello again
+Message from manager heppl
+Message from manager manager manager: HEPPLNFAN:No;ef
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:04:31 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from hello Pakita!!!
+Message from Hello again!
+Message from HELLO
+Message from hello again
+Message from heppl
+Message from manager manager: HEPPLNFAN:No;ef
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:05:28 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:06:54 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 14:08:15 ALMT 2020
+You have 3 tries
+Print num to get access: null
+Print num to get access: null
+Mail: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null

@@ -172,9 +172,12 @@ public class Teacher extends Employee implements Serializable {
     }
     
     public void viewMessages() {
-        for(int i=0;i<getMessages().size();++i) {
-        	System.out.print("Message from manager:  ");
-        	Printer.print(getMessages().get(i));
+    	if(!getMessages().isEmpty()) {
+	        for(int i=0;i<getMessages().size();++i) {
+	        	Printer.print("Message from "+ getMessages().get(i));
+	        }
+        }else {
+        	Printer.print("Messages is empty");
         }
     }
     

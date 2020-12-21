@@ -1,31 +1,22 @@
 package project;
 
 import java.io.Serializable;
+import java.util.Calendar;
 import java.util.Date;
 
 public class News implements Serializable {
-    private Integer newsID;
     private String title;
     private String text;
     private Date date;
     
     public News() {}
-    public News(String title,String text, Date date) {
-//    	this.newsID = id;
+    public News(String title,String text) {
     	this.title = title;
-    	this.date = date;
+    	this.date = (Date)Calendar.getInstance().getTime();
     	this.text = text;
     }
     
-    //                          Operations                                  
-    
-    public Integer getNewsID() {
-		return newsID;
-	}
-	public void setNewsID(Integer newsID) {
-		this.newsID = newsID;
-	}
-	public String getTitle() {
+    public String getTitle() {
 		return title;
 	}
 	public void setTitle(String title) {
@@ -48,7 +39,6 @@ public class News implements Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((date == null) ? 0 : date.hashCode());
-		result = prime * result + ((newsID == null) ? 0 : newsID.hashCode());
 		result = prime * result + ((text == null) ? 0 : text.hashCode());
 		result = prime * result + ((title == null) ? 0 : title.hashCode());
 		return result;
@@ -58,13 +48,12 @@ public class News implements Serializable {
 		if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	News n = (News) o;
-    	return n.getClass()==getClass() && n.getDate() == getDate() && n.getText() == getText() && n.getTitle() == getTitle() &&
-    			n.getNewsID() == getNewsID();
+    	return n.getText() == getText() && n.getTitle() == getTitle();
     }
     @Override
 	public String toString() {
-		return "   " + title + 
-				"/n" + text;
+		return "----->TITLE:   " + title + 
+				"\n" + text +"\nDate of creaton: " + date.getDate()+"."+date.getMonth()+"."+(date.getYear()+1900);
 	}
     
     
