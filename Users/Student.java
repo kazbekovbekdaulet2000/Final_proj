@@ -30,7 +30,7 @@ public class Student extends User implements Serializable {
         totalECTS = 0;
         totalCredits = 0;
         courses = new Vector<Course>();
-        grades = new HashMap<Course, Mark>(); 
+        grades = new HashMap<>(); 
     }
     
     public Student() {}
@@ -105,6 +105,7 @@ public class Student extends User implements Serializable {
 		viewAvailableCourses(); 
 		if(DataBase.courses.contains(c)) {
 			courses.add(c);
+			grades.put(c, new Mark());
 		}else {
 			Printer.print("No "+c.getCourseName()+ " Course founded try again"); 
 		}
@@ -141,17 +142,21 @@ public class Student extends User implements Serializable {
     }
     
     public void drawTranscriptTable() {
-    	int width=5;
-        int count=1; 
         Printer.print("+  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +");
-        for(int i=0;i<courses.size()+1 ; i++) {
+        for(int i=0;i<courses.size() ; i++) {
         	String lines = "+--------+----------------+--------+------+------+-------------+-----+";
         	Printer.print(lines);
-        	Printer.print("");
-            if(i==courses.size()+1){
-            	Printer.print("+--------+----------------+--------+------+------+-------------+-----+");
-            }
+        	String spaces = "                                       ";
+        	Printer.print("|"+courses.get(i).getCourseID().substring(0, 8)
+        			+"|"+courses.get(i).getCourseName().substring(0, courses.get(i).getCourseName().length()) + spaces.substring(0,16-courses.get(i).getCourseName().length()) 
+        			+"|" +spaces.substring(0,4) + courses.get(i).getCredits() +spaces.substring(0,3)
+        			+"|" +spaces.substring(0,3) + courses.get(i).getCreditsECTS() + spaces.substring(0,2) 
+        			+"|" +spaces.substring(0,2) + grades.get(courses.get(i)).getFinalgrade() + spaces.substring(0,1)
+        			+"|" +spaces.substring(0,5) + grades.get(courses.get(i)).getGrade().toString() + spaces.substring(0,5) // change to letter grade
+        			+"|" +spaces.substring(0,5)
+        			+"|");
         }
+        Printer.print("+--------+----------------+--------+------+------+-------------+-----+");
     }
     
     public String toString() {

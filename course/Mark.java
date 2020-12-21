@@ -22,11 +22,19 @@ public class Mark implements Serializable, Comparable {
     	this.grade = Grades.NULL;
     }
     
-    public Mark(double first, double sec, double fin) {    //I think wrong concept because teachers never put all marks together
+    public Mark(double first, double sec, double fin) {
     	this.firstAtt = first;
     	this.secondAtt = sec;
     	this.finalgrade = fin;
     	this.grade = Grades.mark(first+sec+fin);
+    }
+    
+    public Grades getGrade() {
+    	return grade;
+    }
+    
+    public void setGrade(Grades g) {
+    	grade = g;
     }
     
     public double getFirstAtt() {
@@ -84,5 +92,4 @@ public class Mark implements Serializable, Comparable {
     	return 0;
         //TODO
     }
-    
 }

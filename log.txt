@@ -595,3 +595,154 @@ Mon Dec 21 19:15:18 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<---
 Mon Dec 21 19:15:19 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
 Mon Dec 21 19:15:22 ALMT 2020 Student::Bekdaulet fails to register OOP(duplicate of exiting course)
 Mon Dec 21 19:15:29 ALMT 2020 Student::Bekdaulet Entered: View Courses
+Mon Dec 21 19:17:22 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:17:24 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:17:51 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:18:02 ALMT 2020 Student::Bekdaulet Entered: View Courses
+Mon Dec 21 19:18:07 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:18:09 ALMT 2020 Student::Bekdaulet fails to register OOP(duplicate of exiting course)
+Mon Dec 21 19:18:49 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:18:50 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:18:56 ALMT 2020 Student::Bekdaulet added course: ITBM
+Mon Dec 21 19:18:59 ALMT 2020 Student::Bekdaulet Entered: View Courses
+Mon Dec 21 19:19:06 ALMT 2020 Student::Bekdaulet Leave the intanet
+Mon Dec 21 19:19:46 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 19:19:49 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 19:22:44 ALMT 2020 Student::Bekdaulet tries to enter with wrong password
+Mon Dec 21 19:23:35 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:23:54 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:25:20 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:25:22 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:26:13 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:26:14 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:26:55 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:26:58 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 19:27:03 ALMT 2020 Student::Bekdaulet Entered: View Courses
+Mon Dec 21 19:27:07 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:31:30 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:31:32 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:31:44 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:31:46 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:32:09 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:32:11 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:33:01 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:33:05 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:34:02 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:34:04 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:36:10 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:36:11 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:36:38 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:36:39 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:52:57 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:54:57 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:54:59 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:55:59 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:56:01 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:56:17 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:56:36 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:56:50 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:56:52 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:57:39 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:57:41 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:58:01 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:58:02 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:59:35 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:59:36 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 19:59:47 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 19:59:49 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:00:55 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:00:59 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:04:09 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:04:12 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:04:52 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:04:53 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:05:38 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:05:40 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:06:08 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:06:10 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:08:27 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:08:29 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 20:08:33 ALMT 2020 Student::Bekdaulet Leave the intanet
+Mon Dec 21 20:08:48 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:08:49 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 20:09:05 ALMT 2020 Student::Bekdaulet added course: OOP
+Mon Dec 21 20:09:09 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:09:16 ALMT 2020 Student::Bekdaulet Leave the intanet
+Mon Dec 21 20:09:28 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:09:29 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:13:46 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 20:13:48 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 20:13:50 ALMT 2020 Admin::admin Entered: Update info about User
+Mon Dec 21 20:13:53 ALMT 2020 Admin::admin Entered: Change user info
+Mon Dec 21 20:14:37 ALMT 2020 Admin::admin Changed mail of Bekdaulet Kazbekov
+Mon Dec 21 20:14:43 ALMT 2020 Admin::admin Entered: Manage users
+Mon Dec 21 20:14:45 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 20:14:49 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 20:17:07 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 20:17:11 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 20:17:14 ALMT 2020 Admin::admin Entered: Update info about User
+Mon Dec 21 20:17:15 ALMT 2020 Admin::admin Entered: Change user info
+Mon Dec 21 20:17:41 ALMT 2020 Admin::admin Changed mail of Bekdaulet Kazbekov
+Mon Dec 21 20:20:37 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:20:43 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:23:53 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:23:56 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 20:24:01 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:24:07 ALMT 2020 Student::Bekdaulet Leave the intanet
+Mon Dec 21 20:24:28 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:24:30 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 20:24:36 ALMT 2020 Student::Bekdaulet added course: ITBM
+Mon Dec 21 20:24:44 ALMT 2020 Student::Bekdaulet Entered: View Courses
+Mon Dec 21 20:24:46 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:25:28 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:25:28 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:26:32 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:26:34 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:29:38 ALMT 2020 Teacher::Pakita Fail to manage course
+Mon Dec 21 20:32:24 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 20:32:28 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 20:32:34 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 20:32:35 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 20:32:36 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 20:32:47 ALMT 2020 Admin::admin add Student be bex was added
+Mon Dec 21 20:32:52 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 20:33:12 ALMT 2020 Student::be ---->Enters to the intranet<----
+Mon Dec 21 20:33:19 ALMT 2020 Student::be Entered: Change Password
+Mon Dec 21 20:33:22 ALMT 2020 Student::be changed password
+Mon Dec 21 20:33:25 ALMT 2020 Student::be Entered: Register for a Courses
+Mon Dec 21 20:33:33 ALMT 2020 Student::be Entered: View Courses
+Mon Dec 21 20:33:38 ALMT 2020 Student::be Entered: Register for a Courses
+Mon Dec 21 20:33:41 ALMT 2020 Student::be added course: OOP
+Mon Dec 21 20:33:49 ALMT 2020 Student::be Entered: View Transcript
+Mon Dec 21 20:35:14 ALMT 2020 Student::be ---->Enters to the intranet<----
+Mon Dec 21 20:35:19 ALMT 2020 Student::be Entered: View News
+Mon Dec 21 20:35:32 ALMT 2020 Student::be Entered: View Transcript
+Mon Dec 21 20:35:52 ALMT 2020 Student::be ---->Enters to the intranet<----
+Mon Dec 21 20:35:54 ALMT 2020 Student::be Entered: View Transcript
+Mon Dec 21 20:36:11 ALMT 2020 Student::be ---->Enters to the intranet<----
+Mon Dec 21 20:36:12 ALMT 2020 Student::be Entered: View Transcript
+Mon Dec 21 20:36:43 ALMT 2020 Student::be ---->Enters to the intranet<----
+Mon Dec 21 20:36:44 ALMT 2020 Student::be Entered: View Transcript
+Mon Dec 21 20:37:00 ALMT 2020 Student::be ---->Enters to the intranet<----
+Mon Dec 21 20:37:01 ALMT 2020 Student::be Entered: View Transcript
+Mon Dec 21 20:41:04 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 20:41:06 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 20:41:07 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 20:41:10 ALMT 2020 Admin::admin Entered: Add Student
+Mon Dec 21 20:41:36 ALMT 2020 Admin::admin add Student Bekdaulet Kazbekov was added
+Mon Dec 21 20:41:38 ALMT 2020 Admin::admin Entered: Add Teacher
+Mon Dec 21 20:42:07 ALMT 2020 Admin::admin add Teacher Pakita Shamoi was added
+Mon Dec 21 20:42:10 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 20:42:12 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 20:42:13 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 20:42:56 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 20:42:57 ALMT 2020 Teacher::Pakita Entered: Add course 
+Mon Dec 21 20:43:15 ALMT 2020 Teacher::Pakita added new "OOP"
+Mon Dec 21 20:43:18 ALMT 2020 Teacher::Pakita Leave the intranet
+Mon Dec 21 20:43:32 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:43:36 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 20:43:38 ALMT 2020 Student::Bekdaulet added course: OOP
+Mon Dec 21 20:43:40 ALMT 2020 Student::Bekdaulet Entered: View Courses
+Mon Dec 21 20:43:49 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 20:45:02 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Mon Dec 21 20:45:03 ALMT 2020 Student::Bekdaulet Entered: View Transcript

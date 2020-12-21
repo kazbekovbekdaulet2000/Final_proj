@@ -9,7 +9,8 @@ public class Printer {
 		try {
 			BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 			System.out.print(text);
-			String new_text = buffer.readLine();
+			String new_text;
+			new_text = buffer.readLine();
 			writeFile(text, new_text);
 			return new_text;
 		}catch(IOException e) {

@@ -21,6 +21,7 @@ public class StudentSession {
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");
 			if(request.equals("1")) {
+//				student.getCourses().removeAllElements();
 				Printer.writeLog(student, a[0].substring(2));
 				Register(student);
 			}else if(request.equals("2")) {
@@ -48,6 +49,7 @@ public class StudentSession {
 			}else if(request.equals("6")) {
 				Printer.writeLogPrimitive(student, "Leave the intanet");
 				Printer.print("Good byeee!");
+				return;
 			}
 			db.save();
 		}
@@ -65,6 +67,7 @@ public class StudentSession {
 						DataBase.courses.get(i).getCourseID().equals(course_name)) {
 					Printer.print(course_name + " already is registered");
 					Printer.writeLogPrimitive(student, "fails to register "+ course_name + "(duplicate of exiting course)");
+					db.save();
 					return;
 				}
 			}
@@ -84,7 +87,8 @@ public class StudentSession {
 					}
 				}
 			}
-			if(student.getCourses().add(course)) {
+			if(course!=null) {
+				student.registerForCourse(course);
 				student.setTotalCredits(student.getTotalCredits()+course.getCredits());
 				student.setTotalECTS(student.getTotalECTS()+course.getCreditsECTS());
 				Printer.print(course.getCourseName() + " was added");
@@ -94,6 +98,7 @@ public class StudentSession {
 		}else {
 			Printer.print("No courses available");
 		}
+		db.save();
 	}
 	
 	private static void RegisterWithTeacher(Student student, String course_name) {

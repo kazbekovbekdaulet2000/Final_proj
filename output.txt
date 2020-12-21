@@ -2059,3 +2059,1940 @@ _________________________________________________________
 4.Change Password
 5.View News
 6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:16:13 ALMT 2020
+You have 3 tries
+Users account count: 7
+Session start: Mon Dec 21 19:17:17 ALMT 2020
+You have 3 tries
+Mail: be
+Password: 
+Wrong Mail
+You have 2 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): 2
+Users account count: 7
+Session start: Mon Dec 21 19:17:48 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP already is registered
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:18:44 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): ITBM
+ITBM was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:19:42 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 19:22:34 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: as
+Wrong Password
+You have 2 tries
+Users account count: 7
+Session start: Mon Dec 21 19:22:59 ALMT 2020
+You have 3 tries
+Users account count: 7
+Session start: Mon Dec 21 19:23:25 ALMT 2020
+You have 3 tries
+Mail: sa
+Password: dbe
+Wrong Mail
+You have 2 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: as
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): s
+Users account count: 7
+Session start: Mon Dec 21 19:25:18 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): 2
+Users account count: 7
+Session start: Mon Dec 21 19:26:10 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): 1
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:26:51 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): 2
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+
++--------+----------------+--------+------+------+-------------+-----+
+
++--------+----------------+--------+------+------+-------------+-----+
+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:31:28 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|||||
+
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|||||
+
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 19:31:41 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|||||
+
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|||||
+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:32:05 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|||||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|||||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:32:56 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 19:34:00 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP||||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM||||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:36:06 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP%3d||||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM%3d||||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:36:36 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP/%3d||||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM/%3d||||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:52:55 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:54:53 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             3 | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            3 | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:55:56 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 19:56:15 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP            |3 | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM           |3 | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:56:47 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |3 | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |3 | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:57:36 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |  3   | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |  3   | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:57:58 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |   3    | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |   3    | 5 |  |  |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:59:33 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |   3   |   5   |||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |   3   |   5   |||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 19:59:45 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5   |||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |    3   |   5   |||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 20:00:53 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 20:04:06 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 20:04:49 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 20:05:34 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 20:06:05 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 2
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  ||
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |    3   |   5  ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 20:08:25 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 20:08:46 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Print course Teacher Name: Askar
+Print course Teacher Surname: Akshabaev
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 20:09:25 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 7
+Session start: Mon Dec 21 20:13:42 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 3
+1.Change user info
+2.Back
+Print num to get access: 1
+0  Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: Bekdaulet 
+Year of education 2
+Student ID: 19B158263
+_________________________________
+1  Name: Manager, Surname: Manager
+Phone Number: 87070/09498
+Mail: Manager 
+Employee salary = 20000
+Position: Manager
+_________________________________
+2  Name: Pakita, Surname: Shamoi
+Phone Number: 879889464
+Mail: pakitas 
+Employee salary = 500000
+Position: Professor
+_________________________________
+3  Name: admin, Surname: admin
+Phone Number: admin
+Mail: admin 
+Employee salary = 200000
+Position: Admin
+_________________________________
+4  Name: manager, Surname: manager
+Phone Number: 87988949
+Mail: manager 
+Employee salary = 250000
+Position: Manager
+_________________________________
+5  Name: Askar, Surname: Akshabaev
+Phone Number: 878798794
+Mail: askarA 
+Employee salary = 800000
+Position: Professor
+_________________________________
+6  Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bex 
+Year of education 2
+Student ID: 19B145985
+_________________________________
+Print id of user you want to change: 6
+You want to change Bekdaulet Kazbekov info
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change faculty
+5.Change study year
+6.Change mail
+7.Back
+Print num to get access: 6
+Print new mail: Bekdaulet
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change faculty
+5.Change study year
+6.Change mail
+7.Back
+Print num to get access: 7
+1.Change user info
+2.Back
+Print num to get access: 2
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: Manager  Password: p2s03YD6  User type: Manager
+Mail: pakitas  Password: qwerty  User type: Teacher
+Mail: admin  Password: admin  User type: Admin
+Mail: manager  Password: manage  User type: Manager
+Mail: askarA  Password: XwEHwXhw  User type: Teacher
+Mail: Bekdaulet  Password: bex  User type: Student
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 20:16:07 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 3
+1.Change user info
+2.Back
+Print num to get access: 1
+0  Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: Bekdaulet 
+Year of education 2
+Student ID: 19B158263
+_________________________________
+1  Name: Manager, Surname: Manager
+Phone Number: 87070/09498
+Mail: Manager 
+Employee salary = 20000
+Position: Manager
+_________________________________
+2  Name: Pakita, Surname: Shamoi
+Phone Number: 879889464
+Mail: pakitas 
+Employee salary = 500000
+Position: Professor
+_________________________________
+3  Name: admin, Surname: admin
+Phone Number: admin
+Mail: admin 
+Employee salary = 200000
+Position: Admin
+_________________________________
+4  Name: manager, Surname: manager
+Phone Number: 87988949
+Mail: manager 
+Employee salary = 250000
+Position: Manager
+_________________________________
+5  Name: Askar, Surname: Akshabaev
+Phone Number: 878798794
+Mail: askarA 
+Employee salary = 800000
+Position: Professor
+_________________________________
+6  Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: Bekdaulet 
+Year of education 2
+Student ID: 19B145985
+_________________________________
+Print id of user you want to change: 6
+You want to change Bekdaulet Kazbekov info
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change faculty
+5.Change study year
+6.Change mail
+7.Back
+Print num to get access: 6
+Print new mail: beximiliano
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change faculty
+5.Change study year
+6.Change mail
+7.Back
+Users account count: 7
+Session start: Mon Dec 21 20:20:29 ALMT 2020
+You have 3 tries
+Mail: beximiliano
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |   0   ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 20:23:43 ALMT 2020
+You have 3 tries
+Mail: beximiliano
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 0
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Mon Dec 21 20:24:18 ALMT 2020
+You have 3 tries
+Mail: beximiliano
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 4
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+Print course Name or Code (back to go back): ITBM
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Akshabaev
+_________________________________________________________
+ITBM was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |    3   |   5  |   1   ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 20:25:24 ALMT 2020
+You have 3 tries
+Mail: beximiliano
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |    3   |   5  |   0.0   ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Mon Dec 21 20:26:02 ALMT 2020
+You have 3 tries
+Mail: beximiliano
+Password: bex
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|INFI2106|ITBM            |    3   |   5  |  0  ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+IO Exception
+IO Exception
+Users account count: 7
+Session start: Mon Dec 21 20:29:30 ALMT 2020
+You have 3 tries
+Print course name or code: null
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Users account count: 5
+Session start: Mon Dec 21 20:31:21 ALMT 2020
+You have 3 tries
+Mail: beximiliano
+Password: bexx
+Wrong Mail
+You have 2 tries
+Mail: beximiliano
+Password: bex
+Wrong Mail
+You have 1 tries
+Mail: beximiliano
+Password: bex
+Wrong Mail
+You haven't no more tries to enter the intranet system
+Users account count: 5
+Session start: Mon Dec 21 20:32:21 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: Manager  Password: p2s03YD6  User type: Manager
+Mail: pakitas  Password: qwerty  User type: Teacher
+Mail: admin  Password: admin  User type: Admin
+Mail: manager  Password: manage  User type: Manager
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: bex
+Name: be
+Surname: bex
+Phone Number: 8778778
+Year of education: 2
+Faculty: FIT
+Student be bex was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Users account count: 6
+Session start: Mon Dec 21 20:32:54 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: EsbXpciO
+Hello be bex! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 4
+Old Password: EsbXpciO
+New Password: be
+Password is changed: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+No courses:
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0  |  First attestation = 0.0, Second attestation = 0.0, Final exam = 0.0, Grade = 0.0, Letter grade = null   ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 6
+Session start: Mon Dec 21 20:35:11 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: be
+Hello be bex! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 5
+----->TITLE:   title
+aasnbsidf;k;bndnvj;ngiuebgugreidghdfuvufvkfbkfew
+Date of creaton: 21.11.2020
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0  |  0.0   ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 6
+Session start: Mon Dec 21 20:35:50 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: be
+Hello be bex! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |  0.0   ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 6
+Session start: Mon Dec 21 20:36:09 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: be
+Hello be bex! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |    0.0     ||
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 6
+Session start: Mon Dec 21 20:36:40 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: be
+Hello be bex! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |     0.0     |                                  |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 6
+Session start: Mon Dec 21 20:36:57 ALMT 2020
+You have 3 tries
+Mail: bex
+Password: be
+Hello be bex! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |     0.0     |     |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+IO Exception
+Users account count: 0
+Session start: Mon Dec 21 20:40:58 ALMT 2020
+You have 3 tries
+Mail: admina
+Password: admin
+Wrong Mail
+You have 2 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: bekdaulet
+Name: Bekdaulet
+Surname: Kazbekov
+Phone Number: 87077121500
+Year of education: 2
+Faculty: FIT
+Student Bekdaulet Kazbekov was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: PakitaS
+Name: Pakita
+Surname: Shamoi
+Phone Number: 878464646
+Salary: 800000
+Teacher position: Professor
+Teacher Pakita Shamoi was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 3
+Session start: Mon Dec 21 20:42:25 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 3
+Session start: Mon Dec 21 20:43:20 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: BSkafpeT
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |     0.0     |     |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 3
+Session start: Mon Dec 21 20:44:54 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: BSkafpeT
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |     null     |     |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit

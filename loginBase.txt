@@ -1,7 +1,3 @@
-Mail: Bekdaulet  Password: qwerty  User type: Student
-Mail: Manager  Password: p2s03YD6  User type: Manager
-Mail: pakitas  Password: qwerty  User type: Teacher
 Mail: admin  Password: admin  User type: Admin
-Mail: manager  Password: manage  User type: Manager
-Mail: askarA  Password: XwEHwXhw  User type: Teacher
-Mail: bex  Password: c337T1uy  User type: Student
+Mail: bekdaulet  Password: BSkafpeT  User type: Student
+Mail: PakitaS  Password: 5qpjtLsf  User type: Teacher

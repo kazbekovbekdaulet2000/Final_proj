@@ -11,6 +11,9 @@ import enums.Faculty;
 import enums.Teacher_pos;
 import project.DataBase;
 import users.Admin;
+import users.Employee;
+import users.Student;
+import users.Teacher;
 import users.User;
 import utils.Printer;
 
@@ -103,7 +106,7 @@ public class AdminSession {
 				removeUser(admin);
 			}else if(manageRequest.equals("3")) {
 				Printer.writeLog(admin, a[2].substring(2));
-				//TODO
+				updateUser(admin);
 			}else if(manageRequest.equals("4")) {
 				Printer.writeLog(admin, "Main screen");
 				break;
@@ -162,6 +165,178 @@ public class AdminSession {
 		}
 		db.save();
 	}
+	
+	private static void updateUser(Admin admin) {
+		String updateRequest = null;
+		while (updateRequest!="2") {
+			String a[] = {"1.Change user info", "2.Back"};
+			Printer.print(a);
+			updateRequest = Printer.input("Print num to get access: ");
+			if (updateRequest.equals("1")) {
+				Printer.writeLog(admin, a[0].substring(2));
+				showUsers();
+				String id = Printer.input("Print id of user you want to change: ");
+				int i = Integer.parseInt(id);
+				for (User u : db.users) {
+					if (i == db.users.indexOf(u)) {
+						Printer.print("You want to change "+u.getName()+" "+u.getSurname()+" info");
+						if (u instanceof Student) 
+							updateStudent(admin,(Student)u);
+						if (u instanceof Employee)
+							updateEmployee(admin,(Employee)u);
+					}
+				}
+			} else if(updateRequest.equals("2")) {
+				Printer.writeLog(admin, "Manage users");
+				break;
+			}
+		}
+		db.save();
+	}
+	
+	private static void showUsers() {
+		for (int i=0;i<db.users.size();i++) {
+			Printer.print(i+"  "+db.users.get(i).toString());
+			Printer.print("_________________________________");
+		}
+	}
+	
+	private static void updateStudent(Admin admin, Student s) {
+		String request = null;
+		String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change faculty","5.Change study year","6.Change mail","7.Back"};
+		while (request!="7") {
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");
+			if (request.equals("1")) {
+				String n = Printer.input("Print new name: ");
+				s.setName(n);
+				Printer.writeLogPrimitive(admin, "Changed name of "+s.getMail());
+				db.save();
+			} else if (request.equals("2")) {
+				String n = Printer.input("Print new surname: ");
+				s.setSurname(n);
+				Printer.writeLogPrimitive(admin, "Changed surname of "+s.getMail());
+				db.save();
+			} else if (request.equals("3")) {
+				String n = Printer.input("Print new phone number: ");
+				s.setPhoneNum(n);
+				Printer.writeLogPrimitive(admin, "Changed phone number of "+s.getMail());
+				db.save();
+			} else if (request.equals("4")) {
+				Faculty faculty = Faculty.fromString(Printer.input("Faculty: "));
+				s.setFaculty(faculty);
+				Printer.writeLogPrimitive(admin, "Changed faculty of "+s.getMail());
+				db.save();
+			} else if (request.equals("5")) {
+				String n = Printer.input("Print new study year: ");
+				int year = Integer.parseInt(n);
+				s.setYear(year);
+				Printer.writeLogPrimitive(admin, "Changed study year of "+s.getMail());
+				db.save();
+			} else if (request.equals("6")) {
+				String n = Printer.input("Print new mail: ");
+				s.setMail(n);
+				Printer.writeLogPrimitive(admin, "Changed mail of "+s.getName()+" "+s.getSurname());
+				db.save();
+			} else if (request.equals("7")) {
+				break;
+			}
+			updateLoginBase();
+			
+		}
+	}
+	
+	private static void updateEmployee(Admin admin, Employee e) {
+		String request = null;
+		if (e instanceof Teacher) {
+			String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change salary","5.Change teacher position","6.Change mail","7.Back"};
+			while (request!="7") {
+				Printer.print(a);
+				request = Printer.input("Print num to get access: ");
+				if (request.equals("1")) {
+					String n = Printer.input("Print new name: ");
+					e.setName(n);
+					Printer.writeLogPrimitive(admin, "Changed name of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("2")) {
+					String n = Printer.input("Print new surname: ");
+					e.setSurname(n);
+					Printer.writeLogPrimitive(admin, "Changed surname of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("3")) {
+					String n = Printer.input("Print new phone number: ");
+					e.setPhoneNum(n);
+					Printer.writeLogPrimitive(admin, "Changed phone number of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("4")) {
+					String n = Printer.input("Salary :");
+					e.setSalary(Integer.parseInt(n));
+					Printer.writeLogPrimitive(admin, "Changed salary of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("5")) {
+					Teacher_pos pos = Teacher_pos.fromString(Printer.input("Teacher position: "));
+					((Teacher) e).setPos(pos);
+					Printer.writeLogPrimitive(admin, "Changed teacher position of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("6")) {
+					String n = Printer.input("Print new mail: ");
+					e.setMail(n);
+					Printer.writeLogPrimitive(admin, "Changed mail of "+e.getName()+" "+e.getSurname());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("7")) {
+					break;
+				}
+				updateLoginBase();
+			}
+		} else {
+			String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change salary","5.Change mail"};
+			while (request!="6") {
+				Printer.print(a);
+				request = Printer.input("Print num to get access: ");
+				if (request.equals("1")) {
+					String n = Printer.input("Print new name: ");
+					e.setName(n);
+					Printer.writeLogPrimitive(admin, "Changed name of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("2")) {
+					String n = Printer.input("Print new surname: ");
+					e.setSurname(n);
+					Printer.writeLogPrimitive(admin, "Changed surname of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("3")) {
+					String n = Printer.input("Print new phone number: ");
+					e.setPhoneNum(n);
+					Printer.writeLogPrimitive(admin, "Changed phone number of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("4")) {
+					String n = Printer.input("Salary :");
+					e.setSalary(Integer.parseInt(n));
+					Printer.writeLogPrimitive(admin, "Changed salary of "+e.getMail());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("6")) {
+					String n = Printer.input("Print new mail: ");
+					e.setMail(n);
+					Printer.writeLogPrimitive(admin, "Changed mail of "+e.getName()+" "+e.getSurname());
+					Printer.print("Successfully changed!");
+					db.save();
+				} else if (request.equals("6")) {
+					break;
+				}
+				updateLoginBase();
+			}
+		}
+	}
+	
 	
 	protected static void changePass(User user) {
 		String old_pass = Printer.input("Old Password: ");
