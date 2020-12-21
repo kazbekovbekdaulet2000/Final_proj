@@ -4843,3 +4843,658 @@ ________________________________
 2.View teachers list sorted by surname/name
 3.View teachers list sorted by position
 4.Back
+Users account count: 4
+Session start: Tue Dec 22 02:23:02 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: bekdaulet
+Can't find teacher with this name
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 4
+Session start: Tue Dec 22 02:24:24 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bekdaulet
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 4
+Session start: Tue Dec 22 02:26:09 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: be
+Name: Bekdau
+Surname: Kazbekov
+Phone Number: 87077121500
+Year of education: 2
+Faculty: BS
+Student Bekdau Kazbekov was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 5
+Session start: Tue Dec 22 02:26:51 ALMT 2020
+You have 3 tries
+Mail: Manager
+Users account count: 5
+Session start: Tue Dec 22 02:27:41 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: Bek
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bek
+Can't find teacher with this name
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 5
+Session start: Tue Dec 22 02:29:06 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bek
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 5
+Session start: Tue Dec 22 02:29:45 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bek
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 5
+Session start: Tue Dec 22 02:30:51 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bek
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 5
+Session start: Tue Dec 22 02:31:41 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bekda
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 5
+Session start: Tue Dec 22 02:33:35 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bek
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+Name: Bekdau, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: be 
+Year of education 2
+Student ID: 19B61140
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 5
+Session start: Tue Dec 22 02:34:04 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 1
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 1
+Print teacher's name you want to search: Bekda
+Can't find teacher with this name
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 4
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bekda
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+Name: Bekdau, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: be 
+Year of education 2
+Student ID: 19B61140
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 4
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Tue Dec 22 02:35:34 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: qwert
+Name: qwert
+Surname: qwrt
+Phone Number: 84461515
+Year of education: 2
+Faculty: FIT
+Student qwert qwrt was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: qwertyuirwe
+Name: qwqertyewuewrgeg
+Surname: surname
+Phone Number: 877809456
+Year of education: 2
+Faculty: FIT
+Student qwqertyewuewrgeg surname was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Tue Dec 22 02:36:47 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: qwqerty
+Name: qwqertyewuewrgeg, Surname: surname
+Phone Number: 877809456
+Mail: qwertyuirwe 
+Year of education 2
+Student ID: 19B117514
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: qwer
+Name: qwert, Surname: qwrt
+Phone Number: 84461515
+Mail: qwert 
+Year of education 2
+Student ID: 19B72176
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: q
+Name: qwert, Surname: qwrt
+Phone Number: 84461515
+Mail: qwert 
+Year of education 2
+Student ID: 19B72176
+Name: qwqertyewuewrgeg, Surname: surname
+Phone Number: 877809456
+Mail: qwertyuirwe 
+Year of education 2
+Student ID: 19B117514
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: B
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+Name: Bekdau, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: be 
+Year of education 2
+Student ID: 19B61140
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 7
+Session start: Tue Dec 22 02:39:45 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: qwer
+_________________________________
+Name: qwert, Surname: qwrt
+Phone Number: 84461515
+Mail: qwert 
+Year of education 2
+Student ID: 19B72176
+_________________________________
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Kazbe
+_________________________________
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+_________________________________
+Name: Bekdau, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: be 
+Year of education 2
+Student ID: 19B61140
+_________________________________
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 7
+Session start: Tue Dec 22 02:40:35 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 2
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bek
+_________________________________
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+_________________________________
+Name: Bekdau, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: be 
+Year of education 2
+Student ID: 19B61140
+_________________________________
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Print num to get access: 1
+Print student's name you want to search: Bekdaul
+_________________________________
+Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+_________________________________
+1.Search student
+2.View students list sorted by surname/name
+3.View students list sorted by GPA
+4.Back
+Users account count: 7
+Session start: Tue Dec 22 02:42:14 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Users account count: 7
+Session start: Tue Dec 22 02:45:22 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 1
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 1
+Print teacher's name you want to search: P
+_________________________________
+Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+_________________________________
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back

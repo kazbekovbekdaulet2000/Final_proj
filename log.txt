@@ -816,3 +816,50 @@ Tue Dec 22 02:08:23 ALMT 2020 Manager::manager ---->Enters to the intranet<----
 Tue Dec 22 02:08:29 ALMT 2020 Manager::manager Entered: View Teacher info
 Tue Dec 22 02:13:28 ALMT 2020 Manager::manager ---->Enters to the intranet<----
 Tue Dec 22 02:13:31 ALMT 2020 Manager::manager Entered: View Teacher info
+Tue Dec 22 02:23:16 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:23:20 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:24:31 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:24:34 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:26:15 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 02:26:17 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 02:26:19 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 02:26:21 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 02:26:43 ALMT 2020 Admin::admin add Student Bekdau Kazbekov was added
+Tue Dec 22 02:26:46 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 02:26:48 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 02:26:48 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 02:27:47 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:27:51 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:29:13 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:29:15 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:29:49 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:29:52 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:31:02 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:31:04 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:31:51 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:31:52 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:33:41 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:33:43 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:34:11 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:34:16 ALMT 2020 Manager::manager Entered: View Teacher info
+Tue Dec 22 02:34:31 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:35:30 ALMT 2020 Manager::manager Leave the intranet
+Tue Dec 22 02:35:37 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 02:35:38 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 02:35:39 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 02:35:40 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 02:35:53 ALMT 2020 Admin::admin add Student qwert qwrt was added
+Tue Dec 22 02:35:56 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 02:36:34 ALMT 2020 Admin::admin add Student qwqertyewuewrgeg surname was added
+Tue Dec 22 02:36:35 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 02:36:37 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 02:36:40 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 02:36:59 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:37:02 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:39:55 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:39:57 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:40:43 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:40:48 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 02:42:21 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:45:39 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 02:45:45 ALMT 2020 Manager::manager Entered: View Teacher info

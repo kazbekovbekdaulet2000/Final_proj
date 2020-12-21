@@ -249,7 +249,8 @@ public class AdminSession {
 	private static void updateEmployee(Admin admin, Employee e) {
 		String request = null;
 		if (e instanceof Teacher) {
-			String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change salary","5.Change teacher position","6.Change mail","7.Back"};
+			String a[] = {"1.Change name","2.Change surname","3.Change phone number",
+					"4.Change salary","5.Change mail","6.Change teacher position","7.Back"};
 			while (request!="7") {
 				Printer.print(a);
 				request = Printer.input("Print num to get access: ");

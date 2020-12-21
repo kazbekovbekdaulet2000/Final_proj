@@ -14,6 +14,7 @@ import users.Manager;
 import users.Student;
 import users.Teacher;
 import users.User;
+import utils.SearchByPattern;
 import utils.Printer;
 
 public class ManagerSession {
@@ -153,58 +154,26 @@ public class ManagerSession {
 	
 	private static void searchTeacherInfo() {
 		String search = Printer.input("Print teacher's name you want to search: ");
-		Teacher teacher = null;
-		boolean name = false;
 		for (User k : DataBase.users) {
-			if (search.equals(k.getName()) && k instanceof Teacher) {
-				if(teacher==null) {
-					teacher =(Teacher)k; 
-				}else {
-					name = true;
-				}
+			if ((SearchByPattern.KMPSearch(search, k.getName()) || SearchByPattern.KMPSearch(search, k.getSurname())) 
+					&& k instanceof Teacher) {
+				Printer.print("_________________________________");
+				Printer.print(k.toString());
 			}
 		}
-		if(name==true) {
-			teacher = null;
-			String search_2 = Printer.input("Print teacher's surname you want to search: ");
-			for (User k : DataBase.users) {
-				if (search.equals(k.getName()) && search_2.equals(k.getSurname()) && k instanceof Teacher) {
-					Printer.print(((Teacher) k).toString());
-				}
-			}
-		}else if(teacher!=null){
-			Printer.print(teacher.toString());	
-		}else {
-			Printer.print("Can't find teacher with this name");
-		}
+		Printer.print("_________________________________");
 	}
 	
 	private static void searchStudentInfo() {
 		String search = Printer.input("Print student's name you want to search: ");
-		Student student = null;
-		boolean name = false;
 		for (User k : DataBase.users) {
-			if (search.equals(k.getName()) && k instanceof Student) {
-				if(student==null) {
-					student =(Student) k; 
-				}else {
-					name = true;
-				}
+			if ((SearchByPattern.KMPSearch(search, k.getName()) || SearchByPattern.KMPSearch(search, k.getSurname())) 
+					&& k instanceof Student) {
+				Printer.print("_________________________________");
+				Printer.print(k.toString());
 			}
 		}
-		if(name==true) {
-			student = null;
-			String search_2 = Printer.input("Print student's surname you want to search: ");
-			for (User k : DataBase.users) {
-				if (search.equals(k.getName()) && search_2.equals(k.getSurname()) && k instanceof Student) {
-					Printer.print(((Student) k).toString());
-				}
-			}
-		}else if(student!=null){
-			Printer.print(student.toString());	
-		}else {
-			Printer.print("Can't find teacher with this name");
-		}
+		Printer.print("_________________________________");
 	}
 	
 	private static void addCourse(Manager manager) {

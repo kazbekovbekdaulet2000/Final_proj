@@ -2,3 +2,6 @@ Mail: admin  Password: admin  User type: Admin
 Mail: bekdaulet  Password: BSkafpeT  User type: Student
 Mail: PakitaS  Password: 5qpjtLsf  User type: Teacher
 Mail: Manager  Password: 8kVDekyP  User type: Manager
+Mail: be  Password: DKwaqtgk  User type: Student
+Mail: qwert  Password: hzkEDfyQ  User type: Student
+Mail: qwertyuirwe  Password: qnlwpaQi  User type: Student
