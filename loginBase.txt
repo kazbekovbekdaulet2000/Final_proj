@@ -1,2 +1,5 @@
+Mail: Bekdaulet  Password: qwerty  User type: Student
+Mail: Manager  Password: p2s03YD6  User type: Manager
+Mail: pakitas  Password: qwerty  User type: Teacher
 Mail: admin  Password: admin  User type: Admin
-Mail: pakita  Password: JFu0rJOS  User type: Teacher
+Mail: manager  Password: manage  User type: Manager

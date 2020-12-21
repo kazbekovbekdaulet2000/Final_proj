@@ -19,12 +19,11 @@ public class Course_File implements Serializable {    // no Ideas
     private String fileContext;
     private Date date;
     private String path;
-    private static final String PATH = "files/";
     
     public Course_File(String course_name, String fileName, String context) {     
     	this.fileName = fileName;
     	this.fileContext = context;
-    	this.setPath(PATH+course_name+"/"+fileName+".txt");
+    	this.path = "files/"+course_name+"/"+fileName+".txt";
     	this.date = (Date)Calendar.getInstance().getTime();
     	createFile(course_name, fileName, fileContext);
     }
@@ -62,13 +61,13 @@ public class Course_File implements Serializable {    // no Ideas
 	}
 	
     private void createFile(String st , String fileName, String fileContext) {
-    	File newdirectory = new File(PATH+st);
+    	File newdirectory = new File("files/"+st);
     	boolean bool = newdirectory.mkdir();
     	if(bool) {
     		Printer.print("New "+st+" directory created succesfuly");
     	}
     	try {
-    		File file = new File(PATH+st, fileName+".txt");
+    		File file = new File("files/"+st, fileName+".txt");
 			file.createNewFile();
 			try(BufferedWriter context = new BufferedWriter(new FileWriter(path, true))){
 				if(fileContext.length()/120 == 0) {
@@ -89,29 +88,35 @@ public class Course_File implements Serializable {    // no Ideas
 	}
     
     public int compareTo(Object a) {
-		return 0;
-        //TODO
+		return getFileName().compareTo(((Course_File)a).getFileName());
     }
     
+    @Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((date == null) ? 0 : date.hashCode());
+		result = prime * result + ((fileContext == null) ? 0 : fileContext.hashCode());
+		result = prime * result + ((fileName == null) ? 0 : fileName.hashCode());
+		result = prime * result + ((path == null) ? 0 : path.hashCode());
+		return result;
+	}
+     
     public boolean equals(Object o) {
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Course_File t = (Course_File) o;
-    	return this.fileName.equals(t.getFileName());
+    	return this.fileName.equals(t.getFileName()) && this.fileContext.equals(t.getFileContext()) && this.path.equals(t.getPath());
     }
-    
-    public int hashCode() {
-		return 0;
-        //TODO
-    }
-    
+
     public Object clone() {
 		return this.clone();
-        //TODO
     }
-    
-    public String toString() {
+
+	public String toString() {
     	File file = new File(path); 
-    	return "File name: "+fileName+".txt" + "      size: " + file.length() + " bytes";
+    	return "File name: "+fileName+".txt" + 
+    			"    size: " + file.length() + " bytes"
+    			+"  Date of creaton: " + date.getDate()+"."+date.getMonth()+"."+(date.getYear()+1900);
     }
 }

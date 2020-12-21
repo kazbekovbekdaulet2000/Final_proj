@@ -484,3 +484,60 @@ Mon Dec 21 17:46:39 ALMT 2020 Teacher::Pakita Entered: Delete course file
 Mon Dec 21 17:46:44 ALMT 2020 Teacher::Pakita deleted course file from OOP
 file name: file
 Mon Dec 21 17:46:48 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 18:05:40 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:05:41 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:05:51 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 18:05:54 ALMT 2020 Teacher::Pakita added course file for OOP
+Mon Dec 21 18:05:57 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 18:05:59 ALMT 2020 Teacher::Pakita added course file for OOP
+Mon Dec 21 18:06:03 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 18:27:54 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:27:58 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
+Mon Dec 21 18:32:31 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:32:34 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:32:47 ALMT 2020 Teacher::Pakita Entered: View course
+Mon Dec 21 18:33:04 ALMT 2020 Teacher::Pakita Entered: View course students
+Mon Dec 21 18:34:51 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:34:52 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:35:36 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:35:43 ALMT 2020 Teacher::Pakita Entered: View Students
+Mon Dec 21 18:36:54 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:37:31 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:37:32 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:37:56 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:37:57 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:38:24 ALMT 2020 Teacher::Pakita Fail to manage course
+Mon Dec 21 18:38:53 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:38:54 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:40:38 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:40:39 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:40:47 ALMT 2020 Teacher::Pakita opened ADS
+Mon Dec 21 18:40:51 ALMT 2020 Teacher::Pakita Entered: View course
+Mon Dec 21 18:40:51 ALMT 2020 Teacher::Pakita opened ADS
+Mon Dec 21 18:40:53 ALMT 2020 Teacher::Pakita Entered: View course students
+Mon Dec 21 18:42:53 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:42:54 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:43:02 ALMT 2020 Teacher::Pakita opened OOP
+Mon Dec 21 18:43:05 ALMT 2020 Teacher::Pakita Entered: View course students
+Mon Dec 21 18:43:05 ALMT 2020 Teacher::Pakita opened OOP
+Mon Dec 21 18:43:39 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 18:43:40 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:43:48 ALMT 2020 Teacher::Pakita opened OOP
+Mon Dec 21 18:43:51 ALMT 2020 Teacher::Pakita Entered: View course students
+Mon Dec 21 18:43:59 ALMT 2020 Teacher::Pakita Mail screen
+Mon Dec 21 18:44:01 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:44:12 ALMT 2020 Teacher::Pakita opened ITBM
+Mon Dec 21 18:44:15 ALMT 2020 Teacher::Pakita Entered: View course students
+Mon Dec 21 18:44:18 ALMT 2020 Teacher::Pakita Mail screen
+Mon Dec 21 18:44:21 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 18:44:25 ALMT 2020 Teacher::Pakita Fail to manage course
+Mon Dec 21 18:44:29 ALMT 2020 Teacher::Pakita Entered: View Students
+Mon Dec 21 18:44:44 ALMT 2020 Teacher::Pakita Entered: Put Marks
+Mon Dec 21 18:44:50 ALMT 2020 Teacher::Pakita Entered: First attestation 
+Mon Dec 21 18:44:54 ALMT 2020 Teacher::Pakita Entered: Second attestation
+Mon Dec 21 18:44:56 ALMT 2020 Teacher::Pakita Entered: Second attestation
+Mon Dec 21 18:44:57 ALMT 2020 Teacher::Pakita Entered: Final
+Mon Dec 21 18:44:58 ALMT 2020 Teacher::Pakita Mail Screen
+Mon Dec 21 18:45:00 ALMT 2020 Teacher::Pakita Leave the intranet
+Mon Dec 21 18:45:29 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 18:45:33 ALMT 2020 Admin::admin Entered: View accounts

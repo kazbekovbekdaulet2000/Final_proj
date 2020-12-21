@@ -2,13 +2,17 @@ package sessions;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.logging.Logger;
 
+import comporators.CompareByCourseFileName;
 import course.Course;
 import course.Course_File;
 import enums.Faculty;
 import project.DataBase;
+import project.Order;
 import users.Teacher;
+import users.TechSupportGuy;
 import utils.Printer;
 
 public class TeacherSession {
@@ -35,10 +39,31 @@ public class TeacherSession {
 				Printer.print("_______________________________________");
 			}else if(request.equals("4")) {
 				Printer.writeLog(teacher, a[3].substring(2));
-				//TODO
+				putMarks(teacher);
 			}else if(request.equals("5")) {
 				Printer.writeLog(teacher, a[4].substring(2));	
-				//TODO
+				String title = Printer.input("Print title of your order: ");
+				String text = Printer.input("Print text of your order: ");
+				int cnt =0;
+				for(int i=0; i<DataBase.users.size();++i) {
+					if(DataBase.users.get(i) instanceof TechSupportGuy) {
+						Printer.print(DataBase.users.get(i).getMail());
+						cnt++;
+					}
+				}
+				if(cnt!=0) {
+					String mail = Printer.input("Print mail of Tech support to send order: ");
+					TechSupportGuy tsg = null;
+					for(int i=0; i<DataBase.users.size();++i) {
+						if(DataBase.users.get(i) instanceof TechSupportGuy && mail.equals(DataBase.users.get(i).getMail())) {
+							tsg = (TechSupportGuy)DataBase.users.get(i);	
+						}
+					}
+					teacher.sendOrder(title, text, tsg);
+					Printer.writeLogPrimitive(teacher, "send order to the tech support: " +tsg.getName());
+				}else {
+					Printer.print("No any tech support in the system");
+				}
 			}else if(request.equals("6")) {
 				Printer.writeLog(teacher, a[6].substring(2));
 				teacher.viewMessages();
@@ -63,6 +88,46 @@ public class TeacherSession {
 	
 
 
+	private static void putMarks(Teacher teacher) {
+		String course_name = Printer.input("Print course name or code: ");
+		Course course = null;
+		for(int i=0;i<DataBase.courses.size();++i) {
+			if(DataBase.courses.get(i).getCourseName().equals(course_name) || DataBase.courses.get(i).getCourseName().equals(course_name)) {
+				if(DataBase.courses.get(i).getTeacher().equals(teacher)) {
+					course=DataBase.courses.get(i);
+					break;
+				}
+			}
+		}
+		if(course==null) {
+			Printer.writeLogPrimitive(teacher, "Fail to put mark for course students");
+			Printer.print("No Such course or wrong name of course");
+			return;
+		}else {
+		String request = null;
+			while(request!="4") {
+				String[] a = {"1.First attestation ","2.Second attestation","3.Final",
+						"4.Exit"};
+				Printer.print(a);
+				request = Printer.input("Print num to get access: ");;
+				if(request.equals("1")) {
+					Printer.writeLog(teacher, a[0].substring(2));
+					teacher.listofStudents();
+				}else if(request.equals("2")) {
+					Printer.writeLog(teacher, a[1].substring(2));
+				}else if(request.equals("3")) {
+					Printer.writeLog(teacher, a[2].substring(2));
+				}else if(request.equals("4")) {
+					Printer.writeLogPrimitive(teacher, "Mail Screen");
+					return;
+				}	
+				db.save();
+			}
+		}
+	}
+
+
+
 	private static void manageCourse(Teacher teacher) {
 		String manage = null;
 		String ans = Printer.input("View courses?(Y/N): ");
@@ -71,17 +136,19 @@ public class TeacherSession {
 			int cnt=0;
 			for(int i=0;i<DataBase.courses.size();++i) {
 				if(DataBase.courses.get(i).getTeacher().equals(teacher)) {
+					Printer.print("_______________________________________");
 					Printer.print(DataBase.courses.get(i).toString());
 					cnt++;
 				}
 			}
+			Printer.print("_______________________________________");
 			c=cnt;
 		}
 		if(c!=0) {
 			String course_name = Printer.input("Print course name or code: ");
 			Course course = null;
 			for(int i=0;i<DataBase.courses.size();++i) {
-				if(DataBase.courses.get(i).getCourseName().equals(course_name) || DataBase.courses.get(i).getCourseName().equals(course_name)) {
+				if(DataBase.courses.get(i).getCourseName().equals(course_name) || DataBase.courses.get(i).getCourseID().equals(course_name)) {
 					if(DataBase.courses.get(i).getTeacher().equals(teacher)) {
 						course=DataBase.courses.get(i);
 						break;
@@ -93,6 +160,10 @@ public class TeacherSession {
 				Printer.print("No Such course or wrong name of course");
 				return;
 			}
+			
+			Printer.print(course.getCourseName()+" is opened");
+			Printer.writeLogPrimitive(teacher,"opened " + course.getCourseName());
+			
 			while(manage!="6") {
 				String[] a = {"1.View course","2.View course students","3.View course files",
 						"4.Add course file","5.Delete course file","6.Back"};
@@ -110,6 +181,7 @@ public class TeacherSession {
 				}else if(manage.equals("3")) {
 					Printer.writeLog(teacher, a[2].substring(2));
 					Printer.print("Course file count: " +course.getFiles().size());
+//					Collections.sort(course.getFiles(),new CompareByCourseName());
 					for(int i=0;i<course.getFiles().size();++i) {
 						Printer.print(course.getFiles().get(i).toString());
 					}
@@ -149,7 +221,7 @@ public class TeacherSession {
 					File f= new File("files/"+dir+"/" +file_name+".txt");            
 					if(f.delete()){                  
 						Printer.print(f.getName() + " deleted");
-						Printer.writeLogPrimitive(teacher,"deleted course file from " + cr.getCourseName() + "\nfile name: " + file_name);
+						Printer.writeLogPrimitive(teacher,"deleted course file from " + cr.getCourseName() + " file name: " + file_name);
 					}else{  
 						Printer.writeLogPrimitive(teacher," failed to deleted course file from " + cr.getCourseName() + "\nfile name: " + file_name);
 						Printer.print("failed to delete file "+ file_name);  
@@ -173,8 +245,4 @@ public class TeacherSession {
 		Printer.print("New \""+course.getCourseName()+ "\" was added");
 		Printer.writeLogPrimitive(teacher, "added new \""+ course.getCourseName()+"\"");
 	}
-	
-//	private static void addCourseFile(Teacher teacher) {
-//		Printer.print("Print Course name: ");
-//	}
 }

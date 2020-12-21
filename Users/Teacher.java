@@ -3,9 +3,11 @@ package users;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Vector;
 
+import comporators.CompareByName;
 import course.Course;
 import course.Course_File;
 import course.Mark;
@@ -191,9 +193,11 @@ public class Teacher extends Employee implements Serializable {
     }
 
 	public void listofStudents() {
+		
 		for(int i=0;i<DataBase.courses.size();++i) {
 			if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
 				Printer.print("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
+				Collections.sort(DataBase.users, new CompareByName()); //sort by name and surname
 				for(int j=0;j<DataBase.users.size();++j) {
 					if(DataBase.users.get(j) instanceof Student) {
 						Student st = (Student)DataBase.users.get(j);
@@ -209,16 +213,14 @@ public class Teacher extends Employee implements Serializable {
 	}
 
 	public void listofStudents(Course course) {
+//		Collections.sort(DataBase.users, new CompareByName()); //sort by name and surname
 		for(int i=0;i<DataBase.users.size();++i) {
-			Printer.print("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
-			for(int j=0;j<DataBase.users.size();++j) {
-				if(DataBase.users.get(i) instanceof Student) {
-					Student st = (Student)DataBase.users.get(i);
-					if(st.getCourses().contains(course)) {
-						Printer.print(st.getName()+ " " + st.getSurname());
-					}
+			if(DataBase.users.get(i) instanceof Student) {
+				Student st = (Student)DataBase.users.get(i);
+				if(st.getCourses().contains(course)) {
+					Printer.print(st.getName()+ " " + st.getSurname());
 				}
-			}	
+			}
 		}
 	}
     
