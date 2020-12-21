@@ -11,6 +11,7 @@ import course.Course_File;
 import enums.Faculty;
 import project.DataBase;
 import project.Order;
+import users.Student;
 import users.Teacher;
 import users.TechSupportGuy;
 import utils.Printer;
@@ -113,6 +114,9 @@ public class TeacherSession {
 				if(request.equals("1")) {
 					Printer.writeLog(teacher, a[0].substring(2));
 					teacher.listofStudents();
+					Student st = null;
+					String student_name = Printer.input("Print student name: ");
+					
 				}else if(request.equals("2")) {
 					Printer.writeLog(teacher, a[1].substring(2));
 				}else if(request.equals("3")) {

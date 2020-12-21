@@ -1,9 +1,12 @@
-
 package sessions;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.Vector;
 
+import comporators.CompareByGPA;
+import comporators.CompareByName;
+import comporators.CompareByPos;
 import course.Course;
 import enums.Faculty;
 import project.DataBase;
@@ -81,8 +84,74 @@ public class ManagerSession {
 			Printer.print("Can't find teacher with such mail");
 		}
 	}
-
+	
 	private static void viewTeacherInfo() {
+		String a[] = {"1.Search teacher","2.View teachers list sorted by surname/name", "3.View teachers list sorted by position", "4.Back"};
+		String request = null;
+		Vector<Teacher> teachers = new Vector<Teacher>();
+		for (User u : DataBase.users) {
+			if (u instanceof Teacher)
+				teachers.add((Teacher)u);
+		}
+		while (request != "4") {
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");
+			if (request.equals("1")) {
+				searchTeacherInfo();
+			} else if (request.equals("2")) {
+				Printer.print("________________________________");
+				Collections.sort(teachers, new CompareByName());
+				for (Teacher t : teachers) {
+					Printer.print(t.toString());
+					Printer.print("________________________________");
+				}
+			} else if (request.equals("3")) {
+				Printer.print("________________________________");
+				Collections.sort(teachers, new CompareByPos());
+				for (Teacher t : teachers) {
+					Printer.print(t.toString());
+					Printer.print("________________________________");
+				}
+			} else if (request.equals("4")) {
+				break;
+			}
+		}
+	}
+	
+	private static void viewStudentInfo() {
+		String a[] = {"1.Search student","2.View students list sorted by surname/name", "3.View students list sorted by GPA", "4.Back"};
+		String request = null;
+		Vector<Student> students = new Vector<Student>();
+		for (User u : DataBase.users) {
+			if (u instanceof Student)
+				students.add((Student)u);
+		}
+		while (request!="4") {
+			Printer.print(a);
+			request = Printer.input("Print num to get access: ");
+			if (request.equals("1")) {
+				searchStudentInfo();
+			} else if (request.equals("2")) {
+				Printer.print("________________________________");
+				Collections.sort(students, new CompareByName());
+				for (Student s : students) {
+					Printer.print(s.toString());
+					Printer.print("________________________________");
+				}
+			} else if (request.equals("3")) {
+				Printer.print("________________________________");
+				Collections.sort(students, new CompareByGPA());
+				for (Student s : students) {
+					Printer.print(s.toString());
+					Printer.print("________________________________");
+				}
+			}
+			else if (request.equals("4"))
+				break;
+		}
+	}
+	
+	private static void searchTeacherInfo() {
 		String search = Printer.input("Print teacher's name you want to search: ");
 		Teacher teacher = null;
 		boolean name = false;
@@ -108,8 +177,8 @@ public class ManagerSession {
 		}
 	}
 	
-	private static void viewStudentInfo() {
-		String search = Printer.input("Print studnet's name you want to search: ");
+	private static void searchStudentInfo() {
+		String search = Printer.input("Print student's name you want to search: ");
 		Student student = null;
 		boolean name = false;
 		for (User k : DataBase.users) {

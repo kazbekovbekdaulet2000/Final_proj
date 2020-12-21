@@ -789,3 +789,26 @@ Mon Dec 21 21:10:51 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<---
 Mon Dec 21 21:10:53 ALMT 2020 Student::Bekdaulet Entered: View Transcript
 Mon Dec 21 21:11:37 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
 Mon Dec 21 21:11:38 ALMT 2020 Student::Bekdaulet Entered: View Transcript
+Mon Dec 21 23:27:04 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 23:28:16 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 23:28:18 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 23:28:20 ALMT 2020 Admin::admin Entered: View accounts
+Mon Dec 21 23:28:24 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 23:28:25 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 23:28:27 ALMT 2020 Admin::admin Entered: Add Manager
+Mon Dec 21 23:28:50 ALMT 2020 Admin::admin add Manager manager manager was added
+Mon Dec 21 23:28:54 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 23:28:56 ALMT 2020 Admin::admin Entered: Update info about User
+Mon Dec 21 23:28:58 ALMT 2020 Admin::admin Entered: Change user info
+Mon Dec 21 23:29:36 ALMT 2020 Admin::admin Changed salary of Manage
+Mon Dec 21 23:31:37 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 23:31:41 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 23:31:43 ALMT 2020 Admin::admin Entered: Update info about User
+Mon Dec 21 23:31:49 ALMT 2020 Admin::admin Entered: Change user info
+Mon Dec 21 23:32:00 ALMT 2020 Admin::admin Changed mail of manager manager
+Mon Dec 21 23:32:07 ALMT 2020 Admin::admin Back
+Mon Dec 21 23:32:11 ALMT 2020 Admin::admin Entered: Manage users
+Mon Dec 21 23:32:15 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 23:32:16 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 23:32:35 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 23:33:35 ALMT 2020 Manager::manager Entered: View Teacher info

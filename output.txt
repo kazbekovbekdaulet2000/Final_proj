@@ -4481,3 +4481,288 @@ Count of registrated courses: 2
 4.Change Password
 5.View News
 6.Exit
+Users account count: 3
+Session start: Mon Dec 21 23:26:35 ALMT 2020
+You have 3 tries
+Users account count: 3
+Session start: Mon Dec 21 23:26:55 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: bekdaulet  Password: BSkafpeT  User type: Student
+Mail: PakitaS  Password: 5qpjtLsf  User type: Teacher
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: Manage
+Name: manager
+Surname: manager
+Phone Number: 87077121500
+Salary: 500000
+Manager manager manager was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 3
+1.Change user info
+2.Back
+Print num to get access: 1
+0  Name: admin, Surname: admin
+Phone Number: admin
+Mail: admin 
+Employee salary = 200000
+Position: Admin
+_________________________________
+1  Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+_________________________________
+2  Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+_________________________________
+3  Name: manager, Surname: manager
+Phone Number: 87077121500
+Mail: Manage 
+Employee salary = 500000
+Position: Manager
+_________________________________
+Print id of user you want to change: 3
+You want to change manager manager info
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 5
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 5
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 5
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 5
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 5
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 5
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Print num to get access: 4
+Salary :150000
+Successfully changed!
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+Users account count: 4
+Session start: Mon Dec 21 23:31:34 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 3
+1.Change user info
+2.Back
+Print num to get access: 1
+0  Name: admin, Surname: admin
+Phone Number: admin
+Mail: admin 
+Employee salary = 200000
+Position: Admin
+_________________________________
+1  Name: Bekdaulet, Surname: Kazbekov
+Phone Number: 87077121500
+Mail: bekdaulet 
+Year of education 2
+Student ID: 19B90295
+_________________________________
+2  Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+_________________________________
+3  Name: manager, Surname: manager
+Phone Number: 87077121500
+Mail: Manage 
+Employee salary = 150000
+Position: Manager
+_________________________________
+Print id of user you want to change: 3
+You want to change manager manager info
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+6.Back
+Print num to get access: 5
+Print new mail: Manager
+Successfully changed!
+1.Change name
+2.Change surname
+3.Change phone number
+4.Change salary
+5.Change mail
+6.Back
+Print num to get access: 6
+1.Change user info
+2.Back
+Print num to get access: 8
+1.Change user info
+2.Back
+Print num to get access: 2
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 4
+Session start: Mon Dec 21 23:32:32 ALMT 2020
+You have 3 tries
+Mail: Manager
+Password: 8kVDekyP
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 1
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 1
+Print teacher's name you want to search: Pakita
+Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 2
+________________________________
+Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+________________________________
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Print num to get access: 3
+________________________________
+Name: Pakita, Surname: Shamoi
+Phone Number: 878464646
+Mail: PakitaS 
+Employee salary = 800000
+Position: Professor
+________________________________
+1.Search teacher
+2.View teachers list sorted by surname/name
+3.View teachers list sorted by position
+4.Back
+Users account count: 4
+Session start: Mon Dec 21 23:38:28 ALMT 2020
+You have 3 tries

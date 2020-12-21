@@ -295,7 +295,7 @@ public class AdminSession {
 				updateLoginBase();
 			}
 		} else {
-			String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change salary","5.Change mail"};
+			String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change salary","5.Change mail","6.Back"};
 			while (request!="6") {
 				Printer.print(a);
 				request = Printer.input("Print num to get access: ");
@@ -323,13 +323,14 @@ public class AdminSession {
 					Printer.writeLogPrimitive(admin, "Changed salary of "+e.getMail());
 					Printer.print("Successfully changed!");
 					db.save();
-				} else if (request.equals("6")) {
+				} else if (request.equals("5")) {
 					String n = Printer.input("Print new mail: ");
 					e.setMail(n);
 					Printer.writeLogPrimitive(admin, "Changed mail of "+e.getName()+" "+e.getSurname());
 					Printer.print("Successfully changed!");
 					db.save();
 				} else if (request.equals("6")) {
+					Printer.writeLogPrimitive(admin, "Back");
 					break;
 				}
 				updateLoginBase();
