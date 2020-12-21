@@ -219,3 +219,13 @@ Mon Dec 21 14:06:32 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
 Mon Dec 21 14:06:35 ALMT 2020 Teacher::Pakita Entered: Change password
 Mon Dec 21 14:07:04 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
 Mon Dec 21 14:07:09 ALMT 2020 Teacher::Pakita Entered: Change password
+Mon Dec 21 14:18:21 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Mon Dec 21 14:18:23 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Mon Dec 21 14:18:35 ALMT 2020 Manager::manager Send message to Pakita Shamoi
+Mon Dec 21 14:18:37 ALMT 2020 Manager::manager Leave the intranet
+Mon Dec 21 14:18:47 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 14:18:50 ALMT 2020 Teacher::Pakita Entered: View messages
+Mon Dec 21 14:18:52 ALMT 2020 Teacher::Pakita changed password
+Mon Dec 21 14:18:57 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
+Mon Dec 21 14:19:04 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
+Mon Dec 21 14:19:08 ALMT 2020 Teacher::Pakita Entered: Change password

@@ -61,6 +61,7 @@ public class ManagerSession {
 		String title = Printer.input("News title: ");
 		String text = Printer.input("text: ");
 		manager.createNewsTab(title, text);
+		Printer.writeLogPrimitive(manager, "created news");
 	}
 
 	private static void Messanger(Manager manager) {
@@ -75,6 +76,7 @@ public class ManagerSession {
 			String text = Printer.input("Print text of your message: ");
 			manager.sendMessage(text, teacher);
 			Printer.print("Message is delivered");
+			Printer.writeLogPrimitive(manager, "Send message to " + teacher.getName()+ " "+teacher.getSurname());
 		}else {
 			Printer.print("Can't find teacher with such mail");
 		}
