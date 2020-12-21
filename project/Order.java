@@ -38,20 +38,6 @@ public class Order implements Serializable {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-//	public TechSupportGuy getTechSupportGuy() {
-//		return techSupportGuy;
-//	}
-//	public void setTechSupportGuy(TechSupportGuy techSupportGuy) {
-//		this.techSupportGuy = techSupportGuy;
-//	}
-//	public DataBase getDataBase() {
-//		return dataBase;
-//	}
-//	public void setDataBase(DataBase dataBase) {
-//		this.dataBase = dataBase;
-//	}
-	
-	
 	
 	@Override
 	public String toString() {

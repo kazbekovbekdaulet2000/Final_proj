@@ -3163,3 +3163,1563 @@ Message from manager manager: Hello Pakita!
 7.Change password
 8.View news
 9.Exit
+Users account count: 5
+Session start: Mon Dec 21 15:31:41 ALMT 2020
+You have 3 tries
+New null directory created succesfuly
+New null directory created succesfuly
+New null directory created succesfuly
+New OOP directory created succesfuly
+Users account count: 5
+Session start: Mon Dec 21 15:44:18 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: WAtYy20d
+Wrong Password
+You have 2 tries
+Mail: pakitas
+Password: WAtYy20d
+Wrong Password
+You have 1 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: Bekdaulet  Password: lVaM4rzl  User type: Student
+Mail: Manager  Password: p2s03YD6  User type: Manager
+Mail: pakitas  Password: qwerty  User type: Teacher
+Mail: manager  Password: manage  User type: Manager
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 5
+Session start: Mon Dec 21 15:45:14 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+Print course name or code: ack
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+Print course name or code: asd
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Message from manager manager: Hello Pakita!
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 15:49:41 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 15:50:32 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+You haven't any courses
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+Print course name or code: 
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+You haven't any courses
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 15:52:10 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+Users account count: 5
+Session start: Mon Dec 21 15:53:04 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: pakitas
+Wrong Password
+You have 2 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: wqee
+New OOP_Pakita_Shamoi directory created succesfuly
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 15:55:27 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: lol
+Users account count: 5
+Session start: Mon Dec 21 15:56:16 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): n
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwertyuijkvdf;nv
+Can't create OOP_Pakita_Shamoi directory
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:04:00 ALMT 2020
+You have 3 tries
+Users account count: 5
+Session start: Mon Dec 21 16:04:12 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): d
+Print course name or code: OOp
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: FILE
+New OOP_Pakita_Shamoi directory created succesfuly
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:07:34 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): OO
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Rome (Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6]
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:14:26 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: null
+Course name: null
+Course credit number: null
+Users account count: 5
+Session start: Mon Dec 21 16:14:41 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Rome (Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:15:32 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwertyuuu
+You can paste you text here: Rome (Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:17:51 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Rome (Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:18:51 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): k
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwertyudf
+You can paste you text here: Rome (Italian and Latin: Roma [ˈroːma] (About this soundlisten)) is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[1] it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy.[2] Its metropolitan area is the third-most populous within Italy.[3] Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside the city boundaries of Rome, the only existing example of a country within a city; for this reason Rome has sometimes been defined as the capital of two states.[5][6
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:19:59 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): m
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:24:46 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): O
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwertyfsdfsf3gergd
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:25:56 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:26:45 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 5
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 16:30:05 ALMT 2020
+You have 3 tries
+Users account count: 5
+Session start: Mon Dec 21 16:31:44 ALMT 2020
+You have 3 tries
+Users account count: 5
+Session start: Mon Dec 21 16:45:00 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: qwerty
+failed to delete file qwerty
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:47:22 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: qwerty
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: qwerty
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: wq
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:49:01 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: one
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: one
+one.txt deleted
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: qwerty
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 3
+File name: qwerty
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 16:50:34 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Print num to get access: 4
+File name to delete: qwerty
+qwerty.txt deleted
+1.View course
+2.View course students
+3.Add course file
+4.Delete course file
+5.Back
+Users account count: 5
+Session start: Mon Dec 21 17:01:54 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:02:58 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 0
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: 1
+Users account count: 5
+Session start: Mon Dec 21 17:03:45 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): o
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: 1
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access:  – Entry on Roma Tiburtina station on the official website of the Italian high-speed rail service (in Italian)
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+1.txtsize:364
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:04:50 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+1.txtsize:3
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:05:58 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): d
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+File name: 1.txt      size: 3 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:06:39 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwertyu
+Wrong Password
+You have 2 tries
+Mail: pakita
+Password: s
+Wrong Mail
+You have 1 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+File name: 1.txt      size: 3 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:07:31 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2105
+Course name: ADS
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "ADS" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 0
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: quiz1
+You can paste you text here: Hello its not a quiz 1
+New ADS_Pakita_Shamoi directory created succesfuly
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 5
+Session start: Mon Dec 21 17:09:34 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: Bekdaulet
+-----------a mail dublication!-----------
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:09:50 ALMT 2020
+You have 3 tries
+Mail: Bekdaulet
+Password: lVaM4rzl
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 17:10:38 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: INFI2106
+Course name: ITBM
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: BS
+For year of study: 2
+New "ITBM" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Mon Dec 21 17:11:16 ALMT 2020
+You have 3 tries
+Mail: Bekdaulet
+Password: lVaM4rzl
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 4
+Old Password: lVaM4rzl
+New Password: qwerty
+Password is changed: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Users account count: 5
+Session start: Mon Dec 21 17:13:56 ALMT 2020
+You have 3 tries
+Mail: Bekdaulet
+Password: qwerty
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Users account count: 5
+Session start: Mon Dec 21 17:15:43 ALMT 2020
+You have 3 tries
+Mail: Bekdaulet
+Password: qwerty
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Users account count: 5
+Session start: Mon Dec 21 17:16:18 ALMT 2020
+You have 3 tries
+Mail: Bekdaulet
+Password: qwerty
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): back
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+No courses:
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 3
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): ADS
+ADS was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: ADS(CSCI2105) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: ITBM(INFI2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________

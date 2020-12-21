@@ -38,7 +38,7 @@ public class Auth {
 			Printer.print("You have "+ (3-i)+" tries");
 			String mail = Printer.input("Mail: ");
 			String password = Printer.input("Password: ");         
-			User user = db.findUser(mail.toLowerCase());
+			User user = db.findUser(mail);
 			if(user!=null) {
 		        if(encode(password) == user.hashCode()) {
 		        	Printer.writeLogPrimitive(user, "---->Enters to the intranet<----");

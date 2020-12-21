@@ -1,3 +1,5 @@
+import course.Course;
+import course.Course_File;
 import project.Auth;
 
 public class test {

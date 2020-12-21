@@ -192,14 +192,14 @@ public class AdminSession {
 		if(userType == "Student") {
 			int year = Integer.parseInt(Printer.input("Year of education: "));
 			Faculty faculty = Faculty.fromString(Printer.input("Faculty: "));
-			admin.addUser(mail.toLowerCase(), name, surname, phoneNum, year, faculty, userType);
+			admin.addUser(mail, name, surname, phoneNum, year, faculty, userType);
 		}else {
 			int salary = Integer.parseInt(Printer.input("Salary: "));
 			if(userType == "Teacher") {
 				Teacher_pos pos = Teacher_pos.fromString(Printer.input("Teacher position: "));
-				admin.addUser(mail.toLowerCase(), name, surname, phoneNum, salary, pos, userType);
+				admin.addUser(mail, name, surname, phoneNum, salary, pos, userType);
 			}else {
-				admin.addUser(mail.toLowerCase(), name, surname, phoneNum, salary, userType);	
+				admin.addUser(mail, name, surname, phoneNum, salary, userType);	
 			}
 		}
 		Printer.print(userType + " " + name + " " + surname + " was added");

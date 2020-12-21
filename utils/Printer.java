@@ -11,7 +11,6 @@ public class Printer {
 			System.out.print(text);
 			String new_text = buffer.readLine();
 			writeFile(text, new_text);
-//			writeLog(user, text);
 			return new_text;
 		}catch(IOException e) {
 			e.printStackTrace();
