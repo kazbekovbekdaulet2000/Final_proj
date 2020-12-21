@@ -4723,3 +4723,665 @@ Faculty: BS(Bussines School)
 For students of 2 year of education
 Teacher: Pakita Shamoi
 _________________________________________________________
+IO Exception
+IO Exception
+Users account count: 5
+Session start: Mon Dec 21 17:22:04 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): 
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+File name: quiz1.txt      size: 0 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: qwersd
+You can paste you text here: Text that i want
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:23:02 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): a
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 2
+File name: quiz1.txt      size: 0 bytes
+File name: qwersd.txt      size: 0 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: one
+You can paste you text here: one
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+IO Exception
+IO Exception
+Users account count: 5
+Session start: Mon Dec 21 17:24:50 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: two
+You can paste you text here: two
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:25:41 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: om
+You can paste you text here: om
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+IO Exception
+IO Exception
+Users account count: 0
+Session start: Mon Dec 21 17:28:56 ALMT 2020
+You have 3 tries
+Users account count: 0
+Session start: Mon Dec 21 17:29:06 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: pakita
+Name: Pakita
+Surname: Shamoi
+Phone Number: 8784846454
+Salary: 500000
+Teacher position: Professor
+Teacher Pakita Shamoi was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 2
+Session start: Mon Dec 21 17:29:49 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: JFu0rJOS
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: ADS
+Course name: ADS
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "ADS" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): a
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 0
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: ads
+You can paste you text here: adsadadas
+New ADS_Pakita_Shamoi directory created succesfuly
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:32:37 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: JFu0rJOS
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 7
+Old Password: JFu0rJOS
+New Password: q
+Password is changed: 
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): a
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: asd
+You can paste you text here: asdasdasd
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:33:38 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: q
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: lol
+You can paste you text here: lol
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 5
+File name to delete: lol
+lol.txt deleted
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 5
+File name to delete: asd
+asd.txt deleted
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 5
+File name to delete: ads
+ads.txt deleted
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:35:33 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: q
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): a
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: ads
+You can paste you text here: ads
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:37:53 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: q
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: asd
+You can paste you text here: asd
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:38:44 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: q
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: file
+You can paste you text here: filetext
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 5
+File name to delete: file
+file.txt deleted
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:39:35 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: q
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: ADS
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 2
+ads
+asd
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: qwerty
+You can paste you text here: qwerty
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: asdfgseg
+You can paste you text here: Metropolitan City of Rome Capital (Italian: Città metropolitana di Roma Capitale) is an area of local government at the level of metropolitan city in the Lazio region of the Republic of Italy. It comprises the territory of the city of Rome and 121 other municipalities (comuni) in the suburbs of the city. With more than 4.3 million inhabitants, it is the largest metropolitan city in Italy.
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 2
+Session start: Mon Dec 21 17:41:41 ALMT 2020
+You have 3 tries
+IO Exception
+Users account count: 2
+Session start: Mon Dec 21 17:42:35 ALMT 2020
+You have 3 tries
+Users account count: 5
+Session start: Mon Dec 21 17:44:59 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+File name: 1.txt      size: 3 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: file
+You can paste you text here: file
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 2
+File name: 1.txt      size: 3 bytes
+File name: file.txt      size: 0 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 5
+Session start: Mon Dec 21 17:46:07 ALMT 2020
+You have 3 tries
+Mail: pakitas
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 2
+File name: 1.txt      size: 3 bytes
+File name: file.txt      size: 0 bytes
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: 2
+You can paste you text here: asertyu
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 5
+File name to delete: file
+file.txt deleted
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4

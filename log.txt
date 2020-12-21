@@ -395,3 +395,92 @@ Mon Dec 21 17:16:43 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
 Mon Dec 21 17:16:46 ALMT 2020 Student::Bekdaulet added course: ADS
 Mon Dec 21 17:16:52 ALMT 2020 Student::Bekdaulet Entered: View Courses
 Mon Dec 21 17:16:55 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Mon Dec 21 17:22:09 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:22:11 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:22:18 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:22:23 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:22:36 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:23:08 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:23:09 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:23:16 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:23:22 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:23:28 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:24:58 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:24:59 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:25:07 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:25:11 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:25:50 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:25:52 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:25:59 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:26:03 ALMT 2020 Teacher::Pakita added course file for OOP
+Mon Dec 21 17:29:09 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Mon Dec 21 17:29:10 ALMT 2020 Admin::admin Entered: Manage Users
+Mon Dec 21 17:29:12 ALMT 2020 Admin::admin Entered: Add User
+Mon Dec 21 17:29:13 ALMT 2020 Admin::admin Entered: Add Teacher
+Mon Dec 21 17:29:35 ALMT 2020 Admin::admin add Teacher Pakita Shamoi was added
+Mon Dec 21 17:29:38 ALMT 2020 Admin::admin Entered: Manage User screen
+Mon Dec 21 17:29:38 ALMT 2020 Admin::admin Entered: Main screen
+Mon Dec 21 17:29:40 ALMT 2020 Admin::admin Leave the intranet
+Mon Dec 21 17:31:00 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:31:03 ALMT 2020 Teacher::Pakita Entered: Add course 
+Mon Dec 21 17:31:14 ALMT 2020 Teacher::Pakita added new "ADS"
+Mon Dec 21 17:31:17 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:31:26 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:31:27 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:31:33 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:32:44 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:32:46 ALMT 2020 Teacher::Pakita Entered: View messages
+Mon Dec 21 17:32:48 ALMT 2020 Teacher::Pakita changed password
+Mon Dec 21 17:32:59 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:33:06 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:33:11 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:33:44 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:33:46 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:33:55 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:33:59 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:34:11 ALMT 2020 Teacher::Pakita Entered: Delete course file
+Mon Dec 21 17:34:13 ALMT 2020 Teacher::Pakita deleted course file from ADS
+file name: lol
+Mon Dec 21 17:34:22 ALMT 2020 Teacher::Pakita Entered: Delete course file
+Mon Dec 21 17:34:26 ALMT 2020 Teacher::Pakita deleted course file from ADS
+file name: asd
+Mon Dec 21 17:34:30 ALMT 2020 Teacher::Pakita Entered: Delete course file
+Mon Dec 21 17:34:33 ALMT 2020 Teacher::Pakita deleted course file from ADS
+file name: ads
+Mon Dec 21 17:35:38 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:35:39 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:35:45 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:35:50 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:37:57 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:37:59 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:38:05 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:38:17 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:38:48 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:38:52 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:38:58 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:39:03 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:39:21 ALMT 2020 Teacher::Pakita Entered: Delete course file
+Mon Dec 21 17:39:23 ALMT 2020 Teacher::Pakita deleted course file from ADS
+file name: file
+Mon Dec 21 17:39:40 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:39:43 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:39:53 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:40:01 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:40:05 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:40:31 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:40:33 ALMT 2020 Teacher::Pakita added course file for ADS
+Mon Dec 21 17:45:08 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:45:10 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:45:18 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:45:25 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:45:29 ALMT 2020 Teacher::Pakita added course file for OOP
+Mon Dec 21 17:45:37 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:46:12 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Mon Dec 21 17:46:14 ALMT 2020 Teacher::Pakita Entered: Manage Courses
+Mon Dec 21 17:46:22 ALMT 2020 Teacher::Pakita Entered: View course files
+Mon Dec 21 17:46:25 ALMT 2020 Teacher::Pakita Entered: Add course file
+Mon Dec 21 17:46:29 ALMT 2020 Teacher::Pakita added course file for OOP
+Mon Dec 21 17:46:39 ALMT 2020 Teacher::Pakita Entered: Delete course file
+Mon Dec 21 17:46:44 ALMT 2020 Teacher::Pakita deleted course file from OOP
+file name: file
+Mon Dec 21 17:46:48 ALMT 2020 Teacher::Pakita Entered: Add course file

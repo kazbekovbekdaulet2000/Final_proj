@@ -71,9 +71,13 @@ public class Course_File implements Serializable {    // no Ideas
     		File file = new File(PATH+st, fileName+".txt");
 			file.createNewFile();
 			try(BufferedWriter context = new BufferedWriter(new FileWriter(path, true))){
-				for(int i=0;i<fileContext.length()/120;++i) {
-					context.write(fileContext.substring(120*i, 120*i+120));
-					context.write("\n");
+				if(fileContext.length()/120 == 0) {
+					context.write(fileContext);
+				}else {
+					for(int i=0;i<fileContext.length()/120;++i) {
+						context.write(fileContext.substring(120*i, 120*i+120));
+						context.write("\n");
+					}
 				}
 
 			}catch (IOException e1) {
