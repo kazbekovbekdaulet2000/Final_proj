@@ -115,9 +115,8 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     }
 
 	@Override
-	public int compareTo(Object o) {  //abstract
-		// TODO Auto-generated method stub
-		return 0;
+	public int compareTo(Object o) {
+		return getName().compareTo(((User)o).getName());
 	}
     
 }
