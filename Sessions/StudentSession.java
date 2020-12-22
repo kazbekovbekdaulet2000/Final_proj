@@ -92,7 +92,10 @@ public class StudentSession {
 				student.setTotalECTS(student.getTotalECTS()+course.getCreditsECTS());
 				Printer.print(course.getCourseName() + " was added");
 				Printer.writeLogPrimitive(student, "added course: "+course.getCourseName());
+			}else {
+				Printer.writeLogPrimitive(student, "failed to register the course");
 			}
+			
 			
 		}else {
 			Printer.print("No courses available");

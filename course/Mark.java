@@ -24,7 +24,7 @@ public class Mark implements Serializable, Comparable {
     
     public Mark(double first, double sec, double fin) {
     	this.setFirstAtt(first);
-    	this.setFirstAtt(sec);
+    	this.setSecondAtt(sec);
     	this.setFinalgrade(fin);
     	this.grade = Grades.mark(first+sec+fin);
     }
@@ -54,15 +54,15 @@ public class Mark implements Serializable, Comparable {
 	}
 	public void setSecondAtt(double second) {
 		if(second>limit_att) {
-			this.firstAtt = 30;
+			this.secondAtt = 30;
 		}
 		if(second<0) {
-			this.firstAtt = 0;
+			this.secondAtt = 0;
 		}
 		this.secondAtt = second;
 	}
 	public double getFinalgrade() {
-		return (finalgrade +firstAtt +secondAtt);
+		return finalgrade+secondAtt+firstAtt;
 	}
 	
 //	public double getTotalgrade() {
@@ -71,13 +71,13 @@ public class Mark implements Serializable, Comparable {
 	
 	
 	public void setFinalgrade(double final_mark) {
-		if(final_mark>limit_att) {
-			this.firstAtt = 30;
+		if(final_mark>limit_final) {
+			this.finalgrade = 40;
 		}
 		if(final_mark<0) {
-			this.firstAtt = 0;
+			this.finalgrade = 0;
 		}
-		this.secondAtt = final_mark;
+		this.finalgrade = final_mark;
 	}
 	
     //  Operations 

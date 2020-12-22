@@ -9511,3 +9511,527 @@ Faculty: BS(Bussines School)
 For students of 2 year of education
 Teacher: Pakita Shamoi
 _________________________________________________________
+Session start: Tue Dec 22 11:53:15 ALMT 2020
+You have 3 tries
+Mail: teacher
+Password: mJyHkZ7x
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: ITBM
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Session start: Tue Dec 22 11:53:52 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: gElcfabJ
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Course: ITBM(INFO2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): IIBM
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Course: ITBM(INFO2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Session start: Tue Dec 22 11:55:37 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: gElcfabJ
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Course: ITBM(INFO2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): INFO2106
+Course: ITBM(INFO2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+ITBM was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: ITBM(INFO2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 11:56:15 ALMT 2020
+You have 3 tries
+Mail: teacher
+Password: mJyHkZ7x
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: 3
+No Such course or wrong name of course
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: ITBM<-----------
+Yerasyl Yerlanuly
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: ITBM
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: yerasyl
+Print student's first attestation: 25
+Print student's second attestation: 17
+Print student's final points: 32
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Session start: Tue Dec 22 11:57:21 ALMT 2020
+You have 3 tries
+Mail: yerasyle
+Password: da
+Wrong Mail
+You have 2 tries
+Mail: yerasyl
+Password: gElcfabJ
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|INFO2106|ITBM            |    3   |   5  | 62,0 |    C+       | 1.67|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 11:58:10 ALMT 2020
+You have 3 tries
+Mail: teacher
+Password: a
+Wrong Password
+You have 2 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova mail: zhuzi
+Print student mail: zhuzi
+Print student's first attestation: 20
+Print student's second attestation: 20
+Print student's final points: 30
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Session start: Tue Dec 22 11:59:00 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: qwerty
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 50,0 |    C+       | 1.0|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 12:00:59 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova mail: zhuzi
+Print student mail: zhuzi
+Print student's first attestation: 21
+Print student's second attestation: 21
+Print student's final points: 31
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Session start: Tue Dec 22 12:01:32 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: qwerty
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 61,0 |    C+       | 0.0|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 12:03:35 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: qwerty
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 61,0 |    C+       | 0.0|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: a6
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Session start: Tue Dec 22 12:03:53 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova mail: zhuzi
+Print student mail: zhuzi
+Print student's first attestation: 21
+Print student's second attestation: 21
+Print student's final points: 31
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Session start: Tue Dec 22 12:04:24 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: qwerty
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 52,0 |    C+       | 0.0|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 12:06:33 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: qwerty
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 52,0 |    C+       | 1.0|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 12:06:49 ALMT 2020
+You have 3 tries
+Session start: Tue Dec 22 12:07:10 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova mail: zhuzi
+Print student mail: zhuzi
+Print student's first attestation: 21
+Print student's second attestation: 21
+Print student's final points: 31
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Session start: Tue Dec 22 12:07:41 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: qwerty
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 73,0 |    C+       | 2.33|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
