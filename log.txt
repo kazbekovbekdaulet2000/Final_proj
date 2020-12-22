@@ -1353,3 +1353,41 @@ Tue Dec 22 12:07:37 ALMT 2020 Teacher::Askar Mail Screen
 Tue Dec 22 12:07:38 ALMT 2020 Teacher::Askar Leave the intranet
 Tue Dec 22 12:07:54 ALMT 2020 Student::Zhuldyzai ---->Enters to the intranet<----
 Tue Dec 22 12:07:57 ALMT 2020 Student::Zhuldyzai Entered: View Transcript
+Tue Dec 22 12:26:26 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 12:26:31 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 12:26:32 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 12:26:36 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 12:27:19 ALMT 2020 Admin::admin add Student Bekda Kazbe was added
+Tue Dec 22 12:27:22 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 12:27:37 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 12:27:46 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 12:29:19 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 12:29:22 ALMT 2020 Teacher::Askar Entered: Manage Courses
+Tue Dec 22 12:29:27 ALMT 2020 Teacher::Askar opened OOP
+Tue Dec 22 12:29:31 ALMT 2020 Teacher::Askar Entered: View course students
+Tue Dec 22 12:29:37 ALMT 2020 Teacher::Askar Entered: View course files
+Tue Dec 22 12:29:44 ALMT 2020 Teacher::Askar Entered: View course files
+Tue Dec 22 12:29:47 ALMT 2020 Teacher::Askar Entered: Add course file
+Tue Dec 22 12:30:02 ALMT 2020 Teacher::Askar added course file for OOP
+Tue Dec 22 12:31:55 ALMT 2020 Teacher::Askar Entered: Delete course file
+Tue Dec 22 12:32:06 ALMT 2020 Teacher::Askar deleted course file from OOP file name: fileForAtte
+Tue Dec 22 12:33:13 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 12:33:17 ALMT 2020 Manager::manager Entered: Send Message to a Teacher
+Tue Dec 22 12:33:31 ALMT 2020 Manager::manager Entered: View Student info
+Tue Dec 22 12:35:31 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 12:36:04 ALMT 2020 Admin::admin Entered:  log files
+Tue Dec 22 12:36:23 ALMT 2020 Admin::admin Entered: View accounts
+Tue Dec 22 12:36:26 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 12:36:29 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 12:36:45 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 12:37:05 ALMT 2020 Admin::admin add Student Pakita Shamoi was added
+Tue Dec 22 12:37:07 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 12:37:25 ALMT 2020 Student::Pakita ---->Enters to the intranet<----
+Tue Dec 22 12:37:49 ALMT 2020 Student::Pakita Entered: Register for a Courses
+Tue Dec 22 12:38:12 ALMT 2020 Student::Pakita failed to register the course
+Tue Dec 22 12:38:19 ALMT 2020 Student::Pakita Entered: Register for a Courses
+Tue Dec 22 12:38:36 ALMT 2020 Student::Zhuldyzai ---->Enters to the intranet<----
+Tue Dec 22 12:38:39 ALMT 2020 Student::Zhuldyzai Entered: View Transcript
+Tue Dec 22 12:38:42 ALMT 2020 Student::Zhuldyzai Entered: View Courses
+Tue Dec 22 12:39:17 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 12:39:20 ALMT 2020 Manager::manager Entered: View Student info
