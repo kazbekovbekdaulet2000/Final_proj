@@ -1,5 +1,10 @@
-Mail: admin  Password: admin  User type: Admin
+Mail: askar  Password: 7BtYh8Yw  User type: Teacher
 Mail: teacher  Password: mJyHkZ7x  User type: Teacher
+Mail: zhuzi  Password: qwerty  User type: Student
+Mail: manager2  Password: jpqnAWyV  User type: Manager
+Mail: admin  Password: admin  User type: Admin
 Mail: tech  Password: MuZ1I75L  User type: TechSupportGuy
 Mail: manager  Password: GqzOsecs  User type: Manager
 Mail: newManager  Password: 5Wk0q8Uj  User type: Manager
+Mail: bekdaulet  Password: 0FpqkFRB  User type: Student
+Mail: yerasyl  Password: gElcfabJ  User type: Student

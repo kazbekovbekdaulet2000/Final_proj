@@ -8507,3 +8507,1007 @@ Print num to get access: null
 Print num to get access: null
 Print num to get access: null
 Print num to get access: null
+Users account count: 5
+Session start: Tue Dec 22 10:56:35 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: zhuzi
+Name: Zhuldyzai
+Surname: Tuleubekova 
+Phone Number: 87072841568
+Year of education: 3
+Faculty: BS
+Student Zhuldyzai Tuleubekova  was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: askar
+Name: Askar
+Surname: Ashabaev
+Phone Number: 87878741646
+Salary: 500000
+Teacher position: Professor
+Teacher Askar Ashabaev was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: askar
+-----------a mail dublication!-----------
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: manager2
+Name: Adilet
+Surname: Yerlanuly
+Phone Number: 87877541261
+Salary: 500000
+Manager Adilet Yerlanuly was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: teacher  Password: mJyHkZ7x  User type: Teacher
+Mail: tech  Password: MuZ1I75L  User type: TechSupportGuy
+Mail: manager  Password: GqzOsecs  User type: Manager
+Mail: newManager  Password: 5Wk0q8Uj  User type: Manager
+Mail: zhuzi  Password: 3TUt6q3b  User type: Student
+Mail: askar  Password: 7BtYh8Yw  User type: Teacher
+Mail: manager2  Password: jpqnAWyV  User type: Manager
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 8
+Session start: Tue Dec 22 11:06:15 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 8
+Session start: Tue Dec 22 11:07:43 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: 3TUt6q3b
+Hello Zhuldyzai Tuleubekova ! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+Print course Name or Code (back to go back): 2
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+No courses available
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 8
+Session start: Tue Dec 22 11:08:29 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Put all marks
+5.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova  mail: zhuzi
+Users account count: 8
+Session start: Tue Dec 22 11:09:53 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+Zhuldyzai Tuleubekova 
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Exit
+Print num to get access: 1
+Users account count: 8
+Session start: Tue Dec 22 11:11:14 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Users account count: 8
+Session start: Tue Dec 22 11:11:45 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova  mail: zhuzi
+Print student mail: zhuzi
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova  mail: zhuzi
+Users account count: 8
+Session start: Tue Dec 22 11:14:25 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: first = Double.parseDouble(Printer.input("Print student's first attestation: "));
+Wrong Password
+You have 2 tries
+Mail: zhuzi
+Password: 7BtYh8Yw
+Wrong Password
+You have 1 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova  mail: zhuzi
+Print student mail: zhuzi
+Print student's first attestation: 31
+Print student's second attestation: 31
+Print student's final points: 41
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 8
+Session start: Tue Dec 22 11:15:32 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: 3TUt6q3b
+Hello Zhuldyzai Tuleubekova ! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 103,0 |    null     | 0.0|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 8
+Session start: Tue Dec 22 11:17:15 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 2
+Want to see all logins(Y/N): Y
+Mail: askar Name: Askar Surname: Ashabaev User type: Teacher
+Mail: teacher Name: Pakita Surname: Shamoi User type: Teacher
+Mail: zhuzi Name: Zhuldyzai Surname: Tuleubekova  User type: Student
+Mail: manager2 Name: Adilet Surname: Yerlanuly User type: Manager
+Mail: admin Name: admin Surname: admin User type: Admin
+Mail: tech Name: support Surname: guy User type: TechSupportGuy
+Mail: manager Name: manager Surname: manager User type: Manager
+Mail: newManager Name: manager Surname: manager User type: Manager
+User mailzhuzi
+Zhuldyzai Tuleubekova  have been deleted
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: zhuzi
+Name: Zhuldyzai
+Surname: Tuleubekova
+Phone Number: 8787849464416
+Year of education: 2
+Faculty: FIT
+Student Zhuldyzai Tuleubekova was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 8
+Session start: Tue Dec 22 11:18:48 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: dcSVpyP6
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 8
+Session start: Tue Dec 22 11:19:40 ALMT 2020
+You have 3 tries
+Mail: askar
+Password: 7BtYh8Yw
+Hello Askar Ashabaev! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.Put Mark 
+2.Exit
+Print num to get access: 1
+Course students
+Zhuldyzai Tuleubekova mail: zhuzi
+Print student mail: zhuzi
+Print student's first attestation: 31
+Print student's second attestation: 32
+Print student's final points: 42
+1.Put Mark 
+2.Exit
+Print num to get access: 2
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 8
+Session start: Tue Dec 22 11:20:30 ALMT 2020
+You have 3 tries
+Mail: zhuzi
+Password: dcSVpyP6
+Hello Zhuldyzai Tuleubekova! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 4
+Old Password: dcSVpyP6
+New Password: qwerty
+Password is changed: 
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 74,0 |    null     | 2.33|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 8
+Session start: Tue Dec 22 11:23:59 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Users account count: 8
+Session start: Tue Dec 22 11:34:14 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: bekdaulet
+Name: Bekdaulet
+Surname: Bekdaulet
+Phone Number: 87077121500
+Year of education: 2
+Faculty: FIT
+Student Bekdaulet Bekdaulet was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: yerasyl
+Name: Yerasyl
+Surname: Yerlanuly
+Phone Number: 870715613546
+Year of education: 2
+Faculty: BS
+Student Yerasyl Yerlanuly was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: teacher  Password: mJyHkZ7x  User type: Teacher
+Mail: zhuzi  Password: qwerty  User type: Student
+Mail: manager2  Password: jpqnAWyV  User type: Manager
+Mail: admin  Password: admin  User type: Admin
+Mail: tech  Password: MuZ1I75L  User type: TechSupportGuy
+Mail: manager  Password: GqzOsecs  User type: Manager
+Mail: newManager  Password: 5Wk0q8Uj  User type: Manager
+Mail: bekdaulet  Password: 0FpqkFRB  User type: Student
+Mail: yerasyl  Password: 6rul0ALl  User type: Student
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Users account count: 10
+Session start: Tue Dec 22 11:35:53 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: 0FpqkFRB
+Hello Bekdaulet Bekdaulet! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+Users account count: 10
+Session start: Tue Dec 22 11:36:30 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: 6rul0ALl
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+Session start: Tue Dec 22 11:39:24 ALMT 2020
+You have 3 tries
+Mail: qwerty
+Password: qwerty
+Wrong Mail
+You have 2 tries
+Session start: Tue Dec 22 11:44:44 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: 6rul0ALl
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Session start: Tue Dec 22 11:45:24 ALMT 2020
+You have 3 tries
+Mail: 6rul0ALl
+Password: as
+Wrong Mail
+You have 2 tries
+Mail: yerasyl
+Password: 6rul0ALl
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Print course Name or Code (back to go back): OOP
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Askar Ashabaev
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 11:46:53 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 2
+Want to see all logins(Y/N): Y
+Mail: askar Name: Askar Surname: Ashabaev User type: Teacher
+Mail: teacher Name: Pakita Surname: Shamoi User type: Teacher
+Mail: zhuzi Name: Zhuldyzai Surname: Tuleubekova User type: Student
+Mail: manager2 Name: Adilet Surname: Yerlanuly User type: Manager
+Mail: admin Name: admin Surname: admin User type: Admin
+Mail: tech Name: support Surname: guy User type: TechSupportGuy
+Mail: manager Name: manager Surname: manager User type: Manager
+Mail: newManager Name: manager Surname: manager User type: Manager
+Mail: bekdaulet Name: Bekdaulet Surname: Bekdaulet User type: Student
+Mail: yerasyl Name: Yerasyl Surname: Yerlanuly User type: Student
+User mailyerasyl
+Yerasyl Yerlanuly have been deleted
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: yerasyl
+Name: Yerasyl
+Surname: Yerlanuly
+Phone Number: 874746541654
+Year of education: 2
+Faculty: BS
+Student Yerasyl Yerlanuly was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Session start: Tue Dec 22 11:47:51 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: gElcfabJ
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Print course Name or Code (back to go back): OOp
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Print course Name or Code (back to go back): OOP
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+No courses:
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Session start: Tue Dec 22 11:48:44 ALMT 2020
+You have 3 tries
+Mail: teacher
+Password: mJyHkZ7x
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: INFO2106
+Course name: ITBM
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: BS
+For year of study: 2
+New "ITBM" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Session start: Tue Dec 22 11:50:44 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: gElcfabJ
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Course: ITBM(INFO2106) 
+Credits/ECTS: 3/5
+Faculty: BS(Bussines School)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________

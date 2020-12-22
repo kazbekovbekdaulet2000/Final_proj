@@ -1180,3 +1180,121 @@ Tue Dec 22 07:05:34 ALMT 2020 Manager::manager Leave the intranet
 Tue Dec 22 07:05:40 ALMT 2020 Admin::admin ---->Enters to the intranet<----
 Tue Dec 22 07:05:42 ALMT 2020 Admin::admin Entered: View news
 Tue Dec 22 07:05:46 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 10:56:52 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 10:56:56 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 10:56:57 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 10:56:59 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 10:57:39 ALMT 2020 Admin::admin add Student Zhuldyzai Tuleubekova  was added
+Tue Dec 22 10:58:19 ALMT 2020 Admin::admin Entered: Add Teacher
+Tue Dec 22 10:58:58 ALMT 2020 Admin::admin add Teacher Askar Ashabaev was added
+Tue Dec 22 10:59:01 ALMT 2020 Admin::admin Entered: Add Teacher
+Tue Dec 22 10:59:29 ALMT 2020 Admin::admin Entered: Add Manager
+Tue Dec 22 11:00:17 ALMT 2020 Admin::admin add Manager Adilet Yerlanuly was added
+Tue Dec 22 11:00:26 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 11:00:27 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 11:00:44 ALMT 2020 Admin::admin Entered: View accounts
+Tue Dec 22 11:06:11 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 11:06:52 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:06:53 ALMT 2020 Teacher::Askar Entered: Add course 
+Tue Dec 22 11:07:11 ALMT 2020 Teacher::Askar added new "OOP"
+Tue Dec 22 11:07:31 ALMT 2020 Teacher::Askar Entered: View Students
+Tue Dec 22 11:07:38 ALMT 2020 Teacher::Askar Leave the intranet
+Tue Dec 22 11:07:51 ALMT 2020 Student::Zhuldyzai ---->Enters to the intranet<----
+Tue Dec 22 11:07:55 ALMT 2020 Student::Zhuldyzai Entered: Register for a Courses
+Tue Dec 22 11:08:06 ALMT 2020 Student::Zhuldyzai Entered: Register for a Courses
+Tue Dec 22 11:08:16 ALMT 2020 Student::Zhuldyzai added course: OOP
+Tue Dec 22 11:08:21 ALMT 2020 Student::Zhuldyzai Entered: Register for a Courses
+Tue Dec 22 11:08:23 ALMT 2020 Student::Zhuldyzai Entered: View Courses
+Tue Dec 22 11:08:25 ALMT 2020 Student::Zhuldyzai Entered: View Transcript
+Tue Dec 22 11:08:42 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:08:44 ALMT 2020 Teacher::Askar Entered: Put Marks
+Tue Dec 22 11:08:54 ALMT 2020 Teacher::Askar Entered: Final
+Tue Dec 22 11:08:54 ALMT 2020 Teacher::Askar Entered: First attestation 
+Tue Dec 22 11:09:58 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:10:03 ALMT 2020 Teacher::Askar Entered: View Students
+Tue Dec 22 11:10:09 ALMT 2020 Teacher::Askar Entered: Put Marks
+Tue Dec 22 11:11:17 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:11:19 ALMT 2020 Teacher::Askar Entered: Put Marks
+Tue Dec 22 11:11:49 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:11:52 ALMT 2020 Teacher::Askar Entered: Put Marks
+Tue Dec 22 11:11:56 ALMT 2020 Teacher::Askar Entered: Put Mark 
+Tue Dec 22 11:12:09 ALMT 2020 Teacher::Askar Entered: Put Mark 
+Tue Dec 22 11:14:40 ALMT 2020 Teacher::Askar tries to enter with wrong password
+Tue Dec 22 11:14:47 ALMT 2020 Student::Zhuldyzai tries to enter with wrong password
+Tue Dec 22 11:14:53 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:14:55 ALMT 2020 Teacher::Askar Entered: Put Marks
+Tue Dec 22 11:15:00 ALMT 2020 Teacher::Askar Entered: Put Mark 
+Tue Dec 22 11:15:22 ALMT 2020 Teacher::Askar Mail Screen
+Tue Dec 22 11:15:23 ALMT 2020 Teacher::Askar Leave the intranet
+Tue Dec 22 11:15:41 ALMT 2020 Student::Zhuldyzai ---->Enters to the intranet<----
+Tue Dec 22 11:15:44 ALMT 2020 Student::Zhuldyzai Entered: View Transcript
+Tue Dec 22 11:17:23 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 11:17:27 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 11:17:28 ALMT 2020 Admin::admin Entered: Remove User
+Tue Dec 22 11:17:57 ALMT 2020 Admin::admin deleted user: Zhuldyzai Tuleubekova 
+Tue Dec 22 11:18:01 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 11:18:02 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 11:18:03 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 11:18:06 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 11:18:36 ALMT 2020 Admin::admin add Student Zhuldyzai Tuleubekova was added
+Tue Dec 22 11:18:40 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 11:18:42 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 11:18:44 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 11:19:10 ALMT 2020 Student::Zhuldyzai ---->Enters to the intranet<----
+Tue Dec 22 11:19:15 ALMT 2020 Student::Zhuldyzai Entered: Register for a Courses
+Tue Dec 22 11:19:17 ALMT 2020 Student::Zhuldyzai added course: OOP
+Tue Dec 22 11:19:31 ALMT 2020 Student::Zhuldyzai Entered: View Transcript
+Tue Dec 22 11:19:33 ALMT 2020 Student::Zhuldyzai Entered: View Courses
+Tue Dec 22 11:19:37 ALMT 2020 Student::Zhuldyzai Leave the intanet
+Tue Dec 22 11:19:51 ALMT 2020 Teacher::Askar ---->Enters to the intranet<----
+Tue Dec 22 11:20:02 ALMT 2020 Teacher::Askar Entered: Put Marks
+Tue Dec 22 11:20:07 ALMT 2020 Teacher::Askar Entered: Put Mark 
+Tue Dec 22 11:20:23 ALMT 2020 Teacher::Askar Mail Screen
+Tue Dec 22 11:20:26 ALMT 2020 Teacher::Askar Leave the intranet
+Tue Dec 22 11:20:43 ALMT 2020 Student::Zhuldyzai ---->Enters to the intranet<----
+Tue Dec 22 11:20:48 ALMT 2020 Student::Zhuldyzai Entered: Change Password
+Tue Dec 22 11:20:50 ALMT 2020 Student::Zhuldyzai changed password
+Tue Dec 22 11:21:13 ALMT 2020 Student::Zhuldyzai Entered: View Courses
+Tue Dec 22 11:21:14 ALMT 2020 Student::Zhuldyzai Entered: View Transcript
+Tue Dec 22 11:24:02 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 11:24:04 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 11:34:38 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 11:34:41 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 11:34:42 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 11:34:43 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 11:35:03 ALMT 2020 Admin::admin add Student Bekdaulet Bekdaulet was added
+Tue Dec 22 11:35:05 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 11:35:31 ALMT 2020 Admin::admin add Student Yerasyl Yerlanuly was added
+Tue Dec 22 11:35:34 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 11:35:35 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 11:35:37 ALMT 2020 Admin::admin Entered: View accounts
+Tue Dec 22 11:36:13 ALMT 2020 Student::Bekdaulet ---->Enters to the intranet<----
+Tue Dec 22 11:36:14 ALMT 2020 Student::Bekdaulet Entered: Register for a Courses
+Tue Dec 22 11:36:35 ALMT 2020 Student::Yerasyl ---->Enters to the intranet<----
+Tue Dec 22 11:36:36 ALMT 2020 Student::Yerasyl Entered: Register for a Courses
+Tue Dec 22 11:44:54 ALMT 2020 Student::Yerasyl ---->Enters to the intranet<----
+Tue Dec 22 11:44:56 ALMT 2020 Student::Yerasyl Entered: Register for a Courses
+Tue Dec 22 11:45:39 ALMT 2020 Student::Yerasyl ---->Enters to the intranet<----
+Tue Dec 22 11:45:41 ALMT 2020 Student::Yerasyl Entered: Register for a Courses
+Tue Dec 22 11:45:43 ALMT 2020 Student::Yerasyl added course: OOP
+Tue Dec 22 11:45:46 ALMT 2020 Student::Yerasyl Entered: View Courses
+Tue Dec 22 11:46:57 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 11:46:59 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 11:47:00 ALMT 2020 Admin::admin Entered: Remove User
+Tue Dec 22 11:47:09 ALMT 2020 Admin::admin deleted user: Yerasyl Yerlanuly
+Tue Dec 22 11:47:11 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 11:47:20 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 11:47:40 ALMT 2020 Admin::admin add Student Yerasyl Yerlanuly was added
+Tue Dec 22 11:47:46 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 11:47:48 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 11:47:48 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 11:48:11 ALMT 2020 Student::Yerasyl ---->Enters to the intranet<----
+Tue Dec 22 11:48:12 ALMT 2020 Student::Yerasyl Entered: Register for a Courses
+Tue Dec 22 11:48:17 ALMT 2020 Student::Yerasyl Entered: Register for a Courses
+Tue Dec 22 11:48:22 ALMT 2020 Student::Yerasyl Entered: View Courses
+Tue Dec 22 11:49:57 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Tue Dec 22 11:50:17 ALMT 2020 Teacher::Pakita Entered: Add course 
+Tue Dec 22 11:50:38 ALMT 2020 Teacher::Pakita added new "ITBM"
+Tue Dec 22 11:50:41 ALMT 2020 Teacher::Pakita Leave the intranet
+Tue Dec 22 11:51:02 ALMT 2020 Student::Yerasyl ---->Enters to the intranet<----
+Tue Dec 22 11:51:04 ALMT 2020 Student::Yerasyl Entered: Register for a Courses

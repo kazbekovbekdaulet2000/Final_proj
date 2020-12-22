@@ -29,7 +29,7 @@ public class Auth {
 	
     public void authorize() {
     	db.load();
-		Printer.print("Users account count: " + db.users.size());
+//		Printer.print("Users account count: " + db.users.size());
 //		Admin admin = new Admin("admin","admin","admin","admin",200000);
 //		db.users.add(admin);
 //		admin.setPassword("admin");

@@ -109,14 +109,13 @@ public class TeacherSession {
 			return;
 		}else {
 			String request = null;
-			while(request!="5") {
-				String[] a = {"1.First attestation ","2.Second attestation","3.Final",
-						"4.Put all marks", "5.Exit"};
+			while(request!="2") {
+				String[] a = {"1.Put Mark ", "2.Exit"};
 				Printer.print(a);
-				double first = 0d, second = 0d, fin = 0d; 
+				double first = 0d, second = 0d, fin = 0d;
+				Mark mark = null;
 				request = Printer.input("Print num to get access: ");;
 				if(request.equals("1")) {
-					Printer.writeLog(teacher, a[2].substring(2));
 					Printer.writeLog(teacher, a[0].substring(2));
 					Student st = null;
 					Printer.print("Course students");
@@ -127,7 +126,10 @@ public class TeacherSession {
 							st = (Student)k;
 						}
 					}
-					Mark mark = new Mark(first,second,fin);
+					first = Double.parseDouble(Printer.input("Print student's first attestation: "));
+					second = Double.parseDouble(Printer.input("Print student's second attestation: "));
+					fin = Double.parseDouble(Printer.input("Print student's final points: "));
+					mark = new Mark(first,second,fin);
 					teacher.putMark(course, st, mark);
 				}else if(request.equals("2")) {
 					Printer.writeLogPrimitive(teacher, "Mail Screen");

@@ -56,7 +56,7 @@ public class StudentSession {
 	}
 	private static void Register(Student student) {
 		if(DataBase.courses.size()-student.getCourses().size()>0) {
-			Printer.print("Count of available courses: " + (DataBase.courses.size()-student.getCourses().size()));
+//			Printer.print("Count of available courses: " + (DataBase.courses.size()-student.getCourses().size()));
 			student.viewAvailableCourses();
 			String course_name = Printer.input("Print course Name or Code (back to go back): ");
 			if(course_name.equals("back")) {
@@ -75,7 +75,7 @@ public class StudentSession {
 			for(int i=0;i<DataBase.courses.size();++i) {
 				Course cr = DataBase.courses.elementAt(i);
 				if(!student.getCourses().contains(cr)){
-					if(cr.getCourseName().equals(course_name) || cr.getCourseID().equals(course_name)
+					if((cr.getCourseName().equals(course_name) || cr.getCourseID().equals(course_name))
 							&& cr.getForStudYears().equals(student.getYear()) && cr.getFaculty().equals(student.getFaculty())){
 						if(course == null) {
 							course = DataBase.courses.elementAt(i);

@@ -127,7 +127,9 @@ public class Student extends User implements Serializable {
     
     public void viewAvailableCourses() {
     	for(int i=0; i<DataBase.courses.size(); ++i) {
-			if(!getCourses().contains(DataBase.courses.get(i))) {
+			if(!getCourses().contains(DataBase.courses.get(i)) 
+					&& DataBase.courses.get(i).getFaculty().equals(getFaculty()) 
+					&& DataBase.courses.get(i).getForStudYears().equals(getYear())) {
 				Printer.print(DataBase.courses.get(i).toString());
 				Printer.print("_________________________________________________________");
 			}
