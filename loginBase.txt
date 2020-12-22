@@ -1,7 +1,6 @@
+Mail: bekdaulet  Password: 1UumLFlB  User type: Student
+Mail: pakita  Password: qwerty  User type: Teacher
+Mail: student  Password: WrL1bU7K  User type: Student
+Mail: yerasyl  Password: 2oWOvE8d  User type: Student
 Mail: admin  Password: admin  User type: Admin
-Mail: bekdaulet  Password: BSkafpeT  User type: Student
-Mail: PakitaS  Password: 5qpjtLsf  User type: Teacher
-Mail: Manager  Password: 8kVDekyP  User type: Manager
-Mail: be  Password: DKwaqtgk  User type: Student
-Mail: qwert  Password: hzkEDfyQ  User type: Student
-Mail: qwertyuirwe  Password: qnlwpaQi  User type: Student
+Mail: tech  Password: sXgyPUkx  User type: TechSupportGuy

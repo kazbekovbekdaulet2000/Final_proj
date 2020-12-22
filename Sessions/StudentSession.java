@@ -83,7 +83,6 @@ public class StudentSession {
 							RegisterWithTeacher(student, course_name);
 							return;
 						}
-						
 					}
 				}
 			}

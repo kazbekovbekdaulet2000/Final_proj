@@ -104,8 +104,8 @@ public abstract class User implements Serializable, Comparable<Object>, Cloneabl
     	  if (obj==null) return false;
           if (getClass()!=obj.getClass()) return false;
           User u = (User) obj;
-          return  u.getName().equals(getName()) && u.getSurname().equals(getSurname()) && u.getMail().equals(getMail()) 
-      			&& u.getPhoneNum().equals(getPhoneNum());
+          return  u.getName().equals(getName()) && u.getSurname().equals(getSurname()) 
+        		  && u.getMail().equals(getMail()) && u.getPhoneNum().equals(getPhoneNum());
     }
     
     public void viewNewsTab() throws IOException {

@@ -54,8 +54,14 @@ public class Mark implements Serializable, Comparable {
 		this.secondAtt = second;
 	}
 	public double getFinalgrade() {
-		return finalgrade;
+		return (finalgrade +firstAtt +secondAtt);
 	}
+	
+//	public double getTotalgrade() {
+//		return finalgrade +firstAtt +secondAtt;
+//	}
+	
+	
 	public void setFinalgrade(double final_mark) {
 		if(final_mark > limit_final && final_mark<0)
 			return;

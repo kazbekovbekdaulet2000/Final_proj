@@ -166,7 +166,7 @@ public class Teacher extends Employee implements Serializable {
     
     public void sendOrder(String title, String text, TechSupportGuy tsg) {
     	if(DataBase.users.contains(tsg)) {
-    		tsg.addToWaitingList(new Order(title, text));
+    		tsg.addToWaitingList(new Order(getMail(), title, text));
     	}else {
 			Printer.print("The system error your order was not recived");
     	}
@@ -192,7 +192,6 @@ public class Teacher extends Employee implements Serializable {
     }
 
 	public void listofStudents() {
-		
 		for(int i=0;i<DataBase.courses.size();++i) {
 			if(DataBase.courses.elementAt(i).getTeacher().equals(this)) {
 				Printer.print("----------->Course: " + DataBase.courses.elementAt(i).getCourseName()+ "<-----------");
@@ -212,12 +211,12 @@ public class Teacher extends Employee implements Serializable {
 	}
 
 	public void listofStudents(Course course) {
-//		Collections.sort(DataBase.users, new CompareByName()); //sort by name and surname
-		for(int i=0;i<DataBase.users.size();++i) {
-			if(DataBase.users.get(i) instanceof Student) {
-				Student st = (Student)DataBase.users.get(i);
+		Collections.sort(DataBase.users, new CompareByName()); //sort by name and surname
+		for(int j=0;j<DataBase.users.size();++j) {
+			if(DataBase.users.get(j) instanceof Student) {
+				Student st = (Student)DataBase.users.get(j);
 				if(st.getCourses().contains(course)) {
-					Printer.print(st.getName()+ " " + st.getSurname());
+					Printer.print(st.getName()+ " " + st.getSurname()+ " mail: "+ st.getMail());
 				}
 			}
 		}

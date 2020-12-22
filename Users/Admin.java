@@ -1,8 +1,5 @@
 package users;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.Serializable;
 
@@ -11,7 +8,7 @@ import enums.Teacher_pos;
 import project.DataBase;
 import utils.Printer;
 
-public class Admin extends Employee implements Serializable {
+public class Admin extends Employee implements Serializable{
     public Admin() {}
     public Admin(String mail,String firstname,String lastname,String phoneNum,int salary) {
     	super(mail,firstname,lastname,phoneNum, salary);
@@ -42,7 +39,6 @@ public class Admin extends Employee implements Serializable {
     	}else {
     		Printer.print("Wrong User Type");
     	}
-    	
     }
     
     public void addUser(String mail,String firstname,String lastname,String phoneNum, int year, Faculty faculty, String userType){

@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Vector;
 
-import project.DataBase;
 import project.Order;
 import utils.Printer;
 
@@ -38,19 +37,18 @@ public class TechSupportGuy extends Employee implements Serializable {
         return this.waitingList;
     }
     
-    public void setWaitingList(Queue<Order> waitingList) {
+    public void setWaitingList(LinkedList<Order> waitingList) {
         this.waitingList = waitingList;
     }
 
     //                          Operations                                  
     public void operateOrder() {                 // Need more update
-        Order o = waitingList.peek();
-        try {
-			o.wait(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+        Order o = waitingList.poll();
         acceptedList.add(o);
+    }
+    
+    public void rejectOrder() {
+    	waitingList.poll();
     }
     
     public void addToWaitingList(Order o) {
@@ -75,9 +73,12 @@ public class TechSupportGuy extends Employee implements Serializable {
     }
     
     public void viewAcceptedList() {
-        for(int i=0; i<acceptedList.size();++i){
-        	Printer.print(acceptedList.get(i).toString());
-        }
+    	if (acceptedList.size()!=0)
+	        for(int i=0; i<acceptedList.size();++i){
+	        	Printer.print(acceptedList.get(i).toString());
+	        }
+    	else 
+    		Printer.print("No accepted orders!");
     }
     
     public void viewNewsTab() throws IOException {
@@ -85,3 +86,4 @@ public class TechSupportGuy extends Employee implements Serializable {
     }
     
 }
+

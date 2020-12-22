@@ -29,10 +29,10 @@ public class ManagerSession {
 			request = Printer.input("Print num to get access: ");;
 			if(request.equals("1")) {
 				Printer.writeLog(manager, a[0].substring(2));
-				viewTeacherInfo();
+				viewTeacherInfo(manager);
 			}else if(request.equals("2")) {
 				Printer.writeLog(manager, a[1].substring(2));
-				viewStudentInfo();
+				viewStudentInfo(manager);
 			}else if(request.equals("3")) {
 				Printer.writeLog(manager, a[2].substring(2));
 				addCourse(manager);
@@ -86,7 +86,7 @@ public class ManagerSession {
 		}
 	}
 	
-	private static void viewTeacherInfo() {
+	private static void viewTeacherInfo(Manager m) {
 		String a[] = {"1.Search teacher","2.View teachers list sorted by surname/name", "3.View teachers list sorted by position", "4.Back"};
 		String request = null;
 		Vector<Teacher> teachers = new Vector<Teacher>();
@@ -98,7 +98,7 @@ public class ManagerSession {
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");
 			if (request.equals("1")) {
-				searchTeacherInfo();
+				searchTeacherInfo(m);
 			} else if (request.equals("2")) {
 				Printer.print("________________________________");
 				Collections.sort(teachers, new CompareByName());
@@ -119,7 +119,7 @@ public class ManagerSession {
 		}
 	}
 	
-	private static void viewStudentInfo() {
+	private static void viewStudentInfo(Manager m) {
 		String a[] = {"1.Search student","2.View students list sorted by surname/name", "3.View students list sorted by GPA", "4.Back"};
 		String request = null;
 		Vector<Student> students = new Vector<Student>();
@@ -131,7 +131,7 @@ public class ManagerSession {
 			Printer.print(a);
 			request = Printer.input("Print num to get access: ");
 			if (request.equals("1")) {
-				searchStudentInfo();
+				searchStudentInfo(m);
 			} else if (request.equals("2")) {
 				Printer.print("________________________________");
 				Collections.sort(students, new CompareByName());
@@ -152,28 +152,14 @@ public class ManagerSession {
 		}
 	}
 	
-	private static void searchTeacherInfo() {
+	private static void searchTeacherInfo(Manager m) {
 		String search = Printer.input("Print teacher's name you want to search: ");
-		for (User k : DataBase.users) {
-			if ((SearchByPattern.KMPSearch(search, k.getName()) || SearchByPattern.KMPSearch(search, k.getSurname())) 
-					&& k instanceof Teacher) {
-				Printer.print("_________________________________");
-				Printer.print(k.toString());
-			}
-		}
-		Printer.print("_________________________________");
+		m.searchTeacherInfo(search);
 	}
 	
-	private static void searchStudentInfo() {
+	private static void searchStudentInfo(Manager m) {
 		String search = Printer.input("Print student's name you want to search: ");
-		for (User k : DataBase.users) {
-			if ((SearchByPattern.KMPSearch(search, k.getName()) || SearchByPattern.KMPSearch(search, k.getSurname())) 
-					&& k instanceof Student) {
-				Printer.print("_________________________________");
-				Printer.print(k.toString());
-			}
-		}
-		Printer.print("_________________________________");
+		m.searchStudentInfo(search);
 	}
 	
 	private static void addCourse(Manager manager) {

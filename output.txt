@@ -5498,3 +5498,2540 @@ _________________________________
 2.View teachers list sorted by surname/name
 3.View teachers list sorted by position
 4.Back
+Users account count: 7
+Session start: Tue Dec 22 03:32:05 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: qwerty
+Wrong Password
+You have 2 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: file
+You can paste you text here: thisisFirst
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: file
+You can paste you text here: thisisSecond
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 7
+Session start: Tue Dec 22 03:33:54 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: file
+You can paste you text here: towef
+There exist dublicate
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 7
+Session start: Tue Dec 22 04:10:19 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO<-----------
+Bekdaulet Kazbekov
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 7
+Session start: Tue Dec 22 04:11:08 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: BSkafpeT
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 7
+Session start: Tue Dec 22 04:12:09 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: BSkafpeT
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+No courses available
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 2
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Tue Dec 22 04:12:34 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 7
+Session start: Tue Dec 22 04:14:25 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: BSkafpeT
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+OOP already is registered
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 7
+Session start: Tue Dec 22 04:14:46 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOP course: 
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO<-----------
+Bekdaulet Kazbekov
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: CSCI2106
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOP course: 
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 7
+Session start: Tue Dec 22 04:17:38 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOP course: 
+----------->Course: OOP<-----------
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 7
+Session start: Tue Dec 22 04:18:12 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: CCDS
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO course: 
+----------->Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO<-----------
+Bekdaulet Kazbekov
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 7
+Session start: Tue Dec 22 04:18:57 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: CSCI2106
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOP course: 
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Users account count: 7
+Session start: Tue Dec 22 04:19:57 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+----------->Course: OOP<-----------
+----------->Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO<-----------
+Bekdaulet Kazbekov
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Print student mail: bekdaulet
+Print first attestation mark: 25.4
+Users account count: 7
+Session start: Tue Dec 22 04:22:15 ALMT 2020
+You have 3 tries
+Mail: PakitaS
+Password: 5qpjtLsf
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(CCDS) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Users account count: 0
+Session start: Tue Dec 22 04:23:31 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: pakita
+Name: Pakita
+Surname: Shamoi
+Phone Number: 87077121500
+Salary: 500000
+Teacher position: Professor
+Teacher Pakita Shamoi was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: bekdaulet
+Name: Bekdaulet
+Surname: Kazbekov
+Phone Number: 87077121500
+Year of education: 2
+Faculty: FIT
+Student Bekdaulet Kazbekov was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: yerasyl
+Name: Yerasyl
+Surname: Yerlanuly
+Phone Number: 8798464546
+Year of education: 2
+Faculty: FIT
+Student Yerasyl Yerlanuly was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:26:13 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:28:27 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: public static boolean serialize(String fileName, Object obj) {
+Wrong Password
+You have 2 tries
+Mail: 	}
+Password: pakita
+Wrong Mail
+You have 1 tries
+Mail: Kexjzkfi
+Password: a
+Wrong Mail
+You haven't no more tries to enter the intranet system
+Users account count: 4
+Session start: Tue Dec 22 04:28:48 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:32:59 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: OOP
+Users account count: 4
+Session start: Tue Dec 22 04:33:19 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:35:07 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:35:54 ALMT 2020
+You have 3 tries
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Users account count: 4
+Session start: Tue Dec 22 04:42:14 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: package users;
+Wrong Password
+You have 2 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: OOP
+Course name: s
+Course credit number: 2
+Course ECTS credit number: 5
+Course Faculty: fd
+For year of study: 2
+"s" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): N
+Users account count: 4
+Session start: Tue Dec 22 04:44:37 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:45:00 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:45:32 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:45:59 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: db.save();
+Wrong Password
+You have 2 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:46:29 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+----------->Course: OOP<-----------
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:47:13 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:47:48 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:48:07 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:48:26 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: OOP
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+"OOP" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: OOP
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+"OOP" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:49:25 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: 1UumLFlB
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+No courses available
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+No courses:
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:50:12 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Users account count: 4
+Session start: Tue Dec 22 04:51:09 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+"OOP" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:52:33 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+"OOP" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:54:07 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+New "OOP" was added
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI2106
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+"OOP" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:55:38 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 1
+Course ID: CSCI
+Course name: OOP
+Course credit number: 3
+Course ECTS credit number: 5
+Course Faculty: FIT
+For year of study: 2
+"OOP" is dublicated
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:56:51 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: 1UumLFlB
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 4
+Session start: Tue Dec 22 04:57:19 ALMT 2020
+You have 3 tries
+Mail: yerasyl
+Password: 2oWOvE8d
+Hello Yerasyl Yerlanuly! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 04:57:59 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOP course: 
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 0
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 4
+File name: firseAssignment
+You can paste you text here: there should be text
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+File name: firseAssignment.txt    size: 20 bytes  Date of creaton: 22.11.2020
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+Print student mail: bekdaulet
+Print first attestation mark: 20
+Users account count: 4
+Session start: Tue Dec 22 05:05:27 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 3
+List of students for different courses: 
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+_______________________________________
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 6
+Messages is empty
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 8
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+Print student mail: bekdaulet
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Course students
+Users account count: 4
+Session start: Tue Dec 22 05:07:56 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 7
+Old Password: Kexjzkfi
+New Password: qwerty
+Password is changed: 
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+Print student mail: bekdaulet
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Course students
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:09:19 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 2
+View courses?(Y/N): Y
+_______________________________________
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_______________________________________
+Print course name or code: OOP
+OOP is opened
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 2
+List of students for OOP course: 
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+_______________________________________
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 3
+Course file count: 1
+File name: firseAssignment.txt    size: 20 bytes  Date of creaton: 22.11.2020
+1.View course
+2.View course students
+3.View course files
+4.Add course file
+5.Delete course file
+6.Back
+Print num to get access: 6
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+----------->Course: OOP<-----------
+Bekdaulet Kazbekov
+Yerasyl Yerlanuly
+Users account count: 4
+Session start: Tue Dec 22 05:13:21 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: Kexjzkfi
+Wrong Password
+You have 2 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 2
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: bekdaulet
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:14:45 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: yerasyl
+Users account count: 4
+Session start: Tue Dec 22 05:15:15 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: bekdaulet
+Users account count: 4
+Session start: Tue Dec 22 05:18:31 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: bekdaulet
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:19:56 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:20:09 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: 1UumLFlB
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |    null     | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:20:41 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: bekdaulet
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: bekdaulet
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:21:23 ALMT 2020
+You have 3 tries
+Mail: bekdaulet
+Password: 1UumLFlB
+Hello Bekdaulet Kazbekov! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  0.0 |    null     | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 4
+Session start: Tue Dec 22 05:23:04 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: student
+Name: Name
+Surname: Surname
+Phone Number: 87077121500
+Year of education: FIT
+Users account count: 4
+Session start: Tue Dec 22 05:24:01 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 4
+Mail: pakita  Password: qwerty  User type: Teacher
+Mail: yerasyl  Password: 2oWOvE8d  User type: Student
+Mail: admin  Password: admin  User type: Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Mail: student
+Name: Name
+Surname: Surname
+Phone Number: 87070456564
+Year of education: 2
+Faculty: FIT
+Student Name Surname was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 5
+Session start: Tue Dec 22 05:24:41 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 0
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 1
+Count of available courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+Print course Name or Code (back to go back): OOP
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+OOP was added
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+Users account count: 5
+Session start: Tue Dec 22 05:25:44 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 2
+Count of registrated courses: 1
+Course: OOP(CSCI2106) 
+Credits/ECTS: 3/5
+Faculty: FIT(Faculty of Information Technologies)
+For students of 2 year of education
+Teacher: Pakita Shamoi
+_________________________________________________________
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:26:05 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 4
+Print course name or code: OOP
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 1
+Course students
+Bekdaulet Kazbekov mail: bekdaulet
+Name Surname mail: student
+Yerasyl Yerlanuly mail: yerasyl
+Print student mail: student
+1.First attestation 
+2.Second attestation
+3.Final
+4.Exit
+Print num to get access: 4
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 5
+Session start: Tue Dec 22 05:26:42 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  30.6 |    B-     | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+IO Exception
+Users account count: 5
+Session start: Tue Dec 22 05:28:59 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  76.80000000000001 |    B-     | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:32:17 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  |  76,8 |    B-     | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:33:33 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 76,8 |    B-     | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:34:46 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 76,8 |    B-       | 0.0 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:37:20 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 76,8 |    B-       | 2.67 |
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:37:54 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 76,8 |    B-       | 2.67|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:50:41 ALMT 2020
+You have 3 tries
+Mail: student
+Password: WrL1bU7K
+Hello Name Surname! 
+You entered as a Student
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Print num to get access: 3
+Count of registrated courses: 1
++  code  +      name      + Credit + ECTS + Mark + String Mark + GPA +
++--------+----------------+--------+------+------+-------------+-----+
+|CSCI2106|OOP             |    3   |   5  | 76,8 |    B-       | 2.67|
++--------+----------------+--------+------+------+-------------+-----+
+1.Register for a Courses
+2.View Courses
+3.View Transcript
+4.Change Password
+5.View News
+6.Exit
+Users account count: 5
+Session start: Tue Dec 22 05:51:53 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Users account count: 5
+Session start: Tue Dec 22 05:52:23 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 3
+Mail: tech
+Name: Tech
+Surname: Support
+Phone Number: 8784645464
+Salary: 200000
+Tech Support Tech Support was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 6
+Session start: Tue Dec 22 05:53:17 ALMT 2020
+You have 3 tries
+Mail: pakita
+Password: qwerty
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 5
+Print title of your order: sada
+Print text of your order: dada
+tech
+Print mail of Tech support to send order: tech
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit

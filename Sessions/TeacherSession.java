@@ -8,12 +8,14 @@ import java.util.logging.Logger;
 import comporators.CompareByCourseFileName;
 import course.Course;
 import course.Course_File;
+import course.Mark;
 import enums.Faculty;
 import project.DataBase;
 import project.Order;
 import users.Student;
 import users.Teacher;
 import users.TechSupportGuy;
+import users.User;
 import utils.Printer;
 
 public class TeacherSession {
@@ -46,6 +48,7 @@ public class TeacherSession {
 				String title = Printer.input("Print title of your order: ");
 				String text = Printer.input("Print text of your order: ");
 				int cnt =0;
+				Printer.print("list of tech support mails: ");
 				for(int i=0; i<DataBase.users.size();++i) {
 					if(DataBase.users.get(i) instanceof TechSupportGuy) {
 						Printer.print(DataBase.users.get(i).getMail());
@@ -105,24 +108,30 @@ public class TeacherSession {
 			Printer.print("No Such course or wrong name of course");
 			return;
 		}else {
-		String request = null;
-			while(request!="4") {
+			String request = null;
+			while(request!="5") {
 				String[] a = {"1.First attestation ","2.Second attestation","3.Final",
-						"4.Exit"};
+						"4.Put all marks", "5.Exit"};
 				Printer.print(a);
+				double first = 0d, second = 0d, fin = 0d; 
 				request = Printer.input("Print num to get access: ");;
 				if(request.equals("1")) {
-					Printer.writeLog(teacher, a[0].substring(2));
-					teacher.listofStudents();
-					Student st = null;
-					String student_name = Printer.input("Print student name: ");
-					
-				}else if(request.equals("2")) {
-					Printer.writeLog(teacher, a[1].substring(2));
-				}else if(request.equals("3")) {
 					Printer.writeLog(teacher, a[2].substring(2));
-				}else if(request.equals("4")) {
+					Printer.writeLog(teacher, a[0].substring(2));
+					Student st = null;
+					Printer.print("Course students");
+					teacher.listofStudents(course);
+					String student_mail = Printer.input("Print student mail: ");
+					for (User k : DataBase.users) {
+						if(k instanceof Student && k.getMail().equals(student_mail)) {
+							st = (Student)k;
+						}
+					}
+					Mark mark = new Mark(first,second,fin);
+					teacher.putMark(course, st, mark);
+				}else if(request.equals("2")) {
 					Printer.writeLogPrimitive(teacher, "Mail Screen");
+					db.save();
 					return;
 				}	
 				db.save();
@@ -185,7 +194,7 @@ public class TeacherSession {
 				}else if(manage.equals("3")) {
 					Printer.writeLog(teacher, a[2].substring(2));
 					Printer.print("Course file count: " +course.getFiles().size());
-//					Collections.sort(course.getFiles(),new CompareByCourseName());
+					Collections.sort(course.getFiles(),new CompareByCourseFileName());
 					for(int i=0;i<course.getFiles().size();++i) {
 						Printer.print(course.getFiles().get(i).toString());
 					}
@@ -209,9 +218,16 @@ public class TeacherSession {
 	private static void addCourseFile(Teacher teacher, Course cr) {
 		String file_name = Printer.input("File name: ");
 		String file_context = Printer.input("You can paste you text here: ");
-		Course_File file = new Course_File(cr.getCourseName()+"_"+teacher.getName()+"_"+teacher.getSurname(), file_name, file_context);
-		cr.getFiles().add(file);
-		Printer.writeLogPrimitive(teacher,"added course file for " + cr.getCourseName());
+		String coursefiledir =cr.getCourseName()+"_"+teacher.getName()+"_"+teacher.getSurname();
+		Course_File file = new Course_File(coursefiledir, file_name, file_context);
+		if(!cr.getFiles().contains(file)) {
+			cr.getFiles().add(file);
+			file.createFile(coursefiledir);
+			Printer.writeLogPrimitive(teacher,"added course file for " + cr.getCourseName());
+		}else {
+			Printer.print("There exist dublicate");
+			Printer.writeLogPrimitive(teacher,"failed to add file to " + cr.getCourseName());
+		}
 	}
 
 	private static void deleteCourseFile(Teacher teacher, Course cr) {
@@ -245,8 +261,14 @@ public class TeacherSession {
 		Faculty faculty = Faculty.fromString(Printer.input("Course Faculty: "));
 		int studY = Integer.parseInt(Printer.input("For year of study: "));
 		Course course = new Course(ID, name, credits, ECTS, faculty, studY, teacher);
-		DataBase.courses.add(course);
-		Printer.print("New \""+course.getCourseName()+ "\" was added");
-		Printer.writeLogPrimitive(teacher, "added new \""+ course.getCourseName()+"\"");
+		if(!DataBase.courses.contains(course)) {
+			DataBase.courses.add(course);
+			Printer.print("New \""+course.getCourseName()+ "\" was added");
+			Printer.writeLogPrimitive(teacher, "added new \""+ course.getCourseName()+"\"");
+		}else {
+			Printer.print("\""+course.getCourseName()+ "\" is dublicated");
+			Printer.writeLogPrimitive(teacher, "added new \""+ course.getCourseName()+"\"");
+		}
+		
 	}
 }

@@ -25,7 +25,7 @@ public class Course_File implements Serializable {    // no Ideas
     	this.fileContext = context;
     	this.path = "files/"+course_name+"/"+fileName+".txt";
     	this.date = (Date)Calendar.getInstance().getTime();
-    	createFile(course_name, fileName, fileContext);
+//    	createFile(course_name, fileName, fileContext);
     }
 
 	public String getFileName() {
@@ -60,7 +60,7 @@ public class Course_File implements Serializable {    // no Ideas
 		this.path = path;
 	}
 	
-    private void createFile(String st , String fileName, String fileContext) {
+    public void createFile(String st) {
     	File newdirectory = new File("files/"+st);
     	boolean bool = newdirectory.mkdir();
     	if(bool) {
@@ -72,7 +72,7 @@ public class Course_File implements Serializable {    // no Ideas
 			try(BufferedWriter context = new BufferedWriter(new FileWriter(path, true))){
 				if(fileContext.length()/120 == 0) {
 					context.write(fileContext);
-				}else {
+				}else{
 					for(int i=0;i<fileContext.length()/120;++i) {
 						context.write(fileContext.substring(120*i, 120*i+120));
 						context.write("\n");
@@ -106,7 +106,7 @@ public class Course_File implements Serializable {    // no Ideas
     	if(o == null) return false;
     	if(o.getClass()!=getClass()) return false;
     	Course_File t = (Course_File) o;
-    	return this.fileName.equals(t.getFileName()) && this.fileContext.equals(t.getFileContext()) && this.path.equals(t.getPath());
+    	return this.fileName.equals(t.getFileName()) && this.path.equals(t.getPath());
     }
 
     public Object clone() {

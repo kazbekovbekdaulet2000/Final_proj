@@ -2,17 +2,19 @@ package project;
 
 
 import java.io.Serializable;
-import java.sql.Date;
 import java.util.Calendar;
+import java.util.Date;
 
 public class Order implements Serializable {
 	private String title;
     private String subtitle;
     private Date date;
+    private String teacher;
     
     public Order() {};
     
-    public Order(String title, String subtitle) {
+    public Order(String teacher,String title, String subtitle) {
+    	this.teacher = teacher;
     	this.title = title;
     	this.subtitle = subtitle;
     	this.date = (Date)Calendar.getInstance().getTime();
@@ -41,7 +43,7 @@ public class Order implements Serializable {
 	
 	@Override
 	public String toString() {
-		return "Order [title=" + title + ", subtitle=" + subtitle + ", date=" + date +"]";
+		return "Order [teacher=" + teacher+", title=" + title + ", subtitle=" + subtitle + ", date=" + date +"]";
 	}
 	
 	public boolean equals(Object a) {

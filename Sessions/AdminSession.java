@@ -181,9 +181,9 @@ public class AdminSession {
 					if (i == db.users.indexOf(u)) {
 						Printer.print("You want to change "+u.getName()+" "+u.getSurname()+" info");
 						if (u instanceof Student) 
-							updateStudent(admin,(Student)u);
+							updateUser(admin,(Student)u);
 						if (u instanceof Employee)
-							updateEmployee(admin,(Employee)u);
+							updateUser(admin,(Employee)u);
 					}
 				}
 			} else if(updateRequest.equals("2")) {
@@ -201,7 +201,7 @@ public class AdminSession {
 		}
 	}
 	
-	private static void updateStudent(Admin admin, Student s) {
+	private static void updateUser(Admin admin, Student s) {
 		String request = null;
 		String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change faculty","5.Change study year","6.Change mail","7.Back"};
 		while (request!="7") {
@@ -246,11 +246,10 @@ public class AdminSession {
 		}
 	}
 	
-	private static void updateEmployee(Admin admin, Employee e) {
+	private static void updateUser(Admin admin, Employee e) {
 		String request = null;
 		if (e instanceof Teacher) {
-			String a[] = {"1.Change name","2.Change surname","3.Change phone number",
-					"4.Change salary","5.Change mail","6.Change teacher position","7.Back"};
+			String a[] = {"1.Change name","2.Change surname","3.Change phone number","4.Change salary","5.Change mail","6.Change teacher position","7.Back"};
 			while (request!="7") {
 				Printer.print(a);
 				request = Printer.input("Print num to get access: ");
@@ -278,13 +277,13 @@ public class AdminSession {
 					Printer.writeLogPrimitive(admin, "Changed salary of "+e.getMail());
 					Printer.print("Successfully changed!");
 					db.save();
-				} else if (request.equals("5")) {
+				} else if (request.equals("6")) {
 					Teacher_pos pos = Teacher_pos.fromString(Printer.input("Teacher position: "));
 					((Teacher) e).setPos(pos);
 					Printer.writeLogPrimitive(admin, "Changed teacher position of "+e.getMail());
 					Printer.print("Successfully changed!");
 					db.save();
-				} else if (request.equals("6")) {
+				} else if (request.equals("5")) {
 					String n = Printer.input("Print new mail: ");
 					e.setMail(n);
 					Printer.writeLogPrimitive(admin, "Changed mail of "+e.getName()+" "+e.getSurname());
@@ -385,3 +384,4 @@ public class AdminSession {
 		
 	}
 }
+
