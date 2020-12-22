@@ -45,8 +45,9 @@ public class TechSupportGuy extends Employee implements Serializable {
     }
 
     //                          Operations                                  
-    public void operateOrder() {                 // Need more update
-        Order o = waitingList.poll();
+    public void operateOrder() {                 // Need more update ->Updated
+    	Order o = waitingList.poll();
+        o.setDate(new Date());
         acceptedList.add(o);
     }
     
