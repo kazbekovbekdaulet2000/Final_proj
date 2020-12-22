@@ -8035,3 +8035,475 @@ Print mail of Tech support to send order: tech
 7.Change password
 8.View news
 9.Exit
+IO Exception
+Users account count: 0
+Session start: Tue Dec 22 06:57:43 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+IO Exception
+IO Exception
+Users account count: 0
+Session start: Tue Dec 22 06:58:30 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 1
+Session start: Tue Dec 22 06:58:47 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 2
+Mail: teacher
+Name: Pakita
+Surname: Shamoi
+Phone Number: 8795646546
+Salary: 800000
+Teacher position: Professor
+Teacher Pakita Shamoi was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 1
+Users account count: 2
+Session start: Tue Dec 22 06:59:37 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 3
+Mail: tech
+Name: support
+Surname: guy
+Phone Number: 98485465464
+Salary: 464444
+Tech Support support guy was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Users account count: 3
+Session start: Tue Dec 22 07:00:39 ALMT 2020
+You have 3 tries
+Mail: teacher
+Password: mJyHkZ7x
+Hello Pakita Shamoi! 
+You entered as a Teacher
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 5
+Print title of your order: order 1
+Print text of your order: hello 
+list of tech support mails: 
+tech
+Print mail of Tech support to send order: tech
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 5
+Print title of your order: sfs
+Print text of your order: fsd
+list of tech support mails: 
+tech
+Print mail of Tech support to send order: tech
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: sfsfsfs
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 5
+Print title of your order: fwefwe
+Print text of your order: wefwef
+list of tech support mails: 
+tech
+Print mail of Tech support to send order: tech
+1.Add course 
+2.Manage Courses
+3.View Students
+4.Put Marks
+5.Send Order to IT support
+6.View messages
+7.Change password
+8.View news
+9.Exit
+Print num to get access: 9
+Good byeee!
+Users account count: 3
+Session start: Tue Dec 22 07:01:32 ALMT 2020
+You have 3 tries
+Mail: tech
+Password: MuZ1I75L
+Hello support guy! 
+You entered as a Tech Support worker
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 1
+Order [teacher=teacher, title=order 1, subtitle=hello , date=Tue Dec 22 07:01:01 ALMT 2020]
+1.Accept
+2.Reject
+3.Back
+What you want to do: 1
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 2
+Order [teacher=teacher, title=order 1, subtitle=hello , date=Tue Dec 22 07:01:01 ALMT 2020]
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 1
+Order [teacher=teacher, title=sfs, subtitle=fsd, date=Tue Dec 22 07:01:16 ALMT 2020]
+1.Accept
+2.Reject
+3.Back
+What you want to do: 1
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 1
+Order [teacher=teacher, title=fwefwe, subtitle=wefwef, date=Tue Dec 22 07:01:26 ALMT 2020]
+1.Accept
+2.Reject
+3.Back
+What you want to do: 1
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 2
+Order [teacher=teacher, title=order 1, subtitle=hello , date=Tue Dec 22 07:01:01 ALMT 2020]
+Order [teacher=teacher, title=sfs, subtitle=fsd, date=Tue Dec 22 07:01:16 ALMT 2020]
+Order [teacher=teacher, title=fwefwe, subtitle=wefwef, date=Tue Dec 22 07:01:26 ALMT 2020]
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 4
+1.View new orders
+2.View accepted orders
+3.Change password
+4.View news
+5.Exit
+Print num to get access: 5
+Good byeee!
+Users account count: 3
+Session start: Tue Dec 22 07:02:48 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: manager
+Name: manager
+Surname: manager
+Phone Number: 4894546464
+Salary: 484654
+Manager manager manager was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 07:03:19 ALMT 2020
+You have 3 tries
+Mail: manager
+Password: GqzOsecs
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 6
+News title: NEWSSSSS
+text: this is news!!!
+News was created
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 4
+Session start: Tue Dec 22 07:04:01 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 1
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 1
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 4
+Mail: newManager
+Name: manager
+Surname: manager
+Phone Number: 984654165
+Salary: 444444
+Manager manager manager was added
+1.Add Student
+2.Add Teacher
+3.Add Tech Support
+4.Add Manager
+5.Add Admin
+6.Back
+Print num to get access: 6
+1.Add User
+2.Remove User
+3.Update info about User
+4.Back
+Print num to get access: 4
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Users account count: 5
+Session start: Tue Dec 22 07:04:34 ALMT 2020
+You have 3 tries
+Mail: newManager
+Password: 5Wk0q8Uj
+Hello manager manager! 
+You entered as a Manager
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 6
+News title: NEWS from another manager
+text: text of news
+News was created
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 7
+----->TITLE:   NEWSSSSS
+this is news!!!
+Date of creaton: 22.11.2020
+----->TITLE:   NEWS from another manager
+text of news
+Date of creaton: 22.11.2020
+1.View Teacher info
+2.View Student info
+3.Add Course
+4.Send Message to a Teacher
+5.Change password
+6.Add News
+7.View news
+8.Exit
+Print num to get access: 8
+Good byeee!
+Users account count: 5
+Session start: Tue Dec 22 07:05:36 ALMT 2020
+You have 3 tries
+Mail: admin
+Password: admin
+You entered as Admin
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 5
+----->TITLE:   NEWSSSSS
+this is news!!!
+Date of creaton: 22.11.2020
+----->TITLE:   NEWS from another manager
+text of news
+Date of creaton: 22.11.2020
+1.Manage Users
+2.See log files
+3.Change Password
+4.View accounts
+5.View news
+6.Exit
+Print num to get access: 6
+Good byeee!
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null
+Print num to get access: null

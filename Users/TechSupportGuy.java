@@ -2,10 +2,13 @@ package users;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Vector;
 
+import project.DataBase;
 import project.Order;
 import utils.Printer;
 
@@ -75,7 +78,13 @@ public class TechSupportGuy extends Employee implements Serializable {
     public void viewAcceptedList() {
     	if (acceptedList.size()!=0)
 	        for(int i=0; i<acceptedList.size();++i){
-	        	Printer.print(acceptedList.get(i).toString());
+//	        	Printer.print(acceptedList.get(i).toString());
+	        	Timestamp ts = new Timestamp(acceptedList.get(i).getDate().getTime());
+	        	long tenMinutesAgo = System.currentTimeMillis()-10 * 60 * 1000;
+	        	if (ts.getTime() < tenMinutesAgo)
+	        		Printer.print("Done " + acceptedList.get(i).toString());
+	        	else
+	        		Printer.print(acceptedList.get(i).toString());
 	        }
     	else 
     		Printer.print("No accepted orders!");
@@ -86,4 +95,5 @@ public class TechSupportGuy extends Employee implements Serializable {
     }
     
 }
+
 

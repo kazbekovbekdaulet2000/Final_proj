@@ -1116,3 +1116,67 @@ Tue Dec 22 05:53:14 ALMT 2020 Admin::admin Leave the intranet
 Tue Dec 22 05:53:30 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
 Tue Dec 22 05:53:32 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
 Tue Dec 22 05:53:42 ALMT 2020 Teacher::Pakita send order to the tech support: Tech
+Tue Dec 22 06:57:48 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 06:57:50 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 06:58:33 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 06:58:34 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 06:58:37 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 06:58:38 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 06:58:50 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 06:58:58 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 06:59:00 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 06:59:02 ALMT 2020 Admin::admin Entered: Add Teacher
+Tue Dec 22 06:59:30 ALMT 2020 Admin::admin add Teacher Pakita Shamoi was added
+Tue Dec 22 06:59:32 ALMT 2020 Admin::admin Entered: Add Student
+Tue Dec 22 06:59:41 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 06:59:47 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 06:59:48 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 06:59:50 ALMT 2020 Admin::admin Entered: Add Tech Support
+Tue Dec 22 07:00:07 ALMT 2020 Admin::admin add Tech Support support guy was added
+Tue Dec 22 07:00:10 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 07:00:42 ALMT 2020 Teacher::Pakita ---->Enters to the intranet<----
+Tue Dec 22 07:00:45 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
+Tue Dec 22 07:01:01 ALMT 2020 Teacher::Pakita send order to the tech support: support
+Tue Dec 22 07:01:10 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
+Tue Dec 22 07:01:16 ALMT 2020 Teacher::Pakita send order to the tech support: support
+Tue Dec 22 07:01:21 ALMT 2020 Teacher::Pakita Entered: Send Order to IT support
+Tue Dec 22 07:01:26 ALMT 2020 Teacher::Pakita send order to the tech support: support
+Tue Dec 22 07:01:29 ALMT 2020 Teacher::Pakita Leave the intranet
+Tue Dec 22 07:01:54 ALMT 2020 TechSupportGuy::support ---->Enters to the intranet<----
+Tue Dec 22 07:01:58 ALMT 2020 TechSupportGuy::support Entered: 1.View new orders
+Tue Dec 22 07:02:11 ALMT 2020 TechSupportGuy::support Entered: 2.View accepted orders
+Tue Dec 22 07:02:16 ALMT 2020 TechSupportGuy::support Entered: 1.View new orders
+Tue Dec 22 07:02:26 ALMT 2020 TechSupportGuy::support Entered: 1.View new orders
+Tue Dec 22 07:02:30 ALMT 2020 TechSupportGuy::support Entered: 2.View accepted orders
+Tue Dec 22 07:02:39 ALMT 2020 TechSupportGuy::support Entered: 4.View news
+Tue Dec 22 07:02:43 ALMT 2020 TechSupportGuy::support Leave the intranet
+Tue Dec 22 07:02:55 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 07:02:56 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 07:02:57 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 07:02:59 ALMT 2020 Admin::admin Entered: Add Manager
+Tue Dec 22 07:03:13 ALMT 2020 Admin::admin add Manager manager manager was added
+Tue Dec 22 07:03:15 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 07:03:16 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 07:03:18 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 07:03:35 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 07:03:39 ALMT 2020 Manager::manager Entered: Add News
+Tue Dec 22 07:03:52 ALMT 2020 Manager::manager creates news
+Tue Dec 22 07:03:52 ALMT 2020 Manager::manager created news
+Tue Dec 22 07:03:57 ALMT 2020 Manager::manager Leave the intranet
+Tue Dec 22 07:04:05 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 07:04:07 ALMT 2020 Admin::admin Entered: Manage Users
+Tue Dec 22 07:04:09 ALMT 2020 Admin::admin Entered: Add User
+Tue Dec 22 07:04:12 ALMT 2020 Admin::admin Entered: Add Manager
+Tue Dec 22 07:04:27 ALMT 2020 Admin::admin add Manager manager manager was added
+Tue Dec 22 07:04:29 ALMT 2020 Admin::admin Entered: Manage User screen
+Tue Dec 22 07:04:30 ALMT 2020 Admin::admin Entered: Main screen
+Tue Dec 22 07:04:31 ALMT 2020 Admin::admin Leave the intranet
+Tue Dec 22 07:04:52 ALMT 2020 Manager::manager ---->Enters to the intranet<----
+Tue Dec 22 07:04:57 ALMT 2020 Manager::manager Entered: Add News
+Tue Dec 22 07:05:20 ALMT 2020 Manager::manager creates news
+Tue Dec 22 07:05:20 ALMT 2020 Manager::manager created news
+Tue Dec 22 07:05:25 ALMT 2020 Manager::manager Entered: View news
+Tue Dec 22 07:05:34 ALMT 2020 Manager::manager Leave the intranet
+Tue Dec 22 07:05:40 ALMT 2020 Admin::admin ---->Enters to the intranet<----
+Tue Dec 22 07:05:42 ALMT 2020 Admin::admin Entered: View news
+Tue Dec 22 07:05:46 ALMT 2020 Admin::admin Leave the intranet

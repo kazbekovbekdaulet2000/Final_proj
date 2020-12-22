@@ -2,6 +2,7 @@ package users;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
@@ -166,7 +167,7 @@ public class Teacher extends Employee implements Serializable {
     
     public void sendOrder(String title, String text, TechSupportGuy tsg) {
     	if(DataBase.users.contains(tsg)) {
-    		tsg.addToWaitingList(new Order(getMail(), title, text));
+    		tsg.addToWaitingList(new Order(getMail(), title, text, Calendar.getInstance().getTime()));
     	}else {
 			Printer.print("The system error your order was not recived");
     	}

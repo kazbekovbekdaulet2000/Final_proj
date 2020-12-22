@@ -13,11 +13,11 @@ public class Order implements Serializable {
     
     public Order() {};
     
-    public Order(String teacher,String title, String subtitle) {
+    public Order(String teacher,String title, String subtitle, Date time) {
     	this.teacher = teacher;
     	this.title = title;
     	this.subtitle = subtitle;
-    	this.date = (Date)Calendar.getInstance().getTime();
+    	this.date = time;
     };
     //                          Operations                                  
    
@@ -57,3 +57,4 @@ public class Order implements Serializable {
     }
     
 }
+
